@@ -1,0 +1,3 @@
+Standard passive SMD footprints (mm):
+Capacitors: MLCC Page 147
+Resistors: Chip_Resistor Page 31
