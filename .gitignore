@@ -29,6 +29,10 @@ OldVersions
 *.l#*
 *.epf
 
+# EAGLE CAM outputs
+**/CAMOutputs
+*.zip
+
 # Microsoft Temp Files
 *~$*
 
