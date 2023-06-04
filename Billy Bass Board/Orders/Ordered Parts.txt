@@ -1,0 +1,43 @@
+Partlist exported from C:/git/Eagle Projects/Billy Bass Board/BillyBassBoard.sch at 5/21/2023 3:00 PM
+
+Ordered Qty Value              Device                          Package           Parts                                                                     Description                      
+Have    3                      PINHD-1X6                       1X06              JP1, JP2, JP3                                                             PIN HEADER                       
+Yes     5   0Ω + 50mΩ Max      RES-V-0R-1608                   1608-SEM          R7, R8, R9, R10, R11                                                      Resistors                        
+Yes     4   1.0µF ± 10%        CAP-H-1.0UF-1608                1608-SEM          C13, C14, C17, C18                                                        Ceramic Capacitors               
+Yes     4   1.0µF ± 10%        CAP-V-1.0UF-1608                1608-SEM          C1, C2, C8, C24                                                           Ceramic Capacitors               
+Yes     1   100kΩ              TRIMPOT-H-100K                  3314J             R16                                                                       Trimming Potentiometers          
+Yes     4   100kΩ              TRIMPOT-V-100K                  3314J             R21, R24, R25, R26                                                        Trimming Potentiometers          
+Yes     10  100nF ± 5%         CAP-V-100NF-1608                1608-SEM          C3, C5, C7, C9, C12, C20, C21, C22, C23, C28                              Ceramic Capacitors               
+Yes     6   10kΩ ± 2%          RES-H-10K-1608                  1608-SEM          R1, R2, R3, R4, R18, R19                                                  Resistors                        
+Yes     5   10kΩ ± 2%          RES-V-10K-1608                  1608-SEM          R5, R6, R12, R14, R15                                                     Resistors                        
+Yes     1   10µF ± 10%         CAP-H-10UF-2012                 2012-SEM          C11                                                                       Ceramic Capacitors               
+Yes     1   10µF ± 10%         CAP-V-10UF-2012                 2012-SEM          C19                                                                       Ceramic Capacitors               
+Yes     1   10Ω ± 2%           RES-V-10R-3216                  3216-SEM          R17                                                                       Resistors                        
+Yes     1   1kΩ ± 2%           RES-H-1K-1608                   1608-SEM          R13                                                                       Resistors                        
+Yes     3   2.2µF ± 10%        CAP-V-2.2UF-2012                2012-SEM          C25, C26, C27                                                             Ceramic Capacitors               
+Yes     2   2.4kΩ ± 2%         RES-V-2.4K-1608                 1608-SEM          R22, R23                                                                  Resistors                        
+Have    1   220µF ± 20%        CAP-H-POL-220UF-6X11-E-FLAT-REV 6X11-E-FLAT-REV   C15                                                                       Polarized Capacitors             
+Yes     1   22µF ± 20%         CAP-V-22UF-2012                 2012-SEM          C10                                                                       Ceramic Capacitors               
+Yes     1   3.3kΩ ± 1%         RES-V-3.3K-1608                 1608-SEM          R20                                                                       Resistors                        
+Yes     1   3.5MM-JACK-4-TIP   3.5MM-JACK-4-TIP                SJ2-358940-SMT    J6                                                                        4-pin 3.5mm Jack with tip swtich 
+Yes     3   330Ω ± 2%          RES-H-330R-1608                 1608-SEM          R27, R28, R29                                                             Resistors                        
+Yes     2   4.7µF ± 10%        CAP-V-4.7UF-2012                2012-SEM          C4, C6                                                                    Ceramic Capacitors               
+Yes     1   47nF ± 5%          CAP-V-47NF-1608                 1608-SEM          C16                                                                       Ceramic Capacitors               
+Yes     3   BAT165A            SCHOTTKY-V-BAT165A-SOD323       SOD323            D1, D2, D3                                                                Schottky Diodes                  
+Yes     5   BC817              BJT-NPN-BC817                   SOT-23            Q1, Q2, Q3, Q4, Q5                                                        NPN BJTs                         
+Yes     1   CP2102N-QFN28      CP2102N-QFN28                   QFN28             U2                                                                        CP2102N QFN28                    
+Yes     1   ESP32-WROVER-E/IE  ESP32-WROVER-E/IE               ESP32-WROVER-E/IE U1                                                                        ESP32-WROVER-E/IE                
+Yes     2   Green              LED-H-GREEN-1608                1608              DS1, DS2                                                                  LEDs                             
+Have    2   JST-XH-2           JST-XH-2                        B2B-XH-A          J5, J7                                                                    2-pin XH Connector               
+Yes     1   LM358B             LM358B                          D0008A-SOIC       U5                                                                        LM358B Dual Op-amp               
+Yes     1   LM386M-1           LM386M-1                        D0008A-SOIC       U6                                                                        LM386 Audio Power Amplifier      
+Yes     1   MICRO-SD           MICRO-SD                        MEM2061           J3                                                                        Micro-SD Connector               
+Yes     1   MICRO-USB-AB       MICRO-USB-AB                    47589-0001        J1                                                                        Micro USB AB                     
+Yes     6   MPT-2-SCREW        MPT-2-SCREW                     MPT-0.5/2-2.54    J2, J4, J8, J9, J10, J11                                                  2-pin MPT Screw Connector        
+N/A     1   SIGNATURE          SIGNATURE                       SIGNATURE         U$122                                                                     PCB Signature                    
+Yes     1   SWITCH-4PDT-EG4208 SWITCH-4PDT-EG4208              EG4208            SW2                                                                       4PDT Switch                      
+N/A     14  TEST-POINT         TEST-POINT                      TEST-POINT        TP1, TP2, TP3, TP4, TP5, TP6, TP7, TP8, TP9, TP10, TP11, TP12, TP13, TP14 Test point                       
+Yes     1   TL3305             BUTTON-V-SPST-TL3305            TL3305            SW1                                                                       SPST Button                      
+Yes     2   TLV767-Q1-3.3V     TLV767-Q1-3.3V                  VSON              U3, U4                                                                    TLV767-Q1 Linear Regulator       
+Yes     1   TLV767-Q1-6V       TLV767-Q1-6V                    VSON              U8                                                                        TLV767-Q1 Linear Regulator       
+Yes     1   TPL0401X-10        TPL0401X-10                     SC70              U7                                                                        10K Digital Potentiometer        

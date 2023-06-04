@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -36,7 +36,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -73,6 +73,12 @@
 </layers>
 <library>
 <packages>
+<package name="TEST-POINT">
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<circle x="0" y="0" radius="0.75" width="0.15" layer="21"/>
+<text x="0" y="1.25" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="0.75" width="0.15" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="NO-CONNECT">
@@ -184,6 +190,38 @@
 <wire x1="3.556" y1="1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
 <wire x1="1.016" y1="-1.016" x2="3.556" y2="-1.016" width="0.254" layer="94"/>
 <wire x1="3.556" y1="-1.016" x2="4.572" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="AGND-0">
+<text x="1.016" y="0.508" size="1.27" layer="94" align="bottom-center">0</text>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-1.27" size="1.016" layer="96" align="bottom-center">A</text>
+<pin name="AGND-0" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="AGND-1">
+<text x="1.016" y="0.508" size="1.27" layer="94" align="bottom-center">1</text>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-1.27" size="1.016" layer="96" align="bottom-center">A</text>
+<pin name="AGND-1" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="TEST-POINT">
+<pin name="TP" x="0" y="0" visible="off" length="short" rot="R90"/>
+<polygon width="0.254" layer="94">
+<vertex x="-0.635" y="2.54" curve="-180"/>
+<vertex x="0.635" y="2.54" curve="-180"/>
+</polygon>
+<text x="0" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="6.0V">
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="3.175" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="6.0V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -396,6 +434,70 @@ Connection</description>
 <description>Intersheet Connection Out</description>
 <gates>
 <gate name="G$1" symbol="CONNECT-OUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND-0">
+<description>Analog Ground Channel 0
+- Analog circuitry</description>
+<gates>
+<gate name="G$1" symbol="AGND-0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND-1">
+<description>Analog Ground Channel 1
+- Analog circuitry</description>
+<gates>
+<gate name="G$1" symbol="AGND-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>Test point</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEST-POINT">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="6.0V">
+<description>6.0V
+Connection</description>
+<gates>
+<gate name="G$1" symbol="6.0V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">

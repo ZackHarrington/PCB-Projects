@@ -1,0 +1,5 @@
+Standard passive SMD footprints (mm):
+Ceramic Capacitors: MLCC Page 147
+Electrolytic Capacitors: FC-A Page 1
+	- For footprints of capacitors laying flat set the edge half the diameter away
+	- 6x11: 6mm diameter, 11mm height, 0.8mm hole diameter - 2mm spacing
