@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
@@ -602,6 +602,60 @@
 <wire x1="4.75" y1="-12.5" x2="4.75" y2="0.25" width="0.15" layer="39"/>
 <wire x1="4.75" y1="0.25" x2="-4.75" y2="0.25" width="0.15" layer="39"/>
 </package>
+<package name="B2B-PH-K-S">
+<pad name="1" x="-1" y="0" drill="0.7"/>
+<pad name="2" x="1" y="0" drill="0.7"/>
+<wire x1="-2.95" y1="-1.7" x2="-2.95" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-2.95" y1="2.8" x2="2.95" y2="2.8" width="0.1" layer="51"/>
+<wire x1="2.95" y1="2.8" x2="2.95" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="2.95" y1="-1.7" x2="-2.95" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="-2.95" y1="2.8" x2="-2.95" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="-2.95" y1="-1.7" x2="2.95" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="2.95" y1="-1.7" x2="2.95" y2="2.8" width="0.15" layer="21"/>
+<wire x1="2.95" y1="2.8" x2="-2.95" y2="2.8" width="0.15" layer="21"/>
+<text x="0" y="3.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="3.25" y1="3" x2="-3.25" y2="3" width="0.15" layer="39"/>
+<wire x1="-3.25" y1="3" x2="-3.25" y2="-2" width="0.15" layer="39"/>
+<wire x1="-3.25" y1="-2" x2="3.25" y2="-2" width="0.15" layer="39"/>
+<wire x1="3.25" y1="-2" x2="3.25" y2="3" width="0.15" layer="39"/>
+</package>
+<package name="B3B-PH-K-S">
+<pad name="1" x="-2" y="0" drill="0.7"/>
+<pad name="2" x="0" y="0" drill="0.7"/>
+<wire x1="-3.95" y1="-1.7" x2="-3.95" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-3.95" y1="2.8" x2="3.95" y2="2.8" width="0.1" layer="51"/>
+<wire x1="3.95" y1="2.8" x2="3.95" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="3.95" y1="-1.7" x2="-3.95" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="-3.95" y1="2.8" x2="-3.95" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="-3.95" y1="-1.7" x2="3.95" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="3.95" y1="-1.7" x2="3.95" y2="2.8" width="0.15" layer="21"/>
+<wire x1="3.95" y1="2.8" x2="-3.95" y2="2.8" width="0.15" layer="21"/>
+<text x="0" y="3.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="4.25" y1="3" x2="-4.25" y2="3" width="0.15" layer="39"/>
+<wire x1="-4.25" y1="3" x2="-4.25" y2="-2" width="0.15" layer="39"/>
+<wire x1="-4.25" y1="-2" x2="4.25" y2="-2" width="0.15" layer="39"/>
+<wire x1="4.25" y1="-2" x2="4.25" y2="3" width="0.15" layer="39"/>
+<pad name="3" x="2" y="0" drill="0.7"/>
+</package>
+<package name="B4B-PH-K-S">
+<pad name="1" x="-3" y="0" drill="0.7"/>
+<pad name="2" x="-1" y="0" drill="0.7"/>
+<wire x1="-4.95" y1="-1.7" x2="-4.95" y2="2.8" width="0.1" layer="51"/>
+<wire x1="-4.95" y1="2.8" x2="4.95" y2="2.8" width="0.1" layer="51"/>
+<wire x1="4.95" y1="2.8" x2="4.95" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="4.95" y1="-1.7" x2="-4.95" y2="-1.7" width="0.1" layer="51"/>
+<wire x1="-4.95" y1="2.8" x2="-4.95" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="-4.95" y1="-1.7" x2="4.95" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="4.95" y1="-1.7" x2="4.95" y2="2.8" width="0.15" layer="21"/>
+<wire x1="4.95" y1="2.8" x2="-4.95" y2="2.8" width="0.15" layer="21"/>
+<text x="0" y="3.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="5.25" y1="3" x2="-5.25" y2="3" width="0.15" layer="39"/>
+<wire x1="-5.25" y1="3" x2="-5.25" y2="-2" width="0.15" layer="39"/>
+<wire x1="-5.25" y1="-2" x2="5.25" y2="-2" width="0.15" layer="39"/>
+<wire x1="5.25" y1="-2" x2="5.25" y2="3" width="0.15" layer="39"/>
+<pad name="3" x="1" y="0" drill="0.7"/>
+<pad name="4" x="3" y="0" drill="0.7"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MICRO-USB-AB">
@@ -1085,6 +1139,69 @@ CUI Devices
 <connect gate="G$1" pin="SLEEVE" pad="1"/>
 <connect gate="G$1" pin="TIP" pad="2"/>
 <connect gate="G$1" pin="TIP_SWITCH" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-PH-2" prefix="J">
+<description>2-pin PH Connector
+JST
+- Max Voltage: 100V
+- Max Current: 2A</description>
+<gates>
+<gate name="G$1" symbol="1X02" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B2B-PH-K-S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-PH-3" prefix="J">
+<description>3-pin PH Connector
+JST
+- Max Voltage: 100V
+- Max Current: 2A</description>
+<gates>
+<gate name="G$1" symbol="1X03" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B3B-PH-K-S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-PH-4" prefix="J">
+<description>4-pin PH Connector
+JST
+- Max Voltage: 100V
+- Max Current: 2A</description>
+<gates>
+<gate name="G$1" symbol="1X04" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B4B-PH-K-S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

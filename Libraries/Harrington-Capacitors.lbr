@@ -467,22 +467,22 @@
 <connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-0.047UF">
+<attribute name="SIZE" value="1608" constant="no"/>
+<attribute name="TEMPERATURE" value="X7R" constant="no"/>
+<attribute name="VALUE" value="0.047µF ± 10%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-0.1UF">
+<attribute name="SIZE" value="1608" constant="no"/>
+<attribute name="TEMPERATURE" value="X7R" constant="no"/>
+<attribute name="VALUE" value="0.1µF ± 5%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
 <technology name="-1.0UF">
 <attribute name="SIZE" value="1608" constant="no"/>
 <attribute name="TEMPERATURE" value="X7R" constant="no"/>
 <attribute name="VALUE" value="1.0µF ± 10%" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-<technology name="-100NF">
-<attribute name="SIZE" value="1608" constant="no"/>
-<attribute name="TEMPERATURE" value="X7R" constant="no"/>
-<attribute name="VALUE" value="100nF ± 5%" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-<technology name="-47NF">
-<attribute name="SIZE" value="1608" constant="no"/>
-<attribute name="TEMPERATURE" value="X7R" constant="no"/>
-<attribute name="VALUE" value="47nF ± 5%" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -497,7 +497,7 @@
 <attribute name="SIZE" value="2012"/>
 <attribute name="TEMPERATURE" value="X7R" constant="no"/>
 <attribute name="VALUE" value="10µF ± 10%" constant="no"/>
-<attribute name="VOLTAGE" value="25V" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
 </technology>
 <technology name="-2.2UF">
 <attribute name="SIZE" value="2012"/>
@@ -535,22 +535,22 @@ SEM
 <connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-0.047UF">
+<attribute name="SIZE" value="1608" constant="no"/>
+<attribute name="TEMPERATURE" value="X7R" constant="no"/>
+<attribute name="VALUE" value="0.047µF ± 10%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-0.1UF">
+<attribute name="SIZE" value="1608" constant="no"/>
+<attribute name="TEMPERATURE" value="X7R" constant="no"/>
+<attribute name="VALUE" value="0.1µF ± 5%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
 <technology name="-1.0UF">
 <attribute name="SIZE" value="1608" constant="no"/>
 <attribute name="TEMPERATURE" value="X7R" constant="no"/>
 <attribute name="VALUE" value="1.0µF ± 10%" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-<technology name="-100NF">
-<attribute name="SIZE" value="1608" constant="no"/>
-<attribute name="TEMPERATURE" value="X7R" constant="no"/>
-<attribute name="VALUE" value="100nF ± 5%" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-<technology name="-47NF">
-<attribute name="SIZE" value="1608" constant="no"/>
-<attribute name="TEMPERATURE" value="X7R" constant="no"/>
-<attribute name="VALUE" value="47nF ± 5%" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -565,7 +565,7 @@ SEM
 <attribute name="SIZE" value="2012"/>
 <attribute name="TEMPERATURE" value="X7R" constant="no"/>
 <attribute name="VALUE" value="10µF ± 10%" constant="no"/>
-<attribute name="VOLTAGE" value="25V" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
 </technology>
 <technology name="-2.2UF">
 <attribute name="SIZE" value="2012"/>

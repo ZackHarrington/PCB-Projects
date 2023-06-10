@@ -916,7 +916,7 @@ Power Out</text>
 <wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.15" layer="21"/>
 <wire x1="2.25" y1="2.25" x2="2" y2="2.25" width="0.15" layer="21"/>
 <wire x1="-0.25" y1="2.25" x2="0.25" y2="2.25" width="0.15" layer="21"/>
-<text x="0" y="3.75" size="0.8" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="3.75" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <wire x1="-2.5" y1="3.25" x2="-2.5" y2="-3.25" width="0.15" layer="39"/>
 <wire x1="-2.5" y1="-3.25" x2="2.5" y2="-3.25" width="0.15" layer="39"/>
 <wire x1="2.5" y1="-3.25" x2="2.5" y2="3.25" width="0.15" layer="39"/>
@@ -1460,7 +1460,7 @@ design rules under a new name.</description>
 <element name="J1" library="Harrington-Connectors" package="47589-0001" value="MICRO-USB-AB" x="54" y="1.5" smashed="yes">
 <attribute name="NAME" x="54" y="5.75" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 </element>
-<element name="C3" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="57.75" y="8.75" smashed="yes">
+<element name="C3" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="57.75" y="8.75" smashed="yes">
 <attribute name="NAME" x="58.5" y="5" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SIZE" value="1608" x="57.75" y="8.75" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="57.75" y="8.75" size="1.778" layer="27" display="off"/>
@@ -1472,7 +1472,7 @@ design rules under a new name.</description>
 <attribute name="TEMPERATURE" value="X7R" x="50.25" y="6.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="50.25" y="6.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C5" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="49.75" y="8.75" smashed="yes" rot="R180">
+<element name="C5" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="49.75" y="8.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="49.5" y="5" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SIZE" value="1608" x="49.75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="49.75" y="8.75" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1523,7 +1523,7 @@ design rules under a new name.</description>
 <attribute name="TEMPERATURE" value="-40~100°C" x="56.25" y="17.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="3.3~4.1V" x="56.25" y="17.75" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C7" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="57.75" y="46" smashed="yes">
+<element name="C7" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="57.75" y="46" smashed="yes">
 <attribute name="NAME" x="44.5" y="46.25" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="SIZE" value="1608" x="57.75" y="46" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="57.75" y="46" size="1.778" layer="27" display="off"/>
@@ -1546,7 +1546,7 @@ design rules under a new name.</description>
 <attribute name="TEMPERATURE" value="X7R" x="48.75" y="50.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="48.75" y="50.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C9" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="46.5" y="46.75" smashed="yes" rot="R90">
+<element name="C9" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="46.5" y="46.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="40.75" y="46.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="SIZE" value="1608" x="46.5" y="46.75" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="46.5" y="46.75" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1619,9 +1619,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.5" y="10.25" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="SIZE" value="2012" x="13.25" y="10.25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="13.25" y="10.25" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VOLTAGE" value="25V" x="13.25" y="10.25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="13.25" y="10.25" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R13" library="Harrington-Resistors" package="1608-SEM" value="1kΩ ± 2%" x="16" y="11.25" smashed="yes">
+<element name="R13" library="Harrington-Resistors" package="1608-SEM" value="1kΩ ± 1%" x="16" y="11.25" smashed="yes">
 <attribute name="NAME" x="18.25" y="11.25" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="POWER" value="1/10W" x="16" y="11.25" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE" value="-55~155°C" x="16" y="11.25" size="1.778" layer="27" display="off"/>
@@ -1645,7 +1645,7 @@ design rules under a new name.</description>
 <element name="R16" library="Harrington-Resistors" package="3314J" value="100kΩ" x="15.25" y="15.5" smashed="yes">
 <attribute name="NAME" x="12.25" y="15.5" size="0.8" layer="21" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="C12" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="24.75" y="20.5" smashed="yes" rot="R180">
+<element name="C12" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="24.75" y="20.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.75" y="22" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SIZE" value="1608" x="24.75" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="24.75" y="20.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1699,13 +1699,13 @@ design rules under a new name.</description>
 <element name="U7" library="Harrington-ICs" package="SC70" value="TPL0401X-10" x="11.75" y="22.5" smashed="yes">
 <attribute name="NAME" x="13.5" y="22.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="C16" library="Harrington-Capacitors" package="1608-SEM" value="47nF ± 5%" x="21" y="33.75" smashed="yes" rot="R270">
+<element name="C16" library="Harrington-Capacitors" package="1608-SEM" value="0.047µF ± 10%" x="21" y="33.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="22.5" y="33.75" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="SIZE" value="1608" x="21" y="33.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="21" y="33.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="21" y="33.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R17" library="Harrington-Resistors" package="3216-SEM" value="10Ω ± 2%" x="21.25" y="29.5" smashed="yes" rot="R270">
+<element name="R17" library="Harrington-Resistors" package="3216-SEM" value="10Ω ± 1%" x="21.25" y="29.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="23" y="29.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="POWER" value="1/4W" x="21.25" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMPERATURE" value="-55~155°C" x="21.25" y="29.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1745,24 +1745,24 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.5" y="25.75" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SIZE" value="2012" x="12.25" y="27.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="12.25" y="27.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VOLTAGE" value="25V" x="12.25" y="27.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VOLTAGE" value="16V" x="12.25" y="27.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R21" library="Harrington-Resistors" package="3314J" value="100kΩ" x="11.5" y="32" smashed="yes" rot="R180">
 <attribute name="NAME" x="8.5" y="32" size="0.8" layer="21" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C20" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="15.75" y="35.75" smashed="yes" rot="R180">
+<element name="C20" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="15.75" y="35.75" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.75" y="37.25" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SIZE" value="1608" x="15.75" y="35.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="15.75" y="35.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="50V" x="15.75" y="35.75" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R22" library="Harrington-Resistors" package="1608-SEM" value="2.4kΩ ± 2%" x="44.5" y="22.5" smashed="yes" rot="R270">
+<element name="R22" library="Harrington-Resistors" package="1608-SEM" value="2.4kΩ ± 1%" x="44.5" y="22.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="46" y="22.5" size="0.8" layer="25" font="vector" ratio="15" rot="R270" align="center"/>
 <attribute name="POWER" value="1/10W" x="44.5" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMPERATURE" value="-55~155°C" x="44.5" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VOLTAGE" value="15.5V" x="44.5" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R23" library="Harrington-Resistors" package="1608-SEM" value="2.4kΩ ± 2%" x="42.75" y="22.5" smashed="yes" rot="R270">
+<element name="R23" library="Harrington-Resistors" package="1608-SEM" value="2.4kΩ ± 1%" x="42.75" y="22.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="41.25" y="22.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 <attribute name="POWER" value="1/10W" x="42.75" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="TEMPERATURE" value="-55~155°C" x="42.75" y="22.5" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1771,7 +1771,7 @@ design rules under a new name.</description>
 <element name="SW2" library="Harrington-Switches" package="EG4208" value="SWITCH-4PDT-EG4208" x="55" y="61" smashed="yes" rot="R90">
 <attribute name="NAME" x="55" y="52.75" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C21" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="30.25" y="51" smashed="yes">
+<element name="C21" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="30.25" y="51" smashed="yes">
 <attribute name="NAME" x="30.25" y="49.5" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="SIZE" value="1608" x="30.25" y="51" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="30.25" y="51" size="1.778" layer="27" display="off"/>
@@ -1780,7 +1780,7 @@ design rules under a new name.</description>
 <element name="R24" library="Harrington-Resistors" package="3314J" value="100kΩ" x="28.5" y="54.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.75" y="54.75" size="0.8" layer="21" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C22" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="37.75" y="51" smashed="yes">
+<element name="C22" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="37.75" y="51" smashed="yes">
 <attribute name="NAME" x="37.75" y="49.5" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SIZE" value="1608" x="38.25" y="59" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="38.25" y="59" size="1.778" layer="27" display="off"/>
@@ -1789,7 +1789,7 @@ design rules under a new name.</description>
 <element name="R25" library="Harrington-Resistors" package="3314J" value="100kΩ" x="36" y="54.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="32.25" y="54.75" size="0.8" layer="21" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C23" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="45.25" y="51" smashed="yes">
+<element name="C23" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="45.25" y="51" smashed="yes">
 <attribute name="NAME" x="45.25" y="49.5" size="0.8" layer="25" font="vector" ratio="15" align="center"/>
 <attribute name="SIZE" value="1608" x="45.75" y="59" size="1.778" layer="27" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="45.75" y="59" size="1.778" layer="27" display="off"/>
@@ -1798,7 +1798,7 @@ design rules under a new name.</description>
 <element name="R26" library="Harrington-Resistors" package="3314J" value="100kΩ" x="43.5" y="54.75" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.75" y="54.75" size="0.8" layer="21" font="vector" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="R27" library="Harrington-Resistors" package="1608-SEM" value="330Ω ± 2%" x="27" y="51" smashed="yes" rot="R180">
+<element name="R27" library="Harrington-Resistors" package="1608-SEM" value="330Ω ± 1%" x="27" y="51" smashed="yes" rot="R180">
 <attribute name="NAME" x="27" y="49.5" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="POWER" value="1/10W" x="27" y="51" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMPERATURE" value="-55~155°C" x="27" y="51" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1865,7 +1865,7 @@ design rules under a new name.</description>
 <attribute name="TEMPERATURE" value="X7R" x="13.75" y="62.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE" value="25V" x="13.75" y="62.25" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R28" library="Harrington-Resistors" package="1608-SEM" value="330Ω ± 2%" x="34.5" y="51" smashed="yes" rot="R180">
+<element name="R28" library="Harrington-Resistors" package="1608-SEM" value="330Ω ± 1%" x="34.5" y="51" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.5" y="49.5" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="POWER" value="1/10W" x="38" y="43.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMPERATURE" value="-55~155°C" x="38" y="43.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1887,7 +1887,7 @@ design rules under a new name.</description>
 <element name="J10" library="Harrington-Connectors" package="MPT-0.5/2-2.54" value="MPT-2-SCREW" x="36" y="64.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="32.5" y="64.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="R29" library="Harrington-Resistors" package="1608-SEM" value="330Ω ± 2%" x="42" y="51" smashed="yes" rot="R180">
+<element name="R29" library="Harrington-Resistors" package="1608-SEM" value="330Ω ± 1%" x="42" y="51" smashed="yes" rot="R180">
 <attribute name="NAME" x="42" y="49.5" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="POWER" value="1/10W" x="45.5" y="43.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="TEMPERATURE" value="-55~155°C" x="45.5" y="43.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1951,7 +1951,7 @@ design rules under a new name.</description>
 <element name="TP14" library="Harrington-Symbols" package="TEST-POINT" value="TEST-POINT" x="38.25" y="48" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.25" y="46.75" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 </element>
-<element name="C28" library="Harrington-Capacitors" package="1608-SEM" value="100nF ± 5%" x="9.5" y="21.75" smashed="yes" rot="R90">
+<element name="C28" library="Harrington-Capacitors" package="1608-SEM" value="0.1µF ± 5%" x="9.5" y="21.75" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.5" y="19.75" size="0.8" layer="25" font="vector" ratio="15" rot="R180" align="center"/>
 <attribute name="SIZE" value="1608" x="9.5" y="21.75" size="0.8" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
 <attribute name="TEMPERATURE" value="X7R" x="9.5" y="21.75" size="0.8" layer="27" font="vector" ratio="15" rot="R90" display="off"/>

@@ -1986,22 +1986,22 @@ Phoenix Contact
 <connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-0.047UF">
+<attribute name="SIZE" value="1608" constant="no"/>
+<attribute name="TEMPERATURE" value="X7R" constant="no"/>
+<attribute name="VALUE" value="0.047µF ± 10%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-0.1UF">
+<attribute name="SIZE" value="1608" constant="no"/>
+<attribute name="TEMPERATURE" value="X7R" constant="no"/>
+<attribute name="VALUE" value="0.1µF ± 5%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
 <technology name="-1.0UF">
 <attribute name="SIZE" value="1608" constant="no"/>
 <attribute name="TEMPERATURE" value="X7R" constant="no"/>
 <attribute name="VALUE" value="1.0µF ± 10%" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-<technology name="-100NF">
-<attribute name="SIZE" value="1608" constant="no"/>
-<attribute name="TEMPERATURE" value="X7R" constant="no"/>
-<attribute name="VALUE" value="100nF ± 5%" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-<technology name="-47NF">
-<attribute name="SIZE" value="1608" constant="no"/>
-<attribute name="TEMPERATURE" value="X7R" constant="no"/>
-<attribute name="VALUE" value="47nF ± 5%" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -2016,7 +2016,7 @@ Phoenix Contact
 <attribute name="SIZE" value="2012"/>
 <attribute name="TEMPERATURE" value="X7R" constant="no"/>
 <attribute name="VALUE" value="10µF ± 10%" constant="no"/>
-<attribute name="VOLTAGE" value="25V" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
 </technology>
 <technology name="-2.2UF">
 <attribute name="SIZE" value="2012"/>
@@ -2054,22 +2054,22 @@ SEM
 <connect gate="G$1" pin="P$2" pad="2"/>
 </connects>
 <technologies>
+<technology name="-0.047UF">
+<attribute name="SIZE" value="1608" constant="no"/>
+<attribute name="TEMPERATURE" value="X7R" constant="no"/>
+<attribute name="VALUE" value="0.047µF ± 10%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-0.1UF">
+<attribute name="SIZE" value="1608" constant="no"/>
+<attribute name="TEMPERATURE" value="X7R" constant="no"/>
+<attribute name="VALUE" value="0.1µF ± 5%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
 <technology name="-1.0UF">
 <attribute name="SIZE" value="1608" constant="no"/>
 <attribute name="TEMPERATURE" value="X7R" constant="no"/>
 <attribute name="VALUE" value="1.0µF ± 10%" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-<technology name="-100NF">
-<attribute name="SIZE" value="1608" constant="no"/>
-<attribute name="TEMPERATURE" value="X7R" constant="no"/>
-<attribute name="VALUE" value="100nF ± 5%" constant="no"/>
-<attribute name="VOLTAGE" value="50V" constant="no"/>
-</technology>
-<technology name="-47NF">
-<attribute name="SIZE" value="1608" constant="no"/>
-<attribute name="TEMPERATURE" value="X7R" constant="no"/>
-<attribute name="VALUE" value="47nF ± 5%" constant="no"/>
 <attribute name="VOLTAGE" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -2084,7 +2084,7 @@ SEM
 <attribute name="SIZE" value="2012"/>
 <attribute name="TEMPERATURE" value="X7R" constant="no"/>
 <attribute name="VALUE" value="10µF ± 10%" constant="no"/>
-<attribute name="VOLTAGE" value="25V" constant="no"/>
+<attribute name="VOLTAGE" value="16V" constant="no"/>
 </technology>
 <technology name="-2.2UF">
 <attribute name="SIZE" value="2012"/>
@@ -2312,7 +2312,7 @@ SEM
 <wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.15" layer="21"/>
 <wire x1="2.25" y1="2.25" x2="2" y2="2.25" width="0.15" layer="21"/>
 <wire x1="-0.25" y1="2.25" x2="0.25" y2="2.25" width="0.15" layer="21"/>
-<text x="0" y="3.75" size="0.8" layer="21" font="vector" ratio="15" align="center">&gt;NAME</text>
+<text x="0" y="3.75" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
 <wire x1="-2.5" y1="3.25" x2="-2.5" y2="-3.25" width="0.15" layer="39"/>
 <wire x1="-2.5" y1="-3.25" x2="2.5" y2="-3.25" width="0.15" layer="39"/>
 <wire x1="2.5" y1="-3.25" x2="2.5" y2="3.25" width="0.15" layer="39"/>
@@ -2438,13 +2438,13 @@ SEM
 <technology name="-1K">
 <attribute name="POWER" value="1/10W" constant="no"/>
 <attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
-<attribute name="VALUE" value="1kΩ ± 2%" constant="no"/>
+<attribute name="VALUE" value="1kΩ ± 1%" constant="no"/>
 <attribute name="VOLTAGE" value="10V" constant="no"/>
 </technology>
 <technology name="-2.4K">
 <attribute name="POWER" value="1/10W" constant="no"/>
 <attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
-<attribute name="VALUE" value="2.4kΩ ± 2%" constant="no"/>
+<attribute name="VALUE" value="2.4kΩ ± 1%" constant="no"/>
 <attribute name="VOLTAGE" value="15.5V" constant="no"/>
 </technology>
 <technology name="-3.3K">
@@ -2456,7 +2456,7 @@ SEM
 <technology name="-330R">
 <attribute name="POWER" value="1/10W" constant="no"/>
 <attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
-<attribute name="VALUE" value="330Ω ± 2%" constant="no"/>
+<attribute name="VALUE" value="330Ω ± 1%" constant="no"/>
 <attribute name="VOLTAGE" value="5.7V" constant="no"/>
 </technology>
 </technologies>
@@ -2470,7 +2470,7 @@ SEM
 <technology name="-10R">
 <attribute name="POWER" value="1/4W" constant="no"/>
 <attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
-<attribute name="VALUE" value="10Ω ± 2%" constant="no"/>
+<attribute name="VALUE" value="10Ω ± 1%" constant="no"/>
 <attribute name="VOLTAGE" value="1.58V" constant="no"/>
 </technology>
 </technologies>
@@ -2505,13 +2505,13 @@ SEM
 <technology name="-1K">
 <attribute name="POWER" value="1/10W" constant="no"/>
 <attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
-<attribute name="VALUE" value="1kΩ ± 2%" constant="no"/>
+<attribute name="VALUE" value="1kΩ ± 1%" constant="no"/>
 <attribute name="VOLTAGE" value="10V" constant="no"/>
 </technology>
 <technology name="-2.4K">
 <attribute name="POWER" value="1/10W" constant="no"/>
 <attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
-<attribute name="VALUE" value="2.4kΩ ± 2%" constant="no"/>
+<attribute name="VALUE" value="2.4kΩ ± 1%" constant="no"/>
 <attribute name="VOLTAGE" value="15.5V" constant="no"/>
 </technology>
 <technology name="-3.3K">
@@ -2523,7 +2523,7 @@ SEM
 <technology name="-330R">
 <attribute name="POWER" value="1/10W" constant="no"/>
 <attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
-<attribute name="VALUE" value="330Ω ± 2%" constant="no"/>
+<attribute name="VALUE" value="330Ω ± 1%" constant="no"/>
 <attribute name="VOLTAGE" value="5.7V" constant="no"/>
 </technology>
 </technologies>
@@ -2537,7 +2537,7 @@ SEM
 <technology name="-10R">
 <attribute name="POWER" value="1/4W"/>
 <attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
-<attribute name="VALUE" value="10Ω ± 2%" constant="no"/>
+<attribute name="VALUE" value="10Ω ± 1%" constant="no"/>
 <attribute name="VOLTAGE" value="1.58V" constant="no"/>
 </technology>
 </technologies>
@@ -3315,9 +3315,9 @@ Nexperia
 <part name="U$2" library="Harrington-Symbols" deviceset="12.0V" device=""/>
 <part name="U$5" library="Harrington-Symbols" deviceset="CHASSIS" device=""/>
 <part name="U$7" library="Harrington-Symbols" deviceset="PGND" device=""/>
-<part name="C3" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C3" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="C4" library="Harrington-Capacitors" deviceset="CAP-V" device="-2012" technology="-4.7UF" value="4.7µF ± 10%"/>
-<part name="C5" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C5" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="U$1" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
 <part name="U$12" library="Harrington-Symbols" deviceset="DGND-1" device=""/>
 <part name="U$13" library="Harrington-Symbols" deviceset="DGND-1" device=""/>
@@ -3335,7 +3335,7 @@ Nexperia
 <part name="R4" library="Harrington-Resistors" deviceset="RES-H" device="-1608" technology="-10K" value="10kΩ ± 1%"/>
 <part name="DS1" library="Harrington-LEDs" deviceset="LED-H" device="-1608" technology="-GREEN" value="Green"/>
 <part name="DS2" library="Harrington-LEDs" deviceset="LED-H" device="-1608" technology="-GREEN" value="Green"/>
-<part name="C7" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C7" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="SW1" library="Harrington-Switches" deviceset="BUTTON-V-SPST" device="-TL3305" value="TL3305"/>
 <part name="U$14" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
 <part name="R5" library="Harrington-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ ± 1%"/>
@@ -3343,7 +3343,7 @@ Nexperia
 <part name="U$20" library="Harrington-Symbols" deviceset="3.3V" device=""/>
 <part name="U$21" library="Harrington-Symbols" deviceset="3.3V" device=""/>
 <part name="U$22" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
-<part name="C9" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C9" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="C10" library="Harrington-Capacitors" deviceset="CAP-V" device="-2012" technology="-22UF" value="22µF ± 20%"/>
 <part name="U$23" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
 <part name="Q1" library="Harrington-Transistors" deviceset="BJT-NPN" device="-BC817" value="BC817"/>
@@ -3383,12 +3383,12 @@ Nexperia
 <part name="J8" library="Harrington-Connectors" deviceset="MPT-2-SCREW" device=""/>
 <part name="R12" library="Harrington-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ ± 1%"/>
 <part name="C11" library="Harrington-Capacitors" deviceset="CAP-H" device="-2012" technology="-10UF" value="10µF ± 10%"/>
-<part name="R13" library="Harrington-Resistors" deviceset="RES-H" device="-1608" technology="-1K" value="1kΩ ± 2%"/>
+<part name="R13" library="Harrington-Resistors" deviceset="RES-H" device="-1608" technology="-1K" value="1kΩ ± 1%"/>
 <part name="U5" library="Harrington-ICs" deviceset="LM358B" device=""/>
 <part name="R14" library="Harrington-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ ± 1%"/>
 <part name="R15" library="Harrington-Resistors" deviceset="RES-V" device="-1608" technology="-10K" value="10kΩ ± 1%"/>
 <part name="R16" library="Harrington-Resistors" deviceset="TRIMPOT-H" device="" technology="-100K" value="100kΩ"/>
-<part name="C12" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C12" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="U$56" library="Harrington-Symbols" deviceset="AGND-1" device=""/>
 <part name="U$57" library="Harrington-Symbols" deviceset="AGND-1" device=""/>
 <part name="U$58" library="Harrington-Symbols" deviceset="AGND-1" device=""/>
@@ -3412,8 +3412,8 @@ Nexperia
 <part name="C14" library="Harrington-Capacitors" deviceset="CAP-H" device="-1608" technology="-1.0UF" value="1.0µF ± 10%"/>
 <part name="U$65" library="Harrington-Symbols" deviceset="AGND-0" device=""/>
 <part name="U7" library="Harrington-ICs" deviceset="TPL0401X-10" device=""/>
-<part name="C16" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-47NF" value="47nF ± 5%"/>
-<part name="R17" library="Harrington-Resistors" deviceset="RES-V" device="-3216" technology="-10R" value="10Ω ± 2%"/>
+<part name="C16" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.047UF" value="0.047µF ± 10%"/>
+<part name="R17" library="Harrington-Resistors" deviceset="RES-V" device="-3216" technology="-10R" value="10Ω ± 1%"/>
 <part name="U$67" library="Harrington-Symbols" deviceset="AGND-0" device=""/>
 <part name="U$68" library="Harrington-Symbols" deviceset="AGND-0" device=""/>
 <part name="U$53" library="Harrington-Symbols" deviceset="3.3V" device=""/>
@@ -3449,7 +3449,7 @@ Nexperia
 <part name="C19" library="Harrington-Capacitors" deviceset="CAP-V" device="-2012" technology="-10UF" value="10µF ± 10%"/>
 <part name="R21" library="Harrington-Resistors" deviceset="TRIMPOT-V" device="" technology="-100K" value="100kΩ"/>
 <part name="U$90" library="Harrington-Symbols" deviceset="AGND-0" device=""/>
-<part name="C20" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C20" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="U$92" library="Harrington-Symbols" deviceset="CONNECT-IN" device=""/>
 <part name="U$93" library="Harrington-Symbols" deviceset="CONNECT-IN" device=""/>
 <part name="U$94" library="Harrington-Symbols" deviceset="CONNECT-I/O" device=""/>
@@ -3457,8 +3457,8 @@ Nexperia
 <part name="U$97" library="Harrington-Symbols" deviceset="CONNECT-OUT" device=""/>
 <part name="U$98" library="Harrington-Symbols" deviceset="AGND-0" device=""/>
 <part name="U$99" library="Harrington-Symbols" deviceset="CONNECT-OUT" device=""/>
-<part name="R22" library="Harrington-Resistors" deviceset="RES-V" device="-1608" technology="-2.4K" value="2.4kΩ ± 2%"/>
-<part name="R23" library="Harrington-Resistors" deviceset="RES-V" device="-1608" technology="-2.4K" value="2.4kΩ ± 2%"/>
+<part name="R22" library="Harrington-Resistors" deviceset="RES-V" device="-1608" technology="-2.4K" value="2.4kΩ ± 1%"/>
+<part name="R23" library="Harrington-Resistors" deviceset="RES-V" device="-1608" technology="-2.4K" value="2.4kΩ ± 1%"/>
 <part name="U$91" library="Harrington-Symbols" deviceset="CONNECT-I/O" device=""/>
 <part name="U$96" library="Harrington-Symbols" deviceset="CONNECT-OUT" device=""/>
 <part name="U$100" library="Harrington-Symbols" deviceset="CONNECT-OUT" device=""/>
@@ -3476,19 +3476,19 @@ Nexperia
 <part name="U$111" library="Harrington-Symbols" deviceset="NO-CONNECT" device=""/>
 <part name="U$112" library="Harrington-Symbols" deviceset="NO-CONNECT" device=""/>
 <part name="U$113" library="Harrington-Symbols" deviceset="NO-CONNECT" device=""/>
-<part name="C21" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C21" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="U$114" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
 <part name="R24" library="Harrington-Resistors" deviceset="TRIMPOT-V" device="" technology="-100K" value="100kΩ"/>
 <part name="U$115" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
-<part name="C22" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C22" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="U$116" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
 <part name="R25" library="Harrington-Resistors" deviceset="TRIMPOT-V" device="" technology="-100K" value="100kΩ"/>
 <part name="U$117" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
-<part name="C23" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C23" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="U$118" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
 <part name="R26" library="Harrington-Resistors" deviceset="TRIMPOT-V" device="" technology="-100K" value="100kΩ"/>
 <part name="U$119" library="Harrington-Symbols" deviceset="DGND-0" device=""/>
-<part name="R27" library="Harrington-Resistors" deviceset="RES-H" device="-1608" technology="-330R" value="330Ω ± 2%"/>
+<part name="R27" library="Harrington-Resistors" deviceset="RES-H" device="-1608" technology="-330R" value="330Ω ± 1%"/>
 <part name="Q3" library="Harrington-Transistors" deviceset="BJT-NPN" device="-BC817" value="BC817"/>
 <part name="D1" library="Harrington-Diodes" deviceset="SCHOTTKY-V" device="-SOD323" technology="-BAT165A" value="BAT165A"/>
 <part name="U$120" library="Harrington-Symbols" deviceset="PGND" device=""/>
@@ -3506,13 +3506,13 @@ Nexperia
 <part name="U$4" library="Harrington-Symbols" deviceset="3.3V" device=""/>
 <part name="U$8" library="Harrington-Symbols" deviceset="6.0V" device=""/>
 <part name="U$9" library="Harrington-Symbols" deviceset="6.0V" device=""/>
-<part name="R28" library="Harrington-Resistors" deviceset="RES-H" device="-1608" technology="-330R" value="330Ω ± 2%"/>
+<part name="R28" library="Harrington-Resistors" deviceset="RES-H" device="-1608" technology="-330R" value="330Ω ± 1%"/>
 <part name="Q4" library="Harrington-Transistors" deviceset="BJT-NPN" device="-BC817" value="BC817"/>
 <part name="D2" library="Harrington-Diodes" deviceset="SCHOTTKY-V" device="-SOD323" technology="-BAT165A" value="BAT165A"/>
 <part name="U$10" library="Harrington-Symbols" deviceset="PGND" device=""/>
 <part name="J10" library="Harrington-Connectors" deviceset="MPT-2-SCREW" device=""/>
 <part name="U$11" library="Harrington-Symbols" deviceset="6.0V" device=""/>
-<part name="R29" library="Harrington-Resistors" deviceset="RES-H" device="-1608" technology="-330R" value="330Ω ± 2%"/>
+<part name="R29" library="Harrington-Resistors" deviceset="RES-H" device="-1608" technology="-330R" value="330Ω ± 1%"/>
 <part name="Q5" library="Harrington-Transistors" deviceset="BJT-NPN" device="-BC817" value="BC817"/>
 <part name="D3" library="Harrington-Diodes" deviceset="SCHOTTKY-V" device="-SOD323" technology="-BAT165A" value="BAT165A"/>
 <part name="U$49" library="Harrington-Symbols" deviceset="PGND" device=""/>
@@ -3535,7 +3535,7 @@ Nexperia
 <part name="TP14" library="Harrington-Symbols" deviceset="TEST-POINT" device=""/>
 <part name="U$48" library="Harrington-Symbols" deviceset="PGND" device=""/>
 <part name="U$121" library="Harrington-Symbols" deviceset="CONNECT-IN" device=""/>
-<part name="C28" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-100NF" value="100nF ± 5%"/>
+<part name="C28" library="Harrington-Capacitors" deviceset="CAP-V" device="-1608" technology="-0.1UF" value="0.1µF ± 5%"/>
 <part name="C15" library="Harrington-Capacitors" deviceset="CAP-H-POL" device="-6X11-E-FLAT-REV" technology="-220UF" value="220µF ± 20%"/>
 <part name="U$122" library="Harrington-Aesthetics" deviceset="SIGNATURE" device=""/>
 </parts>
@@ -5590,10 +5590,12 @@ Mic In</text>
 </sheet>
 <sheet>
 <plain>
-<text x="137.16" y="53.34" size="2.54" layer="97" align="center">Design Note: High pitch frequencies from the motor is typically caused by low frequency PMW
+<text x="137.16" y="50.8" size="2.54" layer="97" align="center">Design Note: High pitch frequencies from the motor is typically caused by low frequency PMW
 https://automateeverythingsite.wordpress.com/2016/11/20/hacking-big-mouth-billy-bass-part-13/
 Thus a switch is used to test the need for a low-pass filter
-https://www.allaboutcircuits.com/technical-articles/low-pass-filter-a-pwm-signal-into-an-analog-voltage/</text>
+https://www.allaboutcircuits.com/technical-articles/low-pass-filter-a-pwm-signal-into-an-analog-voltage/
+With ESP32 low-pass filtering is not necessary after ~5-10kHz. 
+Replace 330Ω with 0Ω or remove 100nF cap to reduce parasidic filtering of PWM </text>
 <text x="210.82" y="182.88" size="2.54" layer="97" align="center-left">Mouth Motor Driver</text>
 <text x="210.82" y="134.62" size="2.54" layer="97" align="center-left">Head Motor Driver</text>
 <text x="210.82" y="88.9" size="2.54" layer="97" align="center-left">Tail Motor Driver</text>
