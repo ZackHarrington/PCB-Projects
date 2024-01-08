@@ -1,6 +1,6 @@
 # gitignore for Eagle Projects
 # this marks a comment
-# ** options
+# ** options:
 # **/logs        matches all files or directories named logs
 # **/logs/*.log  matches all files ending with .log in a logs directory
 # logs/**/*.log  matches all files ending with .log in logs or any subdirectories
@@ -41,3 +41,7 @@ OldVersions
 *.raw*
 *.plt*
 *.net
+
+# Personal
+**/Orders
+**/SampleFolder
