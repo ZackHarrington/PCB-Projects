@@ -1,0 +1,52 @@
+General Notes:
+- Fusion 360 does everything through Fusion Teams
+- Designs now include an additional file that links everything together
+  - This is what you should click to open the project
+  - This now allows for multiple schematic and board layouts in one project
+
+
+Importing Libraries
+1. Create a new project and call it 'Libraries'
+2. In the project select Upload and upload all the library files
+  - Autodesk now creates a Fusion Teams copy of the library in the team
+3. You can now double click on each library and edit all the attributes etc.
+4. In the Content Manager tab of a library the icons at the top by the name show information about the library
+  - Team logo (three people): This indicates the library is a Fusion Team library and can be edited
+  - Link (two chains): This indicates the library is linked to a Library.io library and can be pushed
+    - This is for adding changes if some team members are still on Eagle
+
+
+Creating a New Project
+1. Navigate to the Home section of the data panel
+2. Press the blue New Project button
+3. Double click on the new project to enter it
+4. Either upload existing files or add a new electronics design tab in the main window
+5. Add new schematics and board files from the main window 
+
+
+Importing Projects
+1. Create a new project
+2. In the project select Upload and upload the board and schematic files
+3. A prompt will appear asking you to create an electronics design, choose yes or click the checkbox if not filled
+  - This is the additional file that will be linking the two together
+4. Open the project by double clicking the new Electronics Design file (the one with no thumbnail image)
+5. In the schematic, navigate to Library -> Update Design from Library (the single update image)
+6. Assuming all custom libraries have been imported as shown above, all those used in the design should show up twice
+  - One of these (the one without a version number) is a local reference used while importing old Eagle files
+  - The other one (with a version number) is the Fusion Teams library
+  - Autodesk is migrating to Fusion Teams and requires libraries to migrate to this format
+7. Select the Fusion Team version of each library (the one with a version number) and update the libraries
+8. Assuming the libraries had the same name, when you go to Library Manager only Fusion Team libraries should appear In Current Design (Team logo)
+
+
+Editing Library.io Libraries
+  - Traditional Eagle Pcb libraries (Library.io ones) will work fine in Fusion 360, however they aren't editable
+  - To actually edit or modify a Library.io library you need to create a copy in Fusion Teams
+1. First open a project and right click on one of the library components in the schematic
+2. Select Open Component
+3. A dialog will pop up letting you know it is creating a copy for editing, select Yes
+4. The general reccomendation is to save this copy into the Libraries project
+5. Follow the Importing Projects procedure from step 5 to then set this as the library to use in the project
+  - If this doesnt work, go into the schematic and type the following command into the command line
+  - UPDATE <NAME> <URN>
+  - Where <NAME> is the library name, and <URN> is the Team URN number from the Content Manager Tab

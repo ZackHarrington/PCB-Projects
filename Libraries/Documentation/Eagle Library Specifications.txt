@@ -15,6 +15,7 @@
 	- Name ground pads 'PAD'
 	- For identical names (when pads have multiple pieces of copper) add @# where the # increases numerically
 	- Make sure 'Thermals' is checked, makes it easier to solder
+	- For through hole pads make their diameter 1mm larger than the pin - if the pin isn't round it'll need to be larger
 - Slotted Holes:
 	- Outline the hole:
 		- Layer: Milling, Width: 0.01mm
@@ -36,6 +37,7 @@
 	- Place on 0.25mm grid
 	- Above footprint
 - Courtyard excess:
+	- Only for not through-hole components
 	- Drawn as rectangles unless the component is very oddly shaped
 	- "the smallest rectangular area that can contain a component and its land pattern"
 	- Layer: tKeepout, Width: 0.15mm
@@ -50,6 +52,7 @@
 		- Layer: tDocu
 		- Keep silkscreen out from under the physical component
 - If possible, compare a 1:1 printout with a sample of the part you created before you order prototypes.
+- To create a 3d model or Package for the footprint, right click the footprint name in the content manager and select Create New 3D Model
 
 
 ### Symbols
@@ -104,44 +107,48 @@
 	- Attributes > New > Name: _EXTERNAL_
 - Prefixes:
 	- B:	Board, Module
-	- BT: Battery
-	- C:  Capacitor
-	- CN: Capacitor Network
-	- D:  Bridge Rectifier, Diode, Zener
-	- DS: Signaling Dode (LED)
-	- F:  Fuse, Resettable Fuse
-	- FB: Ferrite Bead
-	- FD: Fiducial
-	- FL: Filter
-	- H:  Hardware
-	- J:  Jack, Connector, Combination of Connectors, Row of Headers, Plug
-	- JP: Jumper
-	- K:  Relay
-	- L:  Inductor (not including ferrite bead), Coil
+	- BT: 	Battery
+	- C:  	Capacitor
+	- CN: 	Capacitor Network
+	- D:  	Bridge Rectifier, Diode, Zener
+	- DS: 	Signaling Dode (LED)
+	- F:  	Fuse, Resettable Fuse
+	- FB: 	Ferrite Bead
+	- FD: 	Fiducial
+	- FL: 	Filter
+	- H:  	Hardware
+	- J:  	Jack, Connector, Combination of Connectors, Row of Headers, Plug
+	- JP: 	Jumper
+	- K:  	Relay
+	- L:  	Inductor (not including ferrite bead), Coil
 	- LOGO: Artwork, Logo
-	- LS: Loudspeaker, Buzzer
-	- M:  Motor
-	- MK: Microphone
-	- Q:  Transistor (all types)
-	- R:  Resistor
-	- RN: Resistor Network
-	- RT: Thermistor
-	- RV: Varistor
-	- SW: Switch, Push Button
-	- T:  Transformers
-	- TC: Thermocouple
-	- TP: Test Point
-	- U:  IC, Inseparable Assembly
-	- V:  Vacuum Tube, Tube
-	- VR: Variable Resistor (potentiometer)
-	- Y:  Resonator, Oscillator, Clock Generator
+	- LS: 	Loudspeaker, Buzzer
+	- M:  	Motor
+	- MK: 	Microphone
+	- Q:  	Transistor (all types)
+	- R:  	Resistor
+	- RN: 	Resistor Network
+	- RT: 	Thermistor
+	- RV: 	Varistor
+	- SW: 	Switch, Push Button
+	- T:  	Transformers
+	- TC: 	Thermocouple
+	- TP: 	Test Point
+	- U:  	IC, Inseparable Assembly
+	- V:  	Vacuum Tube, Tube
+	- VR: 	Variable Resistor (potentiometer)
+	- Y:  	Resonator, Oscillator, Clock Generator
+- Technologies:
+	- To add different types of the same variant to the attributes table:
+		- type the command 'technology'
+		- select existing ones to add or else type a new one into the 'New' field
 - Extra attributes:
 	- 'SKU' - (Stock Keeping Unit)
 	- 'VALUE' - 1kΩ 1%, 0.1µF 10%, etc.
 	- 'PACKAGE'
 	- 'TEMP'
 	- 'DCR'
-- Description
+- Description (Right click the component name in the context editor -> Edit Description)
 	- A brief description on the first line, so it shows up in the library.
 	- Manufacturer's name (for single-source parts).
 	- More information about the device (voltage range, etc.) with a '- ' indicating a new entry.
