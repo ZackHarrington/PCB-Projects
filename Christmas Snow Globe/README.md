@@ -28,13 +28,13 @@ Lastly, I needed to keep the voltage over the LEDs steady for even brightness an
 
 The final stage of the electronics design was to lay everything out on the PCB. To do this I marked out the snow globe dimensions and made sure to put everything in a good location while trying to make sure it was as simple as possible for everyone to access the batteries. The final render of this board can be seen below.
 
-![Render of the final PCB](/Documentation/Christmas-Snow-Globe_Image1.png)
+![Render of the final PCB](/Christmas Snow Globe/Documentation/Christmas-Snow-Globe_Image1.png)
 
 ### 2. 3D Design
 
 After I was set on the electronics and confident they would work, I began to create the stand for the snow globe which would also house the PCB and batteries. Because I originally planned on adding some organic detailing to the outside of the stand, I chose to model everything in Blender. I ultimately liked the simple look of the stand itself better, so it probably wasn't necessary, but since I had everything in Blender I decided to also use some of the displacement modifiers to create a snowy scene for the characters to stand on. Below is a render of the final 3D modeled pieces, unfortunately the minifigure textures didn't copy over when I imported them from a past project.
 
-![3D model of the snow globe in Blender](/Documentation/Christmas-Snow-Globe_Image7.png)
+![3D model of the snow globe in Blender](/Christmas Snow Globe/Documentation/Christmas-Snow-Globe_Image7.png)
 
 ### 3. Programming
 
@@ -46,25 +46,25 @@ Here I have included some images of the physical construction of each part and t
 
 ### Soldered Board
 
-![Soldered Board](/Documentation/Christmas-Snow-Globe_Image2.jpg)
+![Soldered Board](/Christmas Snow Globe/Documentation/Christmas-Snow-Globe_Image2.jpg)
 
 ### Stand Top
 
-![Stand Top](/Documentation/Christmas-Snow-Globe_Image3.jpg)
+![Stand Top](/Christmas Snow Globe/Documentation/Christmas-Snow-Globe_Image3.jpg)
 
 ### Stand Bottom
 
-![Stand Bottom](/Documentation/Christmas-Snow-Globe_Image4.jpg)
+![Stand Bottom](/Christmas Snow Globe/Documentation/Christmas-Snow-Globe_Image4.jpg)
 
 ### Final Product
 
-![Final Product with lights on](/Documentation/Christmas-Snow-Globe_Image5.jpg)
+![Final Product with lights on](/Christmas Snow Globe/Documentation/Christmas-Snow-Globe_Image5.jpg)
 
-![Final Product without lights on](/Documentation/Christmas-Snow-Globe_Image6.jpg)
+![Final Product without lights on](/Christmas Snow Globe/Documentation/Christmas-Snow-Globe_Image6.jpg)
 
 ## License
 
-Feel free to do whatever you want with this design if you happened upon it, but I would recommend reading the considerations below and modifying it or building your own rather than copying it.
+This is just a hobby creation I made as a gift so feel free to do whatever you want with this design if you happened upon it. However, I would recommend reading the considerations below and modifying it or building your own rather than copying it.
 
 ## Project Considerations
 
