@@ -62,6 +62,10 @@ Here I have included some images of the physical construction of each part and t
 
 ![Final Product without lights on](./Documentation/Christmas-Snow-Globe_Image6.jpg)
 
+Update: After almost 2 months the device is still functional. The LED brightness has dimmed a bit, but they still turn on around roughly the same time indicating the timer and power draw calculations were accurate. 
+
+![Final Product after 2 months](./Documentation/Christmas-Snow-Globe_Image8.jpg)
+
 ## License
 
 This is just a hobby creation I made as a gift so feel free to do whatever you want with this design if you happened upon it. However, I would recommend reading the considerations below and modifying it or building your own rather than copying it.
