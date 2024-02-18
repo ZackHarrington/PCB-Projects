@@ -1,5 +1,5 @@
 # PCB Projects
-This repository holds all my personal Autodesk Eagle (now Fusion360) projects and libraries
+This repository holds all my personal Autodesk Eagle (now Fusion 360) projects and libraries
 
 __Projects:__
 - Billy Bass Board: 	A board to convert or 'hack' a Big Mouth Billy Bass into an IoT device 
@@ -22,3 +22,5 @@ __Libraries:__
 
 __Design Blocks:__
 - ESP32 Wrover Module:	All standard capacitors and connections for implementing an ESP32-WROVER module
+
+Note: While I'm slowly updating the rest, only the Christmas Snow Globe project has a dedicated README currently.
