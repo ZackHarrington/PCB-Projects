@@ -1,0 +1,10 @@
+## Notes
+- Include all necessary connections and trace names
+- Trace names should be short, understandable, and relevant to the connection
+- Exclude peripheral parts to avoid duplication and maintain focus on core components (Thanks ChatGPT)
+- Use only parts in the standard or personal libraries
+
+## Description
+- A brief description on the first line, so it shows up in the library.
+//- Manufacturer's name (for single-source parts).
+//- More information about the device (voltage range, etc.) with a '- ' indicating a new entry.

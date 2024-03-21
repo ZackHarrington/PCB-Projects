@@ -1,6 +1,0 @@
-ATtiny85:
-https://learn.sparkfun.com/tutorials/tiny-avr-programmer-hookup-guide#automatic-install
-- Saved in Desktop Arduino folder
-https://learn.sparkfun.com/tutorials/tiny-avr-programmer-hookup-guide/programming-in-arduino
-https://www.re-innovation.co.uk/docs/sleep-modes-on-attiny85/
-

@@ -2,9 +2,8 @@
 This repository holds all my personal Autodesk Eagle (now Fusion 360) projects and libraries
 
 __Projects:__
-- Billy Bass Board: 	A board to convert or 'hack' a Big Mouth Billy Bass into an IoT device 
+- Billy Bass Board: 	A board to convert or 'hack' a Big Mouth Billy Bass into an IoT device - in progress
 - Christmas Snow Globe:	A board using an ATtiny85 as a 6-hour timer IC in a custom snow globe - made as a gift
-- Photo Video Frame:	A board to display and cycle through images and videos on a SD card - in progress
 - LED Test Board:	A simple board for testing any combination of LED, resistor, and power source
 - USB UART Board:	Two small boards for programming ESP32 modules, each for a different USB-to-UART IC
 
@@ -15,6 +14,7 @@ __Libraries:__
 - Diodes:	Standard and schottky diodes with Kingbright LEDs
 - Energy:	Batteries and energy storage
 - ICs: 		Integrates circuits
+- Inductors:	SEM (Samsung Electro-Mechanics) Power Inductors
 - Resistors:	SEM (Samsung Electro-Mechanics) CHIP-R chip resistors and potentiometers
 - Switches: 	Physical buttons and switches
 - Symbols:	Schematic symbols
@@ -23,4 +23,4 @@ __Libraries:__
 __Design Blocks:__
 - ESP32 Wrover Module:	All standard capacitors and connections for implementing an ESP32-WROVER module
 
-Note: While I'm slowly updating the rest, only the Christmas Snow Globe project has a dedicated README currently.
+Note: I'm still in the process of finalizing the documention for each project
