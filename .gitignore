@@ -1,4 +1,4 @@
-# gitignore for Eagle Projects
+# gitignore for Eagle/KiCAD Projects
 # this marks a comment
 # ** options:
 # **/logs        matches all files or directories named logs
@@ -32,6 +32,10 @@ OldVersions
 # EAGLE CAM outputs
 **/CAMOutputs
 *.zip
+
+# KiCAD temp files
+**/fp-info-cache
+*.kicad_prl
 
 # Microsoft Temp Files
 *~$*
