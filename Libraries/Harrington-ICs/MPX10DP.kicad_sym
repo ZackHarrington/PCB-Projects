@@ -1,0 +1,96 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MPX10DP" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -7.62 2.54 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "MPX10DP" (id 1) (at -7.62 -2.54 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "MPX10DP:SOT1754-1" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MPX10DP_0_0"
+      (circle (center 0.0 0.0) (radius 5.08)
+        (stroke (width 0.1524)) (fill (type none))
+      )
+      (polyline
+        (pts (xy 7.62 5.08) (xy 5.08 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 5.08) (xy 3.59773 3.59773)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.59773 3.59773) (xy 3.59773 3.58647)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -7.62) (xy 5.08 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 5.08 -5.08) (xy 3.59984 -3.59984)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.59984 -3.59984) (xy 3.58435 -3.59984)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 7.62) (xy -5.08 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 5.08) (xy -3.59438 3.59438)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.59438 3.59438) (xy -3.59438 3.58982)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -7.62) (xy 7.62 -7.62)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -7.62) (xy -5.08 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -5.08 -5.08) (xy -3.60437 -3.60437)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -3.60437 -3.60437) (xy -3.57979 -3.60437)) (stroke (width 0.1524))
+      )
+      (text "+" (at 8.89 3.81 0)
+        (effects (font (size 1.778 1.778)))
+      )
+      (text "-" (at 8.89 -8.89 0)
+        (effects (font (size 1.778 1.778)))
+      )
+      (pin power_in line (at -5.08 10.16 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 5.08 -10.16 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 10.16 5.08 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 10.16 -7.62 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

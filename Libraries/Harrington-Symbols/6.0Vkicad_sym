@@ -1,0 +1,27 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "6.0V" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "6.0V" (id 1) (at 0.0 3.175 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (symbol "6.0V_0_0"
+      (polyline
+        (pts (xy 0.0 2.54) (xy -0.762 1.27)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 2.54) (xy 0.762 1.27)) (stroke (width 0.254))
+      )
+      (pin power_in line (at 0.0 0.0 90.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "~"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

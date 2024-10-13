@@ -1,0 +1,25 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "NO-CONNECT" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "NO-CONNECT" (id 1) (at 0 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (symbol "NO-CONNECT_0_0"
+      (polyline
+        (pts (xy 0.635 0.635) (xy 0.0 0.0)) (stroke (width 0.127))
+      )
+      (polyline
+        (pts (xy -0.635 0.635) (xy 0.0 0.0)) (stroke (width 0.127))
+      )
+      (polyline
+        (pts (xy -0.635 -0.635) (xy 0.0 0.0)) (stroke (width 0.127))
+      )
+      (polyline
+        (pts (xy 0.0 0.0) (xy 0.635 -0.635)) (stroke (width 0.127))
+      )
+    )
+  )
+)

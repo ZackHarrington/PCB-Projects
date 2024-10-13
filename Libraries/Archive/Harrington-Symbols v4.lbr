@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xc8ff0033" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" blackcolor="0xc800bfbf" whitecolor="0xc800bfbf" coloredcolor="0xccffe74c" blackhighlight="0xc800bfbf" whitehighlight="0xc800bfbf" coloredhighlight="0xccffd900" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" blackcolor="0xc8faaf3c" whitecolor="0xc8faaf3c" coloredcolor="0xcc91d178" blackhighlight="0xc8fa9600" whitehighlight="0xc8fa9600" coloredhighlight="0xcc3bd100" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" blackcolor="0xc89fc966" whitecolor="0xc89fc966" coloredcolor="0xccffdda1" blackhighlight="0xc875c900" whitehighlight="0xc875c900" coloredhighlight="0xccffa200" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" blackcolor="0xc8a7bacf" whitecolor="0xc8a7bacf" coloredcolor="0xcc5fad56" blackhighlight="0xc80064cf" whitehighlight="0xc80064cf" coloredhighlight="0xcc14ad00" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" blackcolor="0xc8c5a1f8" whitecolor="0xc8c5a1f8" coloredcolor="0xcc5e897c" blackhighlight="0xc86300f8" whitehighlight="0xc86300f8" coloredhighlight="0xcc00895e" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" blackcolor="0xc8ff8cc6" whitecolor="0xc8ff8cc6" coloredcolor="0xcc6f45b4" blackhighlight="0xc8ff0084" whitehighlight="0xc8ff0084" coloredhighlight="0xcc4200b4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" blackcolor="0xc8f26a52" whitecolor="0xc8f26a52" coloredcolor="0xcc516363" blackhighlight="0xc8f22400" whitehighlight="0xc8f22400" coloredhighlight="0xcc006363" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" blackcolor="0xc89bd5ef" whitecolor="0xc89bd5ef" coloredcolor="0xccd6a2ad" blackhighlight="0xc800a7ef" whitehighlight="0xc800a7ef" coloredhighlight="0xccd6002e" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" blackcolor="0xc8ffbeab" whitecolor="0xc8ffbeab" coloredcolor="0xccef476f" blackhighlight="0xc8ff3700" whitehighlight="0xc8ff3700" coloredhighlight="0xccef003c" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" blackcolor="0xc8e8430f" whitecolor="0xc8e8430f" coloredcolor="0xccd4dcff" blackhighlight="0xc8e83600" whitehighlight="0xc8e83600" coloredhighlight="0xcc0033ff" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" blackcolor="0xc8bb7a14" whitecolor="0xc8bb7a14" coloredcolor="0xcc00bfb2" blackhighlight="0xc8bb7000" whitehighlight="0xc8bb7000" coloredhighlight="0xcc00bfaf" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" blackcolor="0xc8658d30" whitecolor="0xc8658d30" coloredcolor="0xcc65def1" blackhighlight="0xc8528d00" whitehighlight="0xc8528d00" coloredhighlight="0xcc00d1f1" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" blackcolor="0xc823a597" whitecolor="0xc823a597" coloredcolor="0xccc55ea3" blackhighlight="0xc800a592" whitehighlight="0xc800a592" coloredhighlight="0xccc50087" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" blackcolor="0xc8a76ef5" whitecolor="0xc8a76ef5" coloredcolor="0xccf56416" blackhighlight="0xc86600f5" whitehighlight="0xc86600f5" coloredhighlight="0xccf55200" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xc80097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xb400d941" whitehighlight="0xb400d941" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xccffcd07" blackhighlight="0xb400d941" whitehighlight="0xb400d941" coloredhighlight="0xccffc800" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccd9d9d9" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" blackcolor="0xb462d986" whitecolor="0xb462d986" coloredcolor="0xcceec643" blackhighlight="0xb400d941" whitehighlight="0xb400d941" coloredhighlight="0xcceeb300" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xcca7d100" coloredhighlight="0xcca7d100" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xcca7d100" coloredhighlight="0xcca7d100" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccd9d9d9" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccd9d9d9" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xc8ff0033" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xc80097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xc8ff0033" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xc80097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xb400d941" whitehighlight="0xb400d941" coloredhighlight="0xcc00ab6f" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" blackcolor="0xcc32c8c8" whitecolor="0xb432c8c8" coloredcolor="0xb432c8c8" blackhighlight="0xcc00c8c8" whitehighlight="0xb400c8c8" coloredhighlight="0xb400c8c8" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" blackcolor="0xccffb908" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffb700" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" blackcolor="0xccffb908" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffb700" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb44400c2" whitehighlight="0xb44400c2" coloredhighlight="0xc8fd8300" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb44400c2" whitehighlight="0xb44400c2" coloredhighlight="0xc8fd8300" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" blackcolor="0xdcfac36e" whitecolor="0xdcf57c10" coloredcolor="0xc8d9ff3d" blackhighlight="0xdcfa9600" whitehighlight="0xdcf57200" coloredhighlight="0xc8d0ff00" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8e3e3e3" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8e3e3e3" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8d62525" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8d60000" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" blackcolor="0xdcbbbbbb" whitecolor="0xdcbbbbbb" coloredcolor="0xc839d437" blackhighlight="0xdcbbbbbb" whitehighlight="0xdcbbbbbb" coloredhighlight="0xc804d400" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" blackcolor="0xdcfac36e" whitecolor="0xccc90c0c" coloredcolor="0xc8e6e600" blackhighlight="0xdcfa9600" whitehighlight="0xccc90000" coloredhighlight="0xc8e6e600" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc80067ce" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc80067ce" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc88500de" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc88500de" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="TEST-POINT" use_placeholder="yes">
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<circle x="0" y="0" radius="0.75" width="0.15" layer="21"/>
+<text x="0" y="1.25" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="0.75" width="0.15" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NO-CONNECT">
+<wire x1="0.635" y1="0.635" x2="0" y2="0" width="0.127" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="0" y2="0" width="0.127" layer="94"/>
+<wire x1="-0.635" y1="-0.635" x2="0" y2="0" width="0.127" layer="94"/>
+<wire x1="0" y1="0" x2="0.635" y2="-0.635" width="0.127" layer="94"/>
+</symbol>
+<symbol name="PGND">
+<wire x1="0" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="-3.81" size="1.016" layer="96" align="bottom-center">P</text>
+<pin name="PGND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="AGND">
+<wire x1="0" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="-3.81" size="1.016" layer="96" align="bottom-center">A</text>
+<pin name="AGND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="DGND">
+<wire x1="0" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="-3.81" size="1.016" layer="96" align="bottom-center">D</text>
+<pin name="DGND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="EARTH">
+<wire x1="0" y1="-2.54" x2="-1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-3.175" x2="1.27" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-3.81" x2="0.635" y2="-3.81" width="0.254" layer="94"/>
+<pin name="EARTH" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="CHASSIS">
+<wire x1="0" y1="-2.54" x2="-1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.635" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.54" x2="1.27" y2="-3.81" width="0.254" layer="94"/>
+<pin name="CHASSIS" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="3.3V">
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="3.175" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="V-">
+<wire x1="0" y1="-2.54" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="-3.175" size="1.27" layer="96" rot="R180" align="bottom-center">&gt;VALUE</text>
+<pin name="P$1" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="5.0V">
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="3.175" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="5.0V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="12.0V">
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="3.175" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="12.0V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="DGND-0">
+<wire x1="1.905" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="-3.81" size="1.016" layer="96" align="bottom-center">D</text>
+<pin name="DGND-0" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="1.016" y="-2.032" size="1.27" layer="94" align="bottom-center">0</text>
+</symbol>
+<symbol name="DGND-1">
+<wire x1="1.905" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<text x="0" y="-3.81" size="1.016" layer="96" align="bottom-center">D</text>
+<pin name="DGND-1" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="1.016" y="-2.032" size="1.27" layer="94" align="bottom-center">1</text>
+</symbol>
+<symbol name="CONNECT-IN">
+<wire x1="4.826" y1="-1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.016" y1="1.016" x2="4.826" y2="1.016" width="0.254" layer="94"/>
+<wire x1="4.826" y1="1.016" x2="4.826" y2="-1.016" width="0.254" layer="94"/>
+<text x="2.794" y="0" size="1.016" layer="94" rot="R180" align="center">IN</text>
+</symbol>
+<symbol name="CONNECT-OUT">
+<wire x1="0" y1="1.016" x2="3.81" y2="1.016" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.016" x2="4.826" y2="0" width="0.254" layer="94"/>
+<wire x1="4.826" y1="0" x2="3.81" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.016" x2="0" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="1.016" width="0.254" layer="94"/>
+<text x="2.032" y="0" size="1.016" layer="94" align="center">OUT</text>
+</symbol>
+<symbol name="CONNECT-I/O">
+<wire x1="1.016" y1="-1.016" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="2.286" y="0" size="1.016" layer="94" rot="R180" align="center">I/O</text>
+<wire x1="4.572" y1="0" x2="3.556" y2="1.016" width="0.254" layer="94"/>
+<wire x1="3.556" y1="1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="3.556" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="3.556" y1="-1.016" x2="4.572" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="AGND-0">
+<text x="1.016" y="0.508" size="1.27" layer="94" align="bottom-center">0</text>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-1.27" size="1.016" layer="96" align="bottom-center">A</text>
+<pin name="AGND-0" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="AGND-1">
+<text x="1.016" y="0.508" size="1.27" layer="94" align="bottom-center">1</text>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.905" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<text x="0" y="-1.27" size="1.016" layer="96" align="bottom-center">A</text>
+<pin name="AGND-1" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="TEST-POINT">
+<pin name="TP" x="0" y="0" visible="off" length="short" rot="R90"/>
+<polygonshape width="0.254" layer="94">
+<polygonoutlineobjects>
+<vertex x="0.2356875" y="1.814628125"/>
+<vertex x="0.38135" y="1.879484375"/>
+<vertex x="0.51034375" y="1.973203125"/>
+<vertex x="0.6170375" y="2.091696875"/>
+<vertex x="0.696759375" y="2.22978125"/>
+<vertex x="0.746034375" y="2.381425"/>
+<vertex x="0.7627" y="2.54"/>
+<vertex x="0.746034375" y="2.698575"/>
+<vertex x="0.696759375" y="2.85021875"/>
+<vertex x="0.6170375" y="2.988303125"/>
+<vertex x="0.51034375" y="3.106796875"/>
+<vertex x="0.38135" y="3.200515625"/>
+<vertex x="0.2356875" y="3.265371875"/>
+<vertex x="0.079721875" y="3.298521875"/>
+<vertex x="-0.079721875" y="3.298521875"/>
+<vertex x="-0.2356875" y="3.265371875"/>
+<vertex x="-0.38135" y="3.200515625"/>
+<vertex x="-0.51034375" y="3.106796875"/>
+<vertex x="-0.6170375" y="2.988303125"/>
+<vertex x="-0.696759375" y="2.85021875"/>
+<vertex x="-0.746034375" y="2.698575"/>
+<vertex x="-0.7627" y="2.54"/>
+<vertex x="-0.746034375" y="2.381425"/>
+<vertex x="-0.696759375" y="2.22978125"/>
+<vertex x="-0.6170375" y="2.091696875"/>
+<vertex x="-0.51034375" y="1.973203125"/>
+<vertex x="-0.38135" y="1.879484375"/>
+<vertex x="-0.2356875" y="1.814628125"/>
+<vertex x="-0.079721875" y="1.781478125"/>
+<vertex x="0.079721875" y="1.781478125"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="0.2356875" y="1.814628125"/>
+<vertex x="0.38135" y="1.879484375"/>
+<vertex x="0.51034375" y="1.973203125"/>
+<vertex x="0.6170375" y="2.091696875"/>
+<vertex x="0.696759375" y="2.22978125"/>
+<vertex x="0.746034375" y="2.381425"/>
+<vertex x="0.7627" y="2.54"/>
+<vertex x="0.746034375" y="2.698575"/>
+<vertex x="0.696759375" y="2.85021875"/>
+<vertex x="0.6170375" y="2.988303125"/>
+<vertex x="0.51034375" y="3.106796875"/>
+<vertex x="0.38135" y="3.200515625"/>
+<vertex x="0.2356875" y="3.265371875"/>
+<vertex x="0.079721875" y="3.298521875"/>
+<vertex x="-0.079721875" y="3.298521875"/>
+<vertex x="-0.2356875" y="3.265371875"/>
+<vertex x="-0.38135" y="3.200515625"/>
+<vertex x="-0.51034375" y="3.106796875"/>
+<vertex x="-0.6170375" y="2.988303125"/>
+<vertex x="-0.696759375" y="2.85021875"/>
+<vertex x="-0.746034375" y="2.698575"/>
+<vertex x="-0.7627" y="2.54"/>
+<vertex x="-0.746034375" y="2.381425"/>
+<vertex x="-0.696759375" y="2.22978125"/>
+<vertex x="-0.6170375" y="2.091696875"/>
+<vertex x="-0.51034375" y="1.973203125"/>
+<vertex x="-0.38135" y="1.879484375"/>
+<vertex x="-0.2356875" y="1.814628125"/>
+<vertex x="-0.079721875" y="1.781478125"/>
+<vertex x="0.079721875" y="1.781478125"/>
+<vertex x="0.2356875" y="1.814628125"/>
+</polygonoutlinesegments>
+</polygonshape>
+<text x="0" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
+</symbol>
+<symbol name="6.0V">
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="3.175" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="6.0V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
+<symbol name="GND">
+<wire x1="1.905" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-1.905" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-2.54" x2="1.905" y2="-2.54" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="0" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="3.3V-0">
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="3.175" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="3.3V-0" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0.762" y="-0.254" size="1.27" layer="94" align="bottom-center">0</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NO-CONNECT">
+<description>No Connect</description>
+<gates>
+<gate name="G$1" symbol="NO-CONNECT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EARTH">
+<description>Earth Ground
+- Physical ground connection</description>
+<gates>
+<gate name="G$1" symbol="EARTH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CHASSIS">
+<description>Chassis Ground
+- Metal shielding and sheaths</description>
+<gates>
+<gate name="G$1" symbol="CHASSIS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PGND">
+<description>Power Ground
+- High current flow</description>
+<gates>
+<gate name="G$1" symbol="PGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND">
+<description>Analog Ground
+- Analog circuitry</description>
+<gates>
+<gate name="G$1" symbol="AGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DGND">
+<description>Digital Ground
+- Digital circuitry with voltage and current spikes</description>
+<gates>
+<gate name="G$1" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V">
+<description>3.3V 
+Connection</description>
+<gates>
+<gate name="G$1" symbol="3.3V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5.0V">
+<description>5.0V
+Connection</description>
+<gates>
+<gate name="G$1" symbol="5.0V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="12.0V">
+<description>12.0V
+Connection</description>
+<gates>
+<gate name="G$1" symbol="12.0V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DGND-0">
+<description>Digital Ground Channel 0
+- Digital circuitry with voltage and current spikes</description>
+<gates>
+<gate name="G$1" symbol="DGND-0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DGND-1">
+<description>Digital Ground Channel 1
+- Digital circuitry with voltage and current spikes</description>
+<gates>
+<gate name="G$1" symbol="DGND-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONNECT-I/O">
+<description>Intersheet Connection In/Out</description>
+<gates>
+<gate name="G$1" symbol="CONNECT-I/O" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONNECT-IN">
+<description>Intersheet Connection In</description>
+<gates>
+<gate name="G$1" symbol="CONNECT-IN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONNECT-OUT">
+<description>Intersheet Connection Out</description>
+<gates>
+<gate name="G$1" symbol="CONNECT-OUT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND-0">
+<description>Analog Ground Channel 0
+- Analog circuitry</description>
+<gates>
+<gate name="G$1" symbol="AGND-0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND-1">
+<description>Analog Ground Channel 1
+- Analog circuitry</description>
+<gates>
+<gate name="G$1" symbol="AGND-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT" prefix="TP">
+<description>Test point</description>
+<gates>
+<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEST-POINT">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="6.0V">
+<description>6.0V
+Connection</description>
+<gates>
+<gate name="G$1" symbol="6.0V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GND">
+<description>Ground
+- Single Ground Plane</description>
+<gates>
+<gate name="G$1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V-0">
+<description>3.3V 
+Connection</description>
+<gates>
+<gate name="G$1" symbol="3.3V-0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

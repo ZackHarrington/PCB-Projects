@@ -1,0 +1,36 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "DGND-0" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (property "Value" "DGND-0" (id 1) (at 0 0.0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom))
+    )
+    (symbol "DGND-0_0_0"
+      (polyline
+        (pts (xy 1.905 -2.54) (xy 0.0 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -5.08) (xy -1.905 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.905 -2.54) (xy 1.905 -2.54)) (stroke (width 0.254))
+      )
+      (text "D" (at 0.0 -3.81 0)
+        (effects (font (size 1.016 1.016)) (justify bottom))
+      )
+      (text "0" (at 1.016 -2.032 0)
+        (effects (font (size 1.27 1.27)) (justify bottom))
+      )
+      (pin power_in line (at 0.0 0.0 270.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "~"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

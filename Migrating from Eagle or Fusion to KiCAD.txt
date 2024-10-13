@@ -1,0 +1,164 @@
+Converting Libraries
+1. Save old libraries as .lbr files
+2. Upload the library file to SnapEDA
+  - https://www.snapeda.com/parts/add/
+  - This will create footprint files and .zip files to download both the symbol and footprint
+3. Create a folder for the library on your computer
+4. Download using KiCAD (V6 or later)
+5. Unzip and copy the files to the folder
+6. Footprints convert as the following:
+  - Pad -> Pad
+  - Copper -> Cu
+  - Silk -> Silkscreen
+  - Values -> Silkscreen
+  - Keepout -> Courtyard
+  - Docu -> Fab
+  - Paste -> Paste
+  - Mask -> Mask
+  - Restrict -> User.Drawings
+    - There is no longer a plane restriction layer
+  - Milling -> Oval Hole with Circular Pad
+    - Need to update to Oval Pad as well
+  - Drill -> Pad - NPTH, Mechanical (Non-Plated Through-Hole)
+  - '>NAME' -> REF**
+7. The footprint's name (value) is also displayed on the Fab layer
+  - Uncheck it from the Footprint Properties... window
+  - You may also need to disable showing Hidden Test from the Objects tab (by Layers)
+8. Symbols convert (correctly) as the following:
+  - Reference -> Reference (also fills in the '>NAME' with the reference)
+  - Value -> Library Name (also fills in the '>VALUE' with the library name)
+  - Pin Type -> Electrical Type (has the same options so easily maps)
+9. You may also need to disable Show Hidden Fields from the spreadsheet button on the right side
+
+
+Creating Libraries
+1. Import Footprints
+  - On KiCAD go to Preferences -> Manage Footprint Libraries...
+  - Use Add Existing and select the folder containing the footprints
+    - Add Existing is the folder icon at the bottom
+2. Creating Footprints
+  - Open the Footprint Editor
+  - To create a new footprint folder follow the above steps
+    - Footprint libraries are stored in folders and each footprint is a different file
+  - Create a new footprint by selecting the folder and pressing New Footprint...
+  - Footprints can have the following front (F) and back (B) layers:
+    - Cu -> Defines where copper will be kept / placed
+    - Adhesive -> Defines where adhesive should be applied
+    - Paste -> Defines the areas that will get solder paste - and where stencils will be cut
+    - Silkscreen -> Defines where silkscreen will be placed
+    - Mask -> Defines where the solder mask will NOT be located - allowing solder to adhere
+    - Courtyard -> Defines a bounding box around the component to help with routing
+    - Fab -> Not put on PCB - used for manufacturing specific information
+  - They can also have the following layers:
+    - User.Drawings -> Customizable, used for personal reference annotations
+    - User.Comments -> Customizable, used for personal comments and explanations
+    - User.Eco(1,2) -> Engineering Change Order information
+    - Edge.Cuts -> Defines the outline of the board
+    - Margin -> Defines the minimum distance to the edge of the PCB - how they implement clearance
+    - User.(1-9) -> Customizable
+3. Creating Symbols - "Libraries"
+  - Open the Symbol Editor
+  - Create a new library with File -> New Library...
+    - Add to Global so that it may be used by any project
+  - To import existing symbols:
+    - Right click on the library and select Import Symbol...
+    - After importing the symbol you can delete the .kicad_sym file you imported
+    - In KiCAD you can only map pins 1:1, however you can stack them and they will connect
+  - To create a new symbol
+    - Select the library and press New Symbol...
+  - Click Symbol Properties...
+    - Looks like an op-amp and settings symbol
+    - Has options like making pin names visible etc.
+  - Specify the Reference Designator in the Reference Field
+  - To link a footprint click on the Value field and then select the ||\ symbol
+    - Then use the Pin Table button next to Symbol Properties to assign the pins
+    - The name of the pin must match the name of the pad
+  - Find the footprint to link
+
+
+Creating a New Project
+1. Press New Project... (The folder with a star)
+2. Name the project with dashes (-) between the words so GitHub accepts it
+3. Editing Schematics:
+  - Double click the .kicad_sch file from the hierarchy
+  - Right-hand side bar:
+    - (op-amp symbol) - Add Symbol button, A key, for adding parts
+      - If parts text is added different from the library, go to Preferences -> Schematic Editor -> Editing Options
+      - Uncheck Automatically place symbol fields
+      - Note that once added from a library the parts are no longer linked and either can be edited without affecting the other
+      - Pin headers and standard 100 mil headers can be found by searching for "CONN_"
+        - Once placed edit the symbol and find the correct footprint by searching for "pinhead"
+        - For standard dupont connectors scroll down to the 2.54mm section
+      - Test points can be found in the connector library or by searching for "test"
+        - Once placed edit the symbol and find the correct footprint by searching for "testpoint" or "testpoint_pad"
+    - (ground symbol) - Add Power button, P key, for adding power symbols
+    - (X symbol) - Add No Connect Flag, Q key, for adding a built in no-connect symbol
+4. Ensuring Schematic Readiness for layout:
+  - Run Assign Footprints (link symbol, top right corner)
+    - Verify every symbol has an assigned footprint
+  - Schematic Setup (top left corner) should be fine with the defaults
+  - Run the Electrical Rules Checker (ERC) (the checkbox on the top right)
+  - Check the errors and warning that come up
+  - Any errors that are intentional and understood can be excluded on a case-by-case basis
+    - Right click on the error dialog and select Exclude This Violation
+  - Check, exclude, and run until there are no more errors or warnings
+5. Editing PCBs:
+  - Double click the .kicad_pcb file from the hierarchy
+  - To setup the board stack-up and design rules:
+    - Open the Board Setup (top left corner)
+    - For more than 2 layer boards edit the Physical Stackup section
+      - Select the number of layers from the dropdown
+      - Ensure the default correctly follows the manufacturer's process
+    - In the Constraints section follow the specifications from the manufacturer, specifically:
+      - Minimum Clearance is typically >0.15mm
+      - Minimum track width is typically >0.15mm
+      - Minimum connection width is typically >0.15mm
+    - PCB way design rules used for cheapest boards:
+      - Size: <100x100mm
+      - Layers: 2
+      - Material: FR-4
+      - Thickness: 1.6mm
+      - Min Track/Spacing: 6/6mil (0.1524mm)
+      - Min Hole Size: 0.3mm
+      - Finished Copper: 1oz
+  - To add all the parts from the schematic:
+    - Run Update PCB from Schematic.. (schematic/PCB symbol, top right corner)
+  - Right-hand side bar:
+    -
+6. Exporting Gerber Files
+  - Run the Design Rules Checker (DRC) (the checkbox on the top right)
+  - Check the errors and warning that come up
+  - Any errors that are intentional and understood can be excluded on a case-by-case basis
+    - Right click on the error dialog and select Exclude This Violation
+  - Check, exclude, and run until there are no more errors or warnings
+  - To then export Gerber files, see the following recommendations on PCBWay:
+    https://www.pcbway.com/helpcenter/generate_gerber/Generate_Gerber_file_from_Kicad.html
+    - File -> Fabrication Outputs -> Gerbers (.gbr)...
+    - PCBWay wants just the following layers:
+      - All Cu layers (copper)
+      - All Paste layers (for stencils or assembly)
+      - All Silkscreen layers
+      - All Mask layers
+      - Edge.Cuts
+    - Under General Options select only the following
+      - Plot reference designators
+      - Plot footprint text
+      - Check zone fills before plotting
+      - Tent vias
+    - Under Gerber Options select Subtract soldermask from silkscreen
+    - Press Plot and the files will be generated in the same directory as the project
+    - Next, press Generate Drill Files...
+    - Choose the following:
+      - Use route command (recommended)
+      - PostScript 
+      - Millimeters
+      - Decimal format (recommended)
+    - Finally click Generate Drill File
+
+Helpful Preferences Options:
+- Preferences -> Mouse and Touchpad -> Center and warp cursor on zoom
+  - ON: Centers the zoom spot every time
+  - OFF: Zooms like normal
+- Route -> Interactive Routing Settings... -> Highlight collisions -> Allow DRC violations
+  - ON: Ignores the DRC while routing
+  - OFF: Doesn't let you violate the DRC while routing

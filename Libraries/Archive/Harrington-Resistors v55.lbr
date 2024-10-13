@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xc8ff0033" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" blackcolor="0xc800bfbf" whitecolor="0xc800bfbf" coloredcolor="0xccffe74c" blackhighlight="0xc800bfbf" whitehighlight="0xc800bfbf" coloredhighlight="0xccffd900" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" blackcolor="0xc8faaf3c" whitecolor="0xc8faaf3c" coloredcolor="0xcc91d178" blackhighlight="0xc8fa9600" whitehighlight="0xc8fa9600" coloredhighlight="0xcc3bd100" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" blackcolor="0xc89fc966" whitecolor="0xc89fc966" coloredcolor="0xccffdda1" blackhighlight="0xc875c900" whitehighlight="0xc875c900" coloredhighlight="0xccffa200" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" blackcolor="0xc8a7bacf" whitecolor="0xc8a7bacf" coloredcolor="0xcc5fad56" blackhighlight="0xc80064cf" whitehighlight="0xc80064cf" coloredhighlight="0xcc14ad00" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" blackcolor="0xc8c5a1f8" whitecolor="0xc8c5a1f8" coloredcolor="0xcc5e897c" blackhighlight="0xc86300f8" whitehighlight="0xc86300f8" coloredhighlight="0xcc00895e" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" blackcolor="0xc8ff8cc6" whitecolor="0xc8ff8cc6" coloredcolor="0xcc6f45b4" blackhighlight="0xc8ff0084" whitehighlight="0xc8ff0084" coloredhighlight="0xcc4200b4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" blackcolor="0xc8f26a52" whitecolor="0xc8f26a52" coloredcolor="0xcc516363" blackhighlight="0xc8f22400" whitehighlight="0xc8f22400" coloredhighlight="0xcc006363" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" blackcolor="0xc89bd5ef" whitecolor="0xc89bd5ef" coloredcolor="0xccd6a2ad" blackhighlight="0xc800a7ef" whitehighlight="0xc800a7ef" coloredhighlight="0xccd6002e" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" blackcolor="0xc8ffbeab" whitecolor="0xc8ffbeab" coloredcolor="0xccef476f" blackhighlight="0xc8ff3700" whitehighlight="0xc8ff3700" coloredhighlight="0xccef003c" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" blackcolor="0xc8e8430f" whitecolor="0xc8e8430f" coloredcolor="0xccd4dcff" blackhighlight="0xc8e83600" whitehighlight="0xc8e83600" coloredhighlight="0xcc0033ff" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" blackcolor="0xc8bb7a14" whitecolor="0xc8bb7a14" coloredcolor="0xcc00bfb2" blackhighlight="0xc8bb7000" whitehighlight="0xc8bb7000" coloredhighlight="0xcc00bfaf" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" blackcolor="0xc8658d30" whitecolor="0xc8658d30" coloredcolor="0xcc65def1" blackhighlight="0xc8528d00" whitehighlight="0xc8528d00" coloredhighlight="0xcc00d1f1" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" blackcolor="0xc823a597" whitecolor="0xc823a597" coloredcolor="0xccc55ea3" blackhighlight="0xc800a592" whitehighlight="0xc800a592" coloredhighlight="0xccc50087" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" blackcolor="0xc8a76ef5" whitecolor="0xc8a76ef5" coloredcolor="0xccf56416" blackhighlight="0xc86600f5" whitehighlight="0xc86600f5" coloredhighlight="0xccf55200" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xc80097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xb400d941" whitehighlight="0xb400d941" coloredhighlight="0xcc00ab6f" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xccffcd07" blackhighlight="0xb400d941" whitehighlight="0xb400d941" coloredhighlight="0xccffc800" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccd9d9d9" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" blackcolor="0xb462d986" whitecolor="0xb462d986" coloredcolor="0xcceec643" blackhighlight="0xb400d941" whitehighlight="0xb400d941" coloredhighlight="0xcceeb300" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xcca7d100" coloredhighlight="0xcca7d100" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" blackcolor="0xc8ffffff" whitecolor="0xccafd134" coloredcolor="0xccafd134" blackhighlight="0xc8ffffff" whitehighlight="0xcca7d100" coloredhighlight="0xcca7d100" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccd9d9d9" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" blackcolor="0xccd9d9d9" whitecolor="0xbbc8c832" coloredcolor="0xbbc8c832" blackhighlight="0xccd9d9d9" whitehighlight="0xbbc8c800" coloredhighlight="0xbbc8c800" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xc8ff0033" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xc80097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" blackcolor="0xc8ff4164" whitecolor="0xccc90d0c" coloredcolor="0xccc90d0c" blackhighlight="0xc8ff0033" whitehighlight="0xccc90000" coloredhighlight="0xccc90000" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" blackcolor="0xc80696d7" whitecolor="0xcc0696d7" coloredcolor="0xcc0696d7" blackhighlight="0xc80097d7" whitehighlight="0xcc0097d7" coloredhighlight="0xcc0097d7" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" blackcolor="0xb462d987" whitecolor="0xb462d987" coloredcolor="0xcc0dab76" blackhighlight="0xb400d941" whitehighlight="0xb400d941" coloredhighlight="0xcc00ab6f" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" blackcolor="0xcc32c8c8" whitecolor="0xb432c8c8" coloredcolor="0xb432c8c8" blackhighlight="0xcc00c8c8" whitehighlight="0xb400c8c8" coloredhighlight="0xb400c8c8" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" blackcolor="0xccc8c8c8" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccc8c8c8" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" blackcolor="0xccffb908" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffb700" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" blackcolor="0xccffb908" whitecolor="0xbb808080" coloredcolor="0xbb808080" blackhighlight="0xccffb700" whitehighlight="0xbb808080" coloredhighlight="0xbb808080" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb44400c2" whitehighlight="0xb44400c2" coloredhighlight="0xc8fd8300" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" blackcolor="0xb4815cc2" whitecolor="0xb4815cc2" coloredcolor="0xc8fdc689" blackhighlight="0xb44400c2" whitehighlight="0xb44400c2" coloredhighlight="0xc8fd8300" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" blackcolor="0xdcfac36e" whitecolor="0xdcf57c10" coloredcolor="0xc8d9ff3d" blackhighlight="0xdcfa9600" whitehighlight="0xdcf57200" coloredhighlight="0xc8d0ff00" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8e3e3e3" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8e3e3e3" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" blackcolor="0xdc009292" whitecolor="0xdc009292" coloredcolor="0xc8d62525" blackhighlight="0xdc009292" whitehighlight="0xdc009292" coloredhighlight="0xc8d60000" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" blackcolor="0xdcbbbbbb" whitecolor="0xdcbbbbbb" coloredcolor="0xc839d437" blackhighlight="0xdcbbbbbb" whitehighlight="0xdcbbbbbb" coloredhighlight="0xc804d400" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" blackcolor="0xdcfac36e" whitecolor="0xccc90c0c" coloredcolor="0xc8e6e600" blackhighlight="0xdcfa9600" whitehighlight="0xccc90000" coloredhighlight="0xc8e6e600" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc80067ce" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc82c7bce" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc80067ce" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc88500de" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" blackcolor="0xf0b2b2b2" whitecolor="0xc8757575" coloredcolor="0xc89526de" blackhighlight="0xf0b2b2b2" whitehighlight="0xc8757575" coloredhighlight="0xc88500de" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="3216-SEM" use_placeholder="yes">
+<smd name="1" x="-1.55" y="0" dx="1.3" dy="1.5" layer="1"/>
+<smd name="2" x="1.55" y="0" dx="1.3" dy="1.5" layer="1"/>
+<rectangle x1="-1.6" y1="-0.8" x2="1.6" y2="0.8" layer="51"/>
+<wire x1="-0.7" y1="0.8" x2="0.7" y2="0.8" width="0.15" layer="21"/>
+<wire x1="-0.7" y1="-0.8" x2="0.7" y2="-0.8" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="1.125" x2="-2.5" y2="-1.125" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="-1.125" x2="2.5" y2="-1.125" width="0.15" layer="21"/>
+<wire x1="2.5" y1="-1.125" x2="2.5" y2="1.125" width="0.15" layer="21"/>
+<wire x1="2.5" y1="1.125" x2="-2.5" y2="1.125" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="1.125" x2="-2.5" y2="-1.125" width="0.15" layer="39"/>
+<wire x1="-2.5" y1="-1.125" x2="2.5" y2="-1.125" width="0.15" layer="39"/>
+<wire x1="2.5" y1="-1.125" x2="2.5" y2="1.125" width="0.15" layer="39"/>
+<wire x1="2.5" y1="1.125" x2="-2.5" y2="1.125" width="0.15" layer="39"/>
+<text x="0" y="1.75" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="1608-SEM" use_placeholder="yes">
+<smd name="1" x="-0.8" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="2" x="0.8" y="0" dx="0.8" dy="0.8" layer="1"/>
+<rectangle x1="-0.8" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<wire x1="-0.2" y1="0.4" x2="0.2" y2="0.4" width="0.15" layer="21"/>
+<wire x1="-0.2" y1="-0.4" x2="0.2" y2="-0.4" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="0.75" x2="-1.5" y2="-0.75" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.15" layer="21"/>
+<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.15" layer="21"/>
+<wire x1="1.5" y1="0.75" x2="-1.5" y2="0.75" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="0.75" x2="-1.5" y2="-0.75" width="0.15" layer="39"/>
+<wire x1="-1.5" y1="-0.75" x2="1.5" y2="-0.75" width="0.15" layer="39"/>
+<wire x1="1.5" y1="-0.75" x2="1.5" y2="0.75" width="0.15" layer="39"/>
+<wire x1="1.5" y1="0.75" x2="-1.5" y2="0.75" width="0.15" layer="39"/>
+<text x="0" y="1.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="1005-SEM" use_placeholder="yes">
+<smd name="1" x="-0.55" y="0" dx="0.6" dy="0.5" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.6" dy="0.5" layer="1"/>
+<rectangle x1="-0.5" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<wire x1="-0.1" y1="0.25" x2="0.1" y2="0.25" width="0.15" layer="21"/>
+<wire x1="-0.1" y1="-0.25" x2="0.1" y2="-0.25" width="0.15" layer="21"/>
+<wire x1="-1.125" y1="0.5" x2="-1.125" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="-1.125" y1="-0.5" x2="1.125" y2="-0.5" width="0.15" layer="21"/>
+<wire x1="1.125" y1="-0.5" x2="1.125" y2="0.5" width="0.15" layer="21"/>
+<wire x1="1.125" y1="0.5" x2="-1.125" y2="0.5" width="0.15" layer="21"/>
+<wire x1="-1.125" y1="0.5" x2="-1.125" y2="-0.5" width="0.15" layer="39"/>
+<wire x1="-1.125" y1="-0.5" x2="1.125" y2="-0.5" width="0.15" layer="39"/>
+<wire x1="1.125" y1="-0.5" x2="1.125" y2="0.5" width="0.15" layer="39"/>
+<wire x1="1.125" y1="0.5" x2="-1.125" y2="0.5" width="0.15" layer="39"/>
+<text x="0" y="1.25" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="2012-SEM" use_placeholder="yes">
+<smd name="1" x="-1.15" y="0" dx="0.9" dy="1.2" layer="1"/>
+<smd name="2" x="1.15" y="0" dx="0.9" dy="1.2" layer="1"/>
+<rectangle x1="-1" y1="-0.6" x2="1" y2="0.6" layer="51"/>
+<wire x1="-0.5" y1="0.6" x2="0.5" y2="0.6" width="0.15" layer="21"/>
+<wire x1="-0.5" y1="-0.6" x2="0.5" y2="-0.6" width="0.15" layer="21"/>
+<wire x1="-1.875" y1="0.875" x2="-1.875" y2="-0.875" width="0.15" layer="21"/>
+<wire x1="-1.875" y1="-0.875" x2="1.875" y2="-0.875" width="0.15" layer="21"/>
+<wire x1="1.875" y1="-0.875" x2="1.875" y2="0.875" width="0.15" layer="21"/>
+<wire x1="1.875" y1="0.875" x2="-1.875" y2="0.875" width="0.15" layer="21"/>
+<wire x1="-1.875" y1="0.875" x2="-1.875" y2="-0.875" width="0.15" layer="39"/>
+<wire x1="-1.875" y1="-0.875" x2="1.875" y2="-0.875" width="0.15" layer="39"/>
+<wire x1="1.875" y1="-0.875" x2="1.875" y2="0.875" width="0.15" layer="39"/>
+<wire x1="1.875" y1="0.875" x2="-1.875" y2="0.875" width="0.15" layer="39"/>
+<text x="0" y="1.5" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="3225-SEM" use_placeholder="yes">
+<smd name="1" x="-1.55" y="0" dx="1.3" dy="2.4" layer="1"/>
+<smd name="2" x="1.55" y="0" dx="1.3" dy="2.4" layer="1"/>
+<rectangle x1="-1.6" y1="-1.25" x2="1.6" y2="1.25" layer="51"/>
+<wire x1="-0.7" y1="1.25" x2="0.7" y2="1.25" width="0.15" layer="21"/>
+<wire x1="-0.7" y1="-1.25" x2="0.7" y2="-1.25" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-2.5" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="-1.5" x2="2.5" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="2.5" y1="-1.5" x2="2.5" y2="1.5" width="0.15" layer="21"/>
+<wire x1="2.5" y1="1.5" x2="-2.5" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-2.5" y2="-1.5" width="0.15" layer="39"/>
+<wire x1="-2.5" y1="-1.5" x2="2.5" y2="-1.5" width="0.15" layer="39"/>
+<wire x1="2.5" y1="-1.5" x2="2.5" y2="1.5" width="0.15" layer="39"/>
+<wire x1="2.5" y1="1.5" x2="-2.5" y2="1.5" width="0.15" layer="39"/>
+<text x="0" y="2.25" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+<package name="3314J" use_placeholder="yes">
+<smd name="2" x="0" y="-2" dx="2" dy="2" layer="1"/>
+<smd name="1" x="-1.15" y="2" dx="1.3" dy="2" layer="1"/>
+<smd name="3" x="1.15" y="2" dx="1.3" dy="2" layer="1"/>
+<wire x1="-2.25" y1="2.25" x2="2.25" y2="2.25" width="0.1" layer="51"/>
+<wire x1="2.25" y1="2.25" x2="2.25" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="2.25" y1="-2.25" x2="-2.25" y2="-2.25" width="0.1" layer="51"/>
+<wire x1="-2.25" y1="-2.25" x2="-2.25" y2="2.25" width="0.1" layer="51"/>
+<rectangle x1="-1.575" y1="1.5" x2="-0.775" y2="2.5" layer="51"/>
+<rectangle x1="-0.515" y1="-2.5" x2="0.515" y2="-1.5" layer="51"/>
+<rectangle x1="0.775" y1="1.5" x2="1.575" y2="2.5" layer="51"/>
+<wire x1="-2" y1="2.25" x2="-2.25" y2="2.25" width="0.15" layer="21"/>
+<wire x1="-2.25" y1="2.25" x2="-2.25" y2="-2.25" width="0.15" layer="21"/>
+<wire x1="-2.25" y1="-2.25" x2="-1.25" y2="-2.25" width="0.15" layer="21"/>
+<wire x1="1.25" y1="-2.25" x2="2.25" y2="-2.25" width="0.15" layer="21"/>
+<wire x1="2.25" y1="-2.25" x2="2.25" y2="2.25" width="0.15" layer="21"/>
+<wire x1="2.25" y1="2.25" x2="2" y2="2.25" width="0.15" layer="21"/>
+<wire x1="-0.25" y1="2.25" x2="0.25" y2="2.25" width="0.15" layer="21"/>
+<text x="0" y="3.75" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-2.5" y1="3.25" x2="-2.5" y2="-3.25" width="0.15" layer="39"/>
+<wire x1="-2.5" y1="-3.25" x2="2.5" y2="-3.25" width="0.15" layer="39"/>
+<wire x1="2.5" y1="-3.25" x2="2.5" y2="3.25" width="0.15" layer="39"/>
+<wire x1="2.5" y1="3.25" x2="-2.5" y2="3.25" width="0.15" layer="39"/>
+</package>
+<package name="1/4W-TH" use_placeholder="yes">
+<pad name="1" x="-5" y="0" drill="1"/>
+<pad name="2" x="5" y="0" drill="1"/>
+<text x="0" y="1.75" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+<wire x1="-3" y1="1" x2="-3" y2="-1" width="0.15" layer="21"/>
+<wire x1="-3" y1="-1" x2="3" y2="-1" width="0.15" layer="21"/>
+<wire x1="3" y1="-1" x2="3" y2="1" width="0.15" layer="21"/>
+<wire x1="3" y1="1" x2="-3" y2="1" width="0.15" layer="21"/>
+<wire x1="-3" y1="1" x2="-3" y2="-1" width="0.1" layer="51"/>
+<wire x1="-3" y1="-1" x2="3" y2="-1" width="0.1" layer="51"/>
+<wire x1="3" y1="-1" x2="3" y2="1" width="0.1" layer="51"/>
+<wire x1="3" y1="1" x2="-3" y2="1" width="0.1" layer="51"/>
+</package>
+<package name="2010-4P-SEM" use_placeholder="yes">
+<smd name="4" x="-0.25" y="-0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="6" x="0.25" y="-0.5" dx="0.3" dy="0.5" layer="1"/>
+<smd name="5" x="0.25" y="0.5" dx="0.3" dy="0.5" layer="1" rot="R180"/>
+<smd name="3" x="-0.25" y="0.5" dx="0.3" dy="0.5" layer="1" rot="R180"/>
+<smd name="2" x="-0.85" y="-0.5" dx="0.5" dy="0.5" layer="1"/>
+<smd name="1" x="-0.85" y="0.5" dx="0.5" dy="0.5" layer="1"/>
+<smd name="7" x="0.85" y="0.5" dx="0.5" dy="0.5" layer="1" rot="R180"/>
+<smd name="8" x="0.85" y="-0.5" dx="0.5" dy="0.5" layer="1" rot="R180"/>
+<wire x1="-1" y1="0.5" x2="-1" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.5" x2="1" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.5" x2="1" y2="0.5" width="0.1" layer="51"/>
+<wire x1="1" y1="0.5" x2="-1" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.1" x2="-1" y2="-0.1" width="0.15" layer="21"/>
+<wire x1="1" y1="0.1" x2="1" y2="-0.1" width="0.15" layer="21"/>
+<wire x1="-1.375" y1="1" x2="-1.375" y2="-1" width="0.15" layer="21"/>
+<wire x1="-1.375" y1="-1" x2="1.375" y2="-1" width="0.15" layer="21"/>
+<wire x1="1.375" y1="-1" x2="1.375" y2="1" width="0.15" layer="21"/>
+<wire x1="1.375" y1="1" x2="-1.375" y2="1" width="0.15" layer="21"/>
+<wire x1="-1.375" y1="1" x2="-1.375" y2="-1" width="0.15" layer="39"/>
+<wire x1="-1.375" y1="-1" x2="1.375" y2="-1" width="0.15" layer="39"/>
+<wire x1="1.375" y1="-1" x2="1.375" y2="1" width="0.15" layer="39"/>
+<wire x1="1.375" y1="1" x2="-1.375" y2="1" width="0.15" layer="39"/>
+<text x="0" y="1.75" size="0.8" layer="25" font="vector" ratio="15" align="center">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RESISTOR-1005-SEM" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.8ttP_GNORu2p91aJ1fKpsw?version=2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="1005-SEM"/>
+</packageinstances>
+<metadata pins="2" bodyLength="1" bodyWidth="0.5" height="0.35" ipcFamily="CHIP" ipcName="RESC1005X34N" mountingType="SMD"/>
+</package3d>
+<package3d name="RESISTOR-1608-SEM" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.JDvL4os9RHm7Uv_8dR2iAA?version=2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="1608-SEM"/>
+</packageinstances>
+<metadata pins="2" bodyLength="1.6" bodyWidth="0.8" height="0.45" ipcFamily="CHIP" ipcName="RESC1608X45N" mountingType="SMD"/>
+</package3d>
+<package3d name="RESISTOR-2012-SEM" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.1lvuXJ77R0KBpIZOEcTbyw?version=2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="2012-SEM"/>
+</packageinstances>
+<metadata pins="2" bodyLength="2" bodyWidth="1.25" height="0.55" ipcFamily="CHIP" ipcName="RESC2012X55N" mountingType="SMD"/>
+</package3d>
+<package3d name="RESISTOR-3216-SEM" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.8mmtsCacQq6j9zxAXMqCdQ?version=2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="3216-SEM"/>
+</packageinstances>
+<metadata pins="2" bodyLength="3.2" bodyWidth="1.6" height="0.55" ipcFamily="CHIP" ipcName="RESC3216X55N" mountingType="SMD"/>
+</package3d>
+<package3d name="RESISTOR-3225-SEM" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.bF1A8nKhRuKf0lVklEu4_A?version=2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="3225-SEM"/>
+</packageinstances>
+<metadata pins="2" bodyLength="3.2" bodyWidth="2.55" height="0.55" ipcFamily="CHIP" ipcName="RESC3225X55N" mountingType="SMD"/>
+</package3d>
+<package3d name="RESISTOR-1/4W-TH" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.GkxA9osARuyzR25xo7IW0w?version=2" locally_modified="yes" type="model" footprint_synced="no">
+<packageinstances>
+<packageinstance name="1/4W-TH"/>
+</packageinstances>
+<metadata pins="2" pitch="10" bodyLength="6" bodyWidth="2.3" height="3" ipcFamily="AXIAL" ipcName="RESAD1000W45L600D230B" mountingType="PTH"/>
+</package3d>
+<package3d name="RESISTOR-3314J" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.IOBbwXxzTgeXn_lGr0xi3A?version=4" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="3314J"/>
+</packageinstances>
+</package3d>
+<package3d name="RESISTOR-2010-4P-SEM" urn="" wip_urn="urn:adsk.wipprod:fs.file:vf.lGkx4bWxTNmaPSulFjsWgA?version=2" locally_modified="yes" type="model">
+<packageinstances>
+<packageinstance name="2010-4P-SEM"/>
+</packageinstances>
+<metadata pins="8" pitch="0.55" bodyLength="2" bodyWidth="1" height="0.35" ipcFamily="CHIPARR" ipcName="RESCAXS55P200X100X34-8N" mountingType="SMD"/>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RESISTOR-V-STANDARD">
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="0.8468375" y1="0.42341875" x2="-0.8468375" y2="1.270253125" width="0.254" layer="94"/>
+<wire x1="-0.8468375" y1="1.270253125" x2="0.8468375" y2="2.117090625" width="0.254" layer="94"/>
+<wire x1="0.8468375" y1="2.117090625" x2="0" y2="2.540509375" width="0.254" layer="94"/>
+<wire x1="0.8468375" y1="0.42341875" x2="-0.8468375" y2="-0.42341875" width="0.254" layer="94"/>
+<wire x1="-0.8468375" y1="-0.42341875" x2="0.8468375" y2="-1.270253125" width="0.254" layer="94"/>
+<wire x1="0.8468375" y1="-1.270253125" x2="-0.8468375" y2="-2.117090625" width="0.254" layer="94"/>
+<wire x1="-0.8468375" y1="-2.117090625" x2="0" y2="-2.540509375" width="0.254" layer="94"/>
+<text x="2.54" y="3.81" size="1.27" layer="95" align="center-left">&gt;NAME</text>
+<text x="2.54" y="1.905" size="1.27" layer="96" align="center-left">&gt;VALUE</text>
+<text x="2.54" y="-3.81" size="1.27" layer="97" align="center-left">&gt;POWER</text>
+<text x="2.54" y="0" size="1.27" layer="97" align="center-left">&gt;VOLTAGE</text>
+<text x="2.54" y="-1.905" size="1.27" layer="97" align="center-left">&gt;TEMPERATURE</text>
+</symbol>
+<symbol name="RESISTOR-H-STANDARD">
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-0.42341875" y1="0.8468375" x2="-1.270253125" y2="-0.8468375" width="0.254" layer="94"/>
+<wire x1="-1.270253125" y1="-0.8468375" x2="-2.117090625" y2="0.8468375" width="0.254" layer="94"/>
+<wire x1="-2.117090625" y1="0.8468375" x2="-2.540509375" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.42341875" y1="0.8468375" x2="0.42341875" y2="-0.8468375" width="0.254" layer="94"/>
+<wire x1="0.42341875" y1="-0.8468375" x2="1.270253125" y2="0.8468375" width="0.254" layer="94"/>
+<wire x1="1.270253125" y1="0.8468375" x2="2.117090625" y2="-0.8468375" width="0.254" layer="94"/>
+<wire x1="2.117090625" y1="-0.8468375" x2="2.540509375" y2="0" width="0.254" layer="94"/>
+<text x="-0.635" y="-2.54" size="1.27" layer="96" align="center-right">&gt;VALUE</text>
+<text x="0.635" y="-2.54" size="1.27" layer="97" align="center-left">&gt;VOLTAGE</text>
+<text x="-0.635" y="-4.445" size="1.27" layer="97" align="center-right">&gt;TEMPERATURE</text>
+<text x="0" y="-4.445" size="1.27" layer="97" align="center">/</text>
+<text x="0" y="-2.54" size="1.27" layer="97" align="center">/</text>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0.635" y="-4.445" size="1.27" layer="97" align="center-left">&gt;POWER</text>
+</symbol>
+<symbol name="TRIMPOT-V">
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="0.8468375" y1="0.42341875" x2="-0.8468375" y2="1.270253125" width="0.254" layer="94"/>
+<wire x1="-0.8468375" y1="1.270253125" x2="0.8468375" y2="2.117090625" width="0.254" layer="94"/>
+<wire x1="0.8468375" y1="2.117090625" x2="0" y2="2.540509375" width="0.254" layer="94"/>
+<wire x1="0.8468375" y1="0.42341875" x2="-0.8468375" y2="-0.42341875" width="0.254" layer="94"/>
+<wire x1="-0.8468375" y1="-0.42341875" x2="0.8468375" y2="-1.270253125" width="0.254" layer="94"/>
+<wire x1="0.8468375" y1="-1.270253125" x2="-0.8468375" y2="-2.117090625" width="0.254" layer="94"/>
+<wire x1="-0.8468375" y1="-2.117090625" x2="0" y2="-2.540509375" width="0.254" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<polygonshape width="0.254" layer="94">
+<polygonoutlineobjects>
+<vertex x="2.667" y="0.695584375"/>
+<vertex x="1.143" y="0.085984375"/>
+<vertex x="1.143" y="-0.085984375"/>
+<vertex x="2.667" y="-0.695584375"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="2.667" y="0.695584375"/>
+<vertex x="1.143" y="0.085984375"/>
+<vertex x="1.143" y="-0.085984375"/>
+<vertex x="2.667" y="-0.695584375"/>
+<vertex x="2.667" y="0.695584375"/>
+</polygonoutlinesegments>
+</polygonshape>
+<text x="2.54" y="2.54" size="1.27" layer="95" align="center-left">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.27" layer="96" align="center-left">&gt;VALUE</text>
+</symbol>
+<symbol name="TRIMPOT-H">
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="0.42341875" y1="-0.8468375" x2="1.270253125" y2="0.8468375" width="0.254" layer="94"/>
+<wire x1="1.270253125" y1="0.8468375" x2="2.117090625" y2="-0.8468375" width="0.254" layer="94"/>
+<wire x1="2.117090625" y1="-0.8468375" x2="2.540509375" y2="0" width="0.254" layer="94"/>
+<wire x1="0.42341875" y1="-0.8468375" x2="-0.42341875" y2="0.8468375" width="0.254" layer="94"/>
+<wire x1="-0.42341875" y1="0.8468375" x2="-1.270253125" y2="-0.8468375" width="0.254" layer="94"/>
+<wire x1="-1.270253125" y1="-0.8468375" x2="-2.117090625" y2="0.8468375" width="0.254" layer="94"/>
+<wire x1="-2.117090625" y1="0.8468375" x2="-2.540509375" y2="0" width="0.254" layer="94"/>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<polygonshape width="0.254" layer="94">
+<polygonoutlineobjects>
+<vertex x="0.085984375" y="-1.143"/>
+<vertex x="-0.085984375" y="-1.143"/>
+<vertex x="-0.695584375" y="-2.667"/>
+<vertex x="0.695584375" y="-2.667"/>
+</polygonoutlineobjects>
+<polygonoutlinesegments>
+<vertex x="0.085984375" y="-1.143"/>
+<vertex x="-0.085984375" y="-1.143"/>
+<vertex x="-0.695584375" y="-2.667"/>
+<vertex x="0.695584375" y="-2.667"/>
+<vertex x="0.085984375" y="-1.143"/>
+</polygonoutlinesegments>
+</polygonshape>
+<text x="0" y="4.445" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="RESISTOR-V-ARRAY-4P">
+<pin name="3" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="4" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-1.6931625" y1="0.42341875" x2="-3.3868375" y2="1.270253125" width="0.254" layer="94"/>
+<wire x1="-3.3868375" y1="1.270253125" x2="-1.6931625" y2="2.117090625" width="0.254" layer="94"/>
+<wire x1="-1.6931625" y1="2.117090625" x2="-2.54" y2="2.540509375" width="0.254" layer="94"/>
+<wire x1="-1.6931625" y1="0.42341875" x2="-3.3868375" y2="-0.42341875" width="0.254" layer="94"/>
+<wire x1="-3.3868375" y1="-0.42341875" x2="-1.6931625" y2="-1.270253125" width="0.254" layer="94"/>
+<wire x1="-1.6931625" y1="-1.270253125" x2="-3.3868375" y2="-2.117090625" width="0.254" layer="94"/>
+<wire x1="-3.3868375" y1="-2.117090625" x2="-2.54" y2="-2.540509375" width="0.254" layer="94"/>
+<text x="10.16" y="3.81" size="1.27" layer="95" align="center-left">&gt;NAME</text>
+<text x="10.16" y="1.905" size="1.27" layer="96" align="center-left">&gt;VALUE</text>
+<text x="10.16" y="-3.81" size="1.27" layer="97" align="center-left">&gt;POWER</text>
+<text x="10.16" y="0" size="1.27" layer="97" align="center-left">&gt;VOLTAGE</text>
+<text x="10.16" y="-1.905" size="1.27" layer="97" align="center-left">&gt;TEMPERATURE</text>
+<pin name="5" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="3.3868375" y1="0.42341875" x2="1.6931625" y2="1.270253125" width="0.254" layer="94"/>
+<wire x1="1.6931625" y1="1.270253125" x2="3.3868375" y2="2.117090625" width="0.254" layer="94"/>
+<wire x1="3.3868375" y1="2.117090625" x2="2.54" y2="2.540509375" width="0.254" layer="94"/>
+<wire x1="3.3868375" y1="0.42341875" x2="1.6931625" y2="-0.42341875" width="0.254" layer="94"/>
+<wire x1="1.6931625" y1="-0.42341875" x2="3.3868375" y2="-1.270253125" width="0.254" layer="94"/>
+<wire x1="3.3868375" y1="-1.270253125" x2="1.6931625" y2="-2.117090625" width="0.254" layer="94"/>
+<wire x1="1.6931625" y1="-2.117090625" x2="2.54" y2="-2.540509375" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="-6.7731625" y1="0.42341875" x2="-8.4668375" y2="1.270253125" width="0.254" layer="94"/>
+<wire x1="-8.4668375" y1="1.270253125" x2="-6.7731625" y2="2.117090625" width="0.254" layer="94"/>
+<wire x1="-6.7731625" y1="2.117090625" x2="-7.62" y2="2.540509375" width="0.254" layer="94"/>
+<wire x1="-6.7731625" y1="0.42341875" x2="-8.4668375" y2="-0.42341875" width="0.254" layer="94"/>
+<wire x1="-8.4668375" y1="-0.42341875" x2="-6.7731625" y2="-1.270253125" width="0.254" layer="94"/>
+<wire x1="-6.7731625" y1="-1.270253125" x2="-8.4668375" y2="-2.117090625" width="0.254" layer="94"/>
+<wire x1="-8.4668375" y1="-2.117090625" x2="-7.62" y2="-2.540509375" width="0.254" layer="94"/>
+<pin name="7" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="8" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<wire x1="8.4668375" y1="0.42341875" x2="6.7731625" y2="1.270253125" width="0.254" layer="94"/>
+<wire x1="6.7731625" y1="1.270253125" x2="8.4668375" y2="2.117090625" width="0.254" layer="94"/>
+<wire x1="8.4668375" y1="2.117090625" x2="7.62" y2="2.540509375" width="0.254" layer="94"/>
+<wire x1="8.4668375" y1="0.42341875" x2="6.7731625" y2="-0.42341875" width="0.254" layer="94"/>
+<wire x1="6.7731625" y1="-0.42341875" x2="8.4668375" y2="-1.270253125" width="0.254" layer="94"/>
+<wire x1="8.4668375" y1="-1.270253125" x2="6.7731625" y2="-2.117090625" width="0.254" layer="94"/>
+<wire x1="6.7731625" y1="-2.117090625" x2="7.62" y2="-2.540509375" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RESISTOR-H-ARRAY-4P">
+<pin name="3" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="5.08" y="2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-0.42341875" y1="3.3868375" x2="-1.270253125" y2="1.6931625" width="0.254" layer="94"/>
+<wire x1="-1.270253125" y1="1.6931625" x2="-2.117090625" y2="3.3868375" width="0.254" layer="94"/>
+<wire x1="-2.117090625" y1="3.3868375" x2="-2.540509375" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.42341875" y1="3.3868375" x2="0.42341875" y2="1.6931625" width="0.254" layer="94"/>
+<wire x1="0.42341875" y1="1.6931625" x2="1.270253125" y2="3.3868375" width="0.254" layer="94"/>
+<wire x1="1.270253125" y1="3.3868375" x2="2.117090625" y2="1.6931625" width="0.254" layer="94"/>
+<wire x1="2.117090625" y1="1.6931625" x2="2.540509375" y2="2.54" width="0.254" layer="94"/>
+<text x="-0.635" y="-10.16" size="1.27" layer="96" align="center-right">&gt;VALUE</text>
+<text x="0.635" y="-10.16" size="1.27" layer="97" align="center-left">&gt;VOLTAGE</text>
+<text x="-0.635" y="-12.065" size="1.27" layer="97" align="center-right">&gt;TEMPERATURE</text>
+<text x="0" y="-12.065" size="1.27" layer="97" align="center">/</text>
+<text x="0" y="-10.16" size="1.27" layer="97" align="center">/</text>
+<text x="0" y="10.16" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0.635" y="-12.065" size="1.27" layer="97" align="center-left">&gt;POWER</text>
+<pin name="1" x="-5.08" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-0.42341875" y1="8.4668375" x2="-1.270253125" y2="6.7731625" width="0.254" layer="94"/>
+<wire x1="-1.270253125" y1="6.7731625" x2="-2.117090625" y2="8.4668375" width="0.254" layer="94"/>
+<wire x1="-2.117090625" y1="8.4668375" x2="-2.540509375" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-0.42341875" y1="8.4668375" x2="0.42341875" y2="6.7731625" width="0.254" layer="94"/>
+<wire x1="0.42341875" y1="6.7731625" x2="1.270253125" y2="8.4668375" width="0.254" layer="94"/>
+<wire x1="1.270253125" y1="8.4668375" x2="2.117090625" y2="6.7731625" width="0.254" layer="94"/>
+<wire x1="2.117090625" y1="6.7731625" x2="2.540509375" y2="7.62" width="0.254" layer="94"/>
+<pin name="5" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-0.42341875" y1="-1.6931625" x2="-1.270253125" y2="-3.3868375" width="0.254" layer="94"/>
+<wire x1="-1.270253125" y1="-3.3868375" x2="-2.117090625" y2="-1.6931625" width="0.254" layer="94"/>
+<wire x1="-2.117090625" y1="-1.6931625" x2="-2.540509375" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-0.42341875" y1="-1.6931625" x2="0.42341875" y2="-3.3868375" width="0.254" layer="94"/>
+<wire x1="0.42341875" y1="-3.3868375" x2="1.270253125" y2="-1.6931625" width="0.254" layer="94"/>
+<wire x1="1.270253125" y1="-1.6931625" x2="2.117090625" y2="-3.3868375" width="0.254" layer="94"/>
+<wire x1="2.117090625" y1="-3.3868375" x2="2.540509375" y2="-2.54" width="0.254" layer="94"/>
+<pin name="7" x="-5.08" y="-7.62" visible="pad" length="short" direction="pas"/>
+<pin name="8" x="5.08" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<wire x1="-0.42341875" y1="-6.7731625" x2="-1.270253125" y2="-8.4668375" width="0.254" layer="94"/>
+<wire x1="-1.270253125" y1="-8.4668375" x2="-2.117090625" y2="-6.7731625" width="0.254" layer="94"/>
+<wire x1="-2.117090625" y1="-6.7731625" x2="-2.540509375" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-0.42341875" y1="-6.7731625" x2="0.42341875" y2="-8.4668375" width="0.254" layer="94"/>
+<wire x1="0.42341875" y1="-8.4668375" x2="1.270253125" y2="-6.7731625" width="0.254" layer="94"/>
+<wire x1="1.270253125" y1="-6.7731625" x2="2.117090625" y2="-8.4668375" width="0.254" layer="94"/>
+<wire x1="2.117090625" y1="-8.4668375" x2="2.540509375" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RES-V" prefix="R">
+<description>Resistors
+Samsung Electromechanics
+- Vertical</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR-V-STANDARD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1608" package="1608-SEM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.JDvL4os9RHm7Uv_8dR2iAA?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name="-0R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="0Ω + 50mΩ Max" constant="no"/>
+<attribute name="VOLTAGE" value="50mV" constant="no"/>
+</technology>
+<technology name="-1.2M">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="1.2MΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-1.4M">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="1.4MΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-100K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="100kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-100R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="100Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="3.16V" constant="no"/>
+</technology>
+<technology name="-10K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="10kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="31.6V" constant="no"/>
+</technology>
+<technology name="-10M">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="10MΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-10R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="10Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="1.58V" constant="no"/>
+</technology>
+<technology name="-13.3K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="13.3kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="36.5V" constant="no"/>
+</technology>
+<technology name="-150K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="150kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-180K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="180kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-1K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="1kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
+<technology name="-2.4K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="2.4kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="15.5V" constant="no"/>
+</technology>
+<technology name="-230K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="232kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-250R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="249Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="5V" constant="no"/>
+</technology>
+<technology name="-3.3K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="3.3kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="18.2V" constant="no"/>
+</technology>
+<technology name="-30.9K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="30.9kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-330R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="330Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="5.7V" constant="no"/>
+</technology>
+<technology name="-470R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="470Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="6.85V" constant="no"/>
+</technology>
+<technology name="-6.2M">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="6.2MΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-64.2K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="64.2kΩ ± 0.5%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-DNI">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="DNI" constant="no"/>
+<attribute name="VOLTAGE" value="N/A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-3216" package="3216-SEM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.8mmtsCacQq6j9zxAXMqCdQ?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name="-10R">
+<attribute name="POWER" value="1/4W"/>
+<attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
+<attribute name="VALUE" value="10Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="1.58V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-1/4W-TH" package="1/4W-TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.GkxA9osARuyzR25xo7IW0w?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POWER" value="1/4W" constant="no"/>
+<attribute name="TEMPERATURE" value="" constant="no"/>
+<attribute name="VALUE" value="4.7kΩ" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-H" prefix="R">
+<description>Resistors
+Samsung Electromechanics
+- Horizontal</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR-H-STANDARD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1608" package="1608-SEM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.JDvL4os9RHm7Uv_8dR2iAA?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name="-0R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="0Ω + 50mΩ Max" constant="no"/>
+<attribute name="VOLTAGE" value="50mV" constant="no"/>
+</technology>
+<technology name="-1.2M">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="1.2MΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-1.4M">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="1.4MΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-100K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="100kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-100R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="100Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="3.16V" constant="no"/>
+</technology>
+<technology name="-10K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="10kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="31.6V" constant="no"/>
+</technology>
+<technology name="-10M">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="10MΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-10R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="10Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="1.58V" constant="no"/>
+</technology>
+<technology name="-13.3K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="13.3kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="36.5V" constant="no"/>
+</technology>
+<technology name="-150K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="150kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-180K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="180kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-1K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="1kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="10V" constant="no"/>
+</technology>
+<technology name="-2.4K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="2.4kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="15.5V" constant="no"/>
+</technology>
+<technology name="-230K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="232kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-250R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="249Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="5V" constant="no"/>
+</technology>
+<technology name="-3.3K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="3.3kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="18.2V" constant="no"/>
+</technology>
+<technology name="-30.9K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="30.9kΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-330R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="330Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="5.7V" constant="no"/>
+</technology>
+<technology name="-470R">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="470Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="6.85V" constant="no"/>
+</technology>
+<technology name="-6.2M">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="6.2MΩ ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-64.2K">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="64.2kΩ ± 0.5%" constant="no"/>
+<attribute name="VOLTAGE" value="50V" constant="no"/>
+</technology>
+<technology name="-DNI">
+<attribute name="POWER" value="1/10W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="DNI" constant="no"/>
+<attribute name="VOLTAGE" value="N/A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-3216" package="3216-SEM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.8mmtsCacQq6j9zxAXMqCdQ?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name="-10R">
+<attribute name="POWER" value="1/4W" constant="no"/>
+<attribute name="TEMPERATURE" value="-55~155°C" constant="no"/>
+<attribute name="VALUE" value="10Ω ± 1%" constant="no"/>
+<attribute name="VOLTAGE" value="1.58V" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-1/4W-TH" package="1/4W-TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.GkxA9osARuyzR25xo7IW0w?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POWER" value="1/4W" constant="no"/>
+<attribute name="TEMPERATURE" value="" constant="no"/>
+<attribute name="VALUE" value="4.7kΩ" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRIMPOT-H" prefix="R">
+<description>Trimming Potentiometers
+Bourns
+- Horizontal</description>
+<gates>
+<gate name="G$1" symbol="TRIMPOT-H" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3314J">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.IOBbwXxzTgeXn_lGr0xi3A?version=4"/>
+</package3dinstances>
+<technologies>
+<technology name="-100K">
+<attribute name="VALUE" value="100kΩ" constant="no"/>
+</technology>
+<technology name="-10K">
+<attribute name="VALUE" value="10kΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRIMPOT-V" prefix="R">
+<description>Trimming Potentiometers
+Bourns
+- Vertical</description>
+<gates>
+<gate name="G$1" symbol="TRIMPOT-V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3314J">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.IOBbwXxzTgeXn_lGr0xi3A?version=4"/>
+</package3dinstances>
+<technologies>
+<technology name="-100K">
+<attribute name="VALUE" value="100kΩ" constant="no"/>
+</technology>
+<technology name="-10K">
+<attribute name="VALUE" value="10kΩ" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-V-ARRAY-4P" prefix="R">
+<description>Resistor Array 4-Piece
+Samsung Electromechanics
+- Vertical</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR-V-ARRAY-4P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2010" package="2010-4P-SEM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.lGkx4bWxTNmaPSulFjsWgA?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name="-10K">
+<attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="4x10kΩ ± 5%" constant="no"/>
+<attribute name="VOLTAGE" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RES-H-ARRAY-4P" prefix="R">
+<description>Resistor Array 4-Piece
+Samsung Electromechanics
+- Horizontal</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR-H-ARRAY-4P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2010" package="2010-4P-SEM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.wipprod:fs.file:vf.lGkx4bWxTNmaPSulFjsWgA?version=2"/>
+</package3dinstances>
+<technologies>
+<technology name="-10K">
+<attribute name="POWER" value="1/16W"/>
+<attribute name="TEMPERATURE" value="-55~155°C"/>
+<attribute name="VALUE" value="4x10kΩ ± 5%" constant="no"/>
+<attribute name="VOLTAGE" value="25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

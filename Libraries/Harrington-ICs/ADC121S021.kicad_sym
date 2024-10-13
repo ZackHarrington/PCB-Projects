@@ -1,0 +1,67 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "ADC121S021" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0.0 10.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "ADC121S021" (id 1) (at 0.0 -10.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "ADC121S021:SOT-23" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "ADC121S021_0_0"
+      (rectangle (start -10.16 -7.62) (end 10.16 7.62)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin power_in line (at -12.7 5.08 0) (length 2.54)
+        (name "VA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -5.08 0) (length 2.54)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -12.7 0.0 0) (length 2.54)
+        (name "VIN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 12.7 2.54 180.0) (length 2.54)
+        (name "~{CS}"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input clock (at 12.7 0.0 180.0) (length 2.54)
+        (name "SCLK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 12.7 -2.54 180.0) (length 2.54)
+        (name "SDATA"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

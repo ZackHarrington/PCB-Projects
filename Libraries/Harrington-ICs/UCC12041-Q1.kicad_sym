@@ -1,0 +1,156 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "UCC12041-Q1" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0.0 15.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "UCC12041-Q1" (id 1) (at 0.0 -15.24 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "UCC12041-Q1:SOIC-16" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "UCC12041-Q1_0_0"
+      (polyline
+        (pts (xy 0.635 12.7) (xy 0.635 -12.7)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 3.175 -12.7) (xy 3.175 12.7)) (stroke (width 0.1524))
+      )
+      (text "ISOLATION" (at 1.905 0.0 900)
+        (effects (font (size 1.27 1.27)))
+      )
+      (rectangle (start -12.7 -12.7) (end 12.7 12.7)
+        (stroke (width 0.1524)) (fill (type background))
+      )
+      (pin power_in line (at -15.24 10.16 0) (length 2.54)
+        (name "VINP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -15.24 -10.16 0) (length 2.54)
+        (name "GNDP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 10.16 180.0) (length 2.54)
+        (name "VISO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -10.16 180.0) (length 2.54)
+        (name "GNDS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -10.16 180.0) (length 2.54)
+        (name "GNDS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -10.16 180.0) (length 2.54)
+        (name "GNDS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 5.08 0) (length 2.54)
+        (name "EN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -15.24 0.0 0) (length 2.54)
+        (name "SYNC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at -15.24 -2.54 0) (length 2.54)
+        (name "SYNC_OK"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 15.24 2.54 180.0) (length 2.54)
+        (name "SEL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at 15.24 -7.62 180.0) (length 2.54)
+        (name "NCS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at 15.24 -7.62 180.0) (length 2.54)
+        (name "NCS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at 15.24 -7.62 180.0) (length 2.54)
+        (name "NCS"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -15.24 -7.62 0) (length 2.54)
+        (name "NCP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -15.24 -7.62 0) (length 2.54)
+        (name "NCP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -15.24 -7.62 0) (length 2.54)
+        (name "NCP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

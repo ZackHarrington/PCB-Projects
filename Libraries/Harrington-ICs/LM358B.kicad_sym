@@ -1,0 +1,161 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LM358B" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 0.0 12.7 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LM358B" (id 1) (at 0.0 -12.7 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LM358B:D0008A-SOIC" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "LM358B_0_0"
+      (polyline
+        (pts (xy -2.54 6.985) (xy -2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 5.08) (xy -2.54 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 2.54) (xy -2.54 0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 0.635) (xy 2.54 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 3.81) (xy -2.54 6.985)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 3.81) (xy 5.08 3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 3.81) (xy 5.08 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 2.54) (xy 7.62 2.54)) (stroke (width 0.254))
+      )
+      (text "1" (at 0.0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (polyline
+        (pts (xy -7.62 5.08) (xy -2.54 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 2.54) (xy -2.54 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.032 5.08) (xy -1.016 5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.032 2.54) (xy -1.016 2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 3.048) (xy -1.524 2.032)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -2.54) (xy -2.54 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -7.62 -5.08) (xy -2.54 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -0.635) (xy -2.54 -6.985)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.54 -6.985) (xy 2.54 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -3.81) (xy -2.54 -0.635)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -3.81) (xy 5.08 -3.81)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -3.81) (xy 5.08 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 5.08 -2.54) (xy 7.62 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.032 -2.54) (xy -1.016 -2.54)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -2.032 -5.08) (xy -1.016 -5.08)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy -1.524 -4.572) (xy -1.524 -5.588)) (stroke (width 0.254))
+      )
+      (text "2" (at 0.0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (rectangle (start -7.62 -10.16) (end 7.62 10.16)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin input line (at -10.16 5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -10.16 2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -10.16 -2.54 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -10.16 -5.08 0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 10.16 7.62 180.0) (length 2.54)
+        (name "V+"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 10.16 2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 10.16 -2.54 180.0) (length 2.54)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 10.16 -7.62 180.0) (length 2.54)
+        (name "V-"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
