@@ -1,0 +1,9363 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e19cf49e-0152-46ed-aad9-5ce7a9df0737")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Harrington-Diodes:WHITE-1608-H"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "DS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "White"
+				(at -0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Harrington-Diodes:1608"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "White"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VOLTAGE" "2.8V"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "SIZE" "1608"
+				(at 0.635 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "TEMPERATURE" "-40~85°C"
+				(at -0.635 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(symbol "WHITE-1608-H_0_0"
+				(polyline
+					(pts
+						(xy -0.254 2.286) (xy 0.508 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 1.524 2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0) (xy 1.524 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "/"
+					(at 0 -4.445 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "/"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "WHITE-1608-H_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 3.302) (xy -0.254 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 3.302) (xy 0.508 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.794) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 1.524) (xy -1.524 -1.524) (xy 1.524 0) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Harrington-Resistors:470Ω±1%-1608-V"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "470Ω±1%"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Harrington-Resistors:1608-SEM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 2.54 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TEMPERATURE" "-55~155°C"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "POWER" "1/10W"
+				(at 2.54 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VOLTAGE" "6.86V"
+				(at 2.54 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "SIZE" "1608"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "470Ω±1%-1608-V_0_0"
+				(polyline
+					(pts
+						(xy -0.8468 -2.1171) (xy 0 -2.5405)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.8468 -0.4234) (xy 0.8468 -1.2703)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.8468 1.2703) (xy 0.8468 2.1171)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8468 -1.2703) (xy -0.8468 -2.1171)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8468 0.4234) (xy -0.8468 -0.4234)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8468 0.4234) (xy -0.8468 1.2703)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8468 2.1171) (xy 0 2.5405)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 153.67 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00fcd60f-28d8-4ae5-a6bc-bc6e90441f6a")
+	)
+	(junction
+		(at 73.66 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08c6bb9d-b961-4f83-88ab-837df8f98555")
+	)
+	(junction
+		(at 153.67 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c8e1124-7a17-40de-a476-2f5ae5d78557")
+	)
+	(junction
+		(at 233.68 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f77c0be-64f7-4a64-a0fd-cdfe5ecc71ac")
+	)
+	(junction
+		(at 180.34 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11822db9-cfb0-40ec-85a8-771fa9fc24b0")
+	)
+	(junction
+		(at 233.68 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "129f1d07-6bd0-4251-87ef-d594613d3008")
+	)
+	(junction
+		(at 93.98 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14936b1e-d030-4c6a-abb3-67e676de4d6e")
+	)
+	(junction
+		(at 227.33 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20f3152d-c638-4ba5-be44-413afa81b981")
+	)
+	(junction
+		(at 73.66 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23022eba-b57d-42de-952d-97b32388eb26")
+	)
+	(junction
+		(at 73.66 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24a45e55-1130-4e4c-bd4b-12dd19c54cd5")
+	)
+	(junction
+		(at 100.33 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e42106b-c473-45fd-9532-82e5ac9ae026")
+	)
+	(junction
+		(at 153.67 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "343511c9-fe5c-4830-9c0c-a52abfc8f671")
+	)
+	(junction
+		(at 227.33 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3479f1b5-885d-48a3-b567-e479f8eb0f08")
+	)
+	(junction
+		(at 66.04 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36091d83-fbe1-4c75-a02c-138bd81ede22")
+	)
+	(junction
+		(at 200.66 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cbdd225-6f4c-463a-95ad-508045a79566")
+	)
+	(junction
+		(at 100.33 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fefefcd-b085-46db-a38a-1367c9c83911")
+	)
+	(junction
+		(at 127 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "454ccd04-6ae8-48e8-bfd4-cc08240d45eb")
+	)
+	(junction
+		(at 120.65 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "487c7472-66f5-42f2-b632-d02fdac152cb")
+	)
+	(junction
+		(at 227.33 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4afd89b4-1535-4ea2-8125-b8aafd4421b9")
+	)
+	(junction
+		(at 153.67 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "51f17449-5573-43e9-a086-8dcb0c987e2f")
+	)
+	(junction
+		(at 147.32 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54aa9715-04f5-414b-8285-e33826c21067")
+	)
+	(junction
+		(at 66.04 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5573d0d1-bd32-43db-b236-27e6c0c4c74e")
+	)
+	(junction
+		(at 180.34 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "566c4116-863d-4dae-846d-c7f5fe6f3545")
+	)
+	(junction
+		(at 233.68 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "586deb18-dfaa-4b5b-bf49-cb0402bf821e")
+	)
+	(junction
+		(at 120.65 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e12e605-073b-4415-9919-51eedcef30b5")
+	)
+	(junction
+		(at 173.99 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6733ce0b-a424-48fe-9a8b-793d6f290687")
+	)
+	(junction
+		(at 120.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b576199-5b61-4b00-b18d-f2671c5718af")
+	)
+	(junction
+		(at 127 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70943122-2e27-46ea-824c-e4638734a098")
+	)
+	(junction
+		(at 66.04 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "719dccd3-aacb-41f8-a4c6-ec71b9093cf8")
+	)
+	(junction
+		(at 147.32 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ab997dc-d030-44f0-8456-46c0fad23e6b")
+	)
+	(junction
+		(at 180.34 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80362b9c-1b62-4aad-93e7-767e92a4025d")
+	)
+	(junction
+		(at 120.65 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "902f3069-e7cd-4f54-b60c-90f2698b85e6")
+	)
+	(junction
+		(at 180.34 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92266207-68a0-42c5-b825-be8500f2996d")
+	)
+	(junction
+		(at 66.04 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93cf9324-1736-46cc-9fee-796f512efd4d")
+	)
+	(junction
+		(at 200.66 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9669d398-c5af-44b7-a69d-2b074848511d")
+	)
+	(junction
+		(at 73.66 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97966fb4-4eb5-4bbf-8af4-85cec6ba3e29")
+	)
+	(junction
+		(at 173.99 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9951c0aa-ced8-474c-a67a-c56fbe55fd24")
+	)
+	(junction
+		(at 100.33 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9be63813-30cd-4e5f-869e-921597017b40")
+	)
+	(junction
+		(at 147.32 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a38efddd-c0f7-4c18-978a-731b547948be")
+	)
+	(junction
+		(at 127 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5c3152e-2d9f-4ca9-84db-5da58ab70baf")
+	)
+	(junction
+		(at 153.67 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6cc8bc0-0e2e-4c65-a36c-7edb8e44c2a6")
+	)
+	(junction
+		(at 100.33 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8138283-f441-4168-ab11-5b93921f4a6c")
+	)
+	(junction
+		(at 173.99 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb8bced-b5e8-486f-9938-3812fbf96ad5")
+	)
+	(junction
+		(at 200.66 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b90e3b16-3dde-4716-b279-c4746477ba92")
+	)
+	(junction
+		(at 173.99 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfea4127-8b84-4f56-a452-bc0504f182ee")
+	)
+	(junction
+		(at 127 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6b9a668-a0a8-4f6c-85ce-96dd4e4b1bd6")
+	)
+	(junction
+		(at 233.68 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c733680c-90aa-4f37-9979-cd97225b873e")
+	)
+	(junction
+		(at 100.33 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c952ffbe-04a9-4fe0-8dd8-fe0a24e664c3")
+	)
+	(junction
+		(at 66.04 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dadcaa43-96aa-48a2-a63f-93a6c4a5f9bd")
+	)
+	(junction
+		(at 227.33 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd3c70c4-a79a-4234-9f81-24b0ad809c34")
+	)
+	(junction
+		(at 73.66 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de7b6958-99f2-45a2-920c-c8c031b9acde")
+	)
+	(junction
+		(at 147.32 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb684316-1d8f-48c5-86c1-dcfdaf738e12")
+	)
+	(junction
+		(at 200.66 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eeb66605-9701-44dc-bd10-6437bee28307")
+	)
+	(junction
+		(at 127 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef596145-e860-4842-a261-b1ced8484d27")
+	)
+	(junction
+		(at 147.32 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f19b2035-3616-4533-b697-c0878181b84a")
+	)
+	(junction
+		(at 227.33 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f25f1594-c00f-47c1-819c-4eba76dfb2d1")
+	)
+	(junction
+		(at 120.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f617b5a1-ed58-440e-b20c-1951eceac3fb")
+	)
+	(junction
+		(at 180.34 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f84a7df8-9bd1-483c-8b08-0d8a57efbfd3")
+	)
+	(junction
+		(at 200.66 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f96e44bf-1ded-48dd-b2c2-30a11cf98f5a")
+	)
+	(junction
+		(at 173.99 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f9f327f2-8964-422d-a17d-1311fee1b0a2")
+	)
+	(wire
+		(pts
+			(xy 200.66 123.19) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00b76f6f-cd5d-4786-ab03-116e47d8e3af")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f8d9f8-d52e-41ee-a750-fe6200576560")
+	)
+	(wire
+		(pts
+			(xy 227.33 130.81) (xy 233.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a85d23-cb7e-4667-add2-06cbb8c18619")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72) (xy 100.33 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031d2bea-f041-4aa0-932a-7cd2dd685316")
+	)
+	(wire
+		(pts
+			(xy 73.66 184.15) (xy 81.28 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034bd1cf-63eb-492f-9d4e-5297ce730256")
+	)
+	(wire
+		(pts
+			(xy 200.66 130.81) (xy 227.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035d9d0d-a2a7-4f37-a93f-d77d850affe2")
+	)
+	(wire
+		(pts
+			(xy 147.32 160.02) (xy 173.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060f9b48-469c-4f60-9052-93ab666fc917")
+	)
+	(wire
+		(pts
+			(xy 180.34 123.19) (xy 187.96 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067ac9c6-e20a-4b29-ab80-a3ed0d9d3d5a")
+	)
+	(wire
+		(pts
+			(xy 207.01 133.35) (xy 180.34 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09068529-8ba8-48c2-8df5-ad68663bc186")
+	)
+	(wire
+		(pts
+			(xy 120.65 123.19) (xy 120.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b6ac262-4ace-42c6-9a68-46199b7fbe65")
+	)
+	(wire
+		(pts
+			(xy 233.68 101.6) (xy 233.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c72950c-9c52-4243-b593-bee39a4e9fdb")
+	)
+	(wire
+		(pts
+			(xy 100.33 16.51) (xy 100.33 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfa2de9-bd89-46b6-8983-e4b452bc2507")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 153.67 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee75852-0643-484a-9b79-b623d0837c9f")
+	)
+	(wire
+		(pts
+			(xy 173.99 160.02) (xy 200.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "110104b7-6eea-4513-829d-42cd42926fc3")
+	)
+	(wire
+		(pts
+			(xy 93.98 160.02) (xy 93.98 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1153cc57-7f96-475a-b493-b325c7e11006")
+	)
+	(wire
+		(pts
+			(xy 147.32 130.81) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16163366-e561-40e7-b788-8d1e40b93d9b")
+	)
+	(wire
+		(pts
+			(xy 91.44 184.15) (xy 93.98 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "170e150a-7f17-4f4d-83bc-978b66b55638")
+	)
+	(wire
+		(pts
+			(xy 100.33 29.21) (xy 100.33 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad3ee2b-81df-4104-9d7c-c71a4e74b384")
+	)
+	(wire
+		(pts
+			(xy 207.01 19.05) (xy 207.01 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b1eb119-090a-451c-ba1c-20ec9063faca")
+	)
+	(wire
+		(pts
+			(xy 180.34 133.35) (xy 180.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c08dc73-423b-42e3-bffa-2f17d3a4f511")
+	)
+	(wire
+		(pts
+			(xy 66.04 133.35) (xy 66.04 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d3219c2-6abb-4fc7-b344-7731d9cca057")
+	)
+	(wire
+		(pts
+			(xy 73.66 116.84) (xy 73.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2014251c-aad8-4c03-b4ef-0fe6f5eb1bad")
+	)
+	(wire
+		(pts
+			(xy 127 133.35) (xy 100.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "218f16d7-a1ed-4afe-a199-eaf06d79fb5e")
+	)
+	(wire
+		(pts
+			(xy 127 133.35) (xy 127 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2283da0c-fc8d-4e38-a169-6ea9bea2dc76")
+	)
+	(wire
+		(pts
+			(xy 144.78 152.4) (xy 147.32 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "232e8175-cdd4-49b6-81f2-de5f75546a03")
+	)
+	(wire
+		(pts
+			(xy 93.98 123.19) (xy 93.98 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "239a9516-e1e2-4b27-b507-5a0dfbc46b4d")
+	)
+	(wire
+		(pts
+			(xy 118.11 123.19) (xy 120.65 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b90470-0e8f-436f-bc16-06dea5593962")
+	)
+	(wire
+		(pts
+			(xy 93.98 101.6) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2452d915-27f3-48d0-aa92-cb44de8df3ff")
+	)
+	(wire
+		(pts
+			(xy 91.44 152.4) (xy 93.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2518ae0a-4b99-4d9e-bcb5-bec9e2c49bdd")
+	)
+	(wire
+		(pts
+			(xy 120.65 43.18) (xy 147.32 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26349720-ae7c-42f1-80d9-d9d21f3734e8")
+	)
+	(wire
+		(pts
+			(xy 93.98 35.56) (xy 93.98 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27930a99-6907-42a6-8406-435a6ccdffb0")
+	)
+	(wire
+		(pts
+			(xy 180.34 35.56) (xy 187.96 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29150da0-22ab-4864-a8a7-ea680e2c7cc4")
+	)
+	(wire
+		(pts
+			(xy 120.65 160.02) (xy 147.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a3269db-b14a-4593-bfa7-564ad49a1c4a")
+	)
+	(wire
+		(pts
+			(xy 127 35.56) (xy 134.62 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d1a6163-3b69-4118-88e7-676fed487edd")
+	)
+	(wire
+		(pts
+			(xy 100.33 58.42) (xy 100.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d627b9e-ebe0-4224-8d4a-69c41e724c9d")
+	)
+	(wire
+		(pts
+			(xy 91.44 35.56) (xy 93.98 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a2c43b-8040-45cc-92f4-4fa73f11f107")
+	)
+	(wire
+		(pts
+			(xy 207.01 74.93) (xy 180.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b75de3-e077-4bd8-aebc-411c964ac0fa")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 147.32 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323c691c-9276-48be-8e56-6b8073e58c9d")
+	)
+	(wire
+		(pts
+			(xy 227.33 101.6) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326ef373-9fbe-4ce9-9b4e-7e5483b9342b")
+	)
+	(wire
+		(pts
+			(xy 100.33 64.77) (xy 107.95 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333c88d5-526a-4ed8-a2f8-f20692e74f70")
+	)
+	(wire
+		(pts
+			(xy 198.12 64.77) (xy 200.66 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3642903c-318f-4a49-9972-0867cd6fd57e")
+	)
+	(wire
+		(pts
+			(xy 207.01 116.84) (xy 207.01 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "396a4631-5ea5-4669-80e8-7fae680b483b")
+	)
+	(wire
+		(pts
+			(xy 227.33 160.02) (xy 227.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ba47b0d-37fc-42ae-88de-aee4e14440f7")
+	)
+	(wire
+		(pts
+			(xy 173.99 93.98) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfe1733-ef84-42f0-9f2a-c70424d1d5e1")
+	)
+	(wire
+		(pts
+			(xy 200.66 152.4) (xy 200.66 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c0fa9fb-1b45-4b24-b71b-cb05a648ff33")
+	)
+	(wire
+		(pts
+			(xy 120.65 35.56) (xy 120.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c544ba6-9de4-4fd5-8875-35ed0e18d23c")
+	)
+	(wire
+		(pts
+			(xy 147.32 101.6) (xy 173.99 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d58c222-4d8e-4a3b-b762-6c79c26cb5d8")
+	)
+	(wire
+		(pts
+			(xy 127 123.19) (xy 134.62 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db99270-7094-43ef-9914-21e84b2356f8")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 173.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dcc2aa9-8e8f-4ca7-a659-7267939d14d0")
+	)
+	(wire
+		(pts
+			(xy 200.66 35.56) (xy 200.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dfb4abe-280f-4dde-a2c0-036bd2f221e2")
+	)
+	(wire
+		(pts
+			(xy 127 16.51) (xy 100.33 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1553df-ebac-4122-9bb5-8f81c644d61c")
+	)
+	(wire
+		(pts
+			(xy 127 146.05) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed9002a-014d-42d0-b3df-c550ca95f8ef")
+	)
+	(wire
+		(pts
+			(xy 198.12 123.19) (xy 200.66 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff19a83-f3ee-43ae-a72a-3ad427cebfec")
+	)
+	(wire
+		(pts
+			(xy 207.01 77.47) (xy 207.01 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4054873a-ca68-41d0-91d8-b27863fc231e")
+	)
+	(wire
+		(pts
+			(xy 153.67 64.77) (xy 161.29 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "410ed62b-47ab-4bfd-bf79-ad6570ce3e6c")
+	)
+	(wire
+		(pts
+			(xy 200.66 93.98) (xy 200.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a32500-c9bd-4734-ad83-eb00a4e8f04c")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "444d246b-b310-4f7e-a798-defff42c7dc3")
+	)
+	(wire
+		(pts
+			(xy 173.99 130.81) (xy 200.66 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45963605-c5bf-4221-97b9-b41921453072")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c3fa6a-fe2a-4415-889b-64424ae789ab")
+	)
+	(wire
+		(pts
+			(xy 207.01 29.21) (xy 207.01 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48de2710-724c-4ec1-8884-c280d4d6bf79")
+	)
+	(wire
+		(pts
+			(xy 207.01 93.98) (xy 214.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48e096bc-e327-47a2-8734-8454d0577385")
+	)
+	(wire
+		(pts
+			(xy 73.66 133.35) (xy 66.04 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49088538-db75-4180-a35a-08267d67daeb")
+	)
+	(wire
+		(pts
+			(xy 118.11 93.98) (xy 120.65 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d0e38b-d0d9-4e24-ad6b-3a2f4b96607a")
+	)
+	(wire
+		(pts
+			(xy 180.34 16.51) (xy 180.34 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6d2873-9075-4588-97b3-1863e2a85cbc")
+	)
+	(wire
+		(pts
+			(xy 118.11 35.56) (xy 120.65 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8b080b-5105-4b7b-893c-5c2a7c2fe14d")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 73.66 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e437036-ece0-4a01-9d15-ca0be41ec5eb")
+	)
+	(wire
+		(pts
+			(xy 207.01 35.56) (xy 214.63 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f7ac9c1-7c20-4789-ad18-8906e545bcd4")
+	)
+	(wire
+		(pts
+			(xy 180.34 146.05) (xy 180.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d5dd9f-1469-44c0-898a-319b44dd40f8")
+	)
+	(wire
+		(pts
+			(xy 100.33 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5440df05-103b-4468-910e-3a0b577dc5d6")
+	)
+	(wire
+		(pts
+			(xy 180.34 152.4) (xy 187.96 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558c40f9-1c0a-428d-80d1-5d64b5d57884")
+	)
+	(wire
+		(pts
+			(xy 180.34 104.14) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55ce5ac9-54ac-4be3-a904-ae8569f52844")
+	)
+	(wire
+		(pts
+			(xy 73.66 165.1) (xy 66.04 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e10457-2f15-47e1-b029-5e64e57a7cf8")
+	)
+	(wire
+		(pts
+			(xy 100.33 116.84) (xy 100.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a1933e-4f01-4e4a-973f-9996b5bdd9d8")
+	)
+	(wire
+		(pts
+			(xy 147.32 152.4) (xy 147.32 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b64757-0a50-46e5-abc6-47b56ccbbd6e")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 153.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5928b680-d9d0-47d4-82d5-5b810e232ccd")
+	)
+	(wire
+		(pts
+			(xy 227.33 101.6) (xy 227.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a3a377d-3607-4236-bb56-dd45d0762c9d")
+	)
+	(wire
+		(pts
+			(xy 207.01 123.19) (xy 214.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6dbaaa-9e2a-4d3d-bd2e-d2919eaceedc")
+	)
+	(wire
+		(pts
+			(xy 73.66 29.21) (xy 73.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fe2837b-52b0-4873-a05c-7282a4eea5a9")
+	)
+	(wire
+		(pts
+			(xy 127 45.72) (xy 100.33 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6092af63-c800-4ba1-880f-3e8e5b7a4564")
+	)
+	(wire
+		(pts
+			(xy 173.99 152.4) (xy 173.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "632d1532-7510-4359-9ce9-99aa90d776fe")
+	)
+	(wire
+		(pts
+			(xy 100.33 45.72) (xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ff0254-046a-4412-b0a5-60cca5efb2e8")
+	)
+	(wire
+		(pts
+			(xy 118.11 64.77) (xy 120.65 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65258a63-1c8a-4d0b-b1ce-dbaa20268d86")
+	)
+	(wire
+		(pts
+			(xy 100.33 133.35) (xy 73.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "655c6085-2f7c-4401-bd72-2f33f51d34c5")
+	)
+	(wire
+		(pts
+			(xy 73.66 133.35) (xy 73.66 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66eaa7b8-2db6-46e1-b03f-d9808c55b1f3")
+	)
+	(wire
+		(pts
+			(xy 180.34 133.35) (xy 153.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aa5303f-9e94-458c-a83d-9b7420b52b1d")
+	)
+	(wire
+		(pts
+			(xy 171.45 35.56) (xy 173.99 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6acfe9a0-aae6-4111-80e3-65d968297896")
+	)
+	(wire
+		(pts
+			(xy 173.99 64.77) (xy 173.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8acf0e-cd02-476e-8376-864b7165b970")
+	)
+	(wire
+		(pts
+			(xy 93.98 130.81) (xy 120.65 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3d1663-f14b-4794-99e8-f5ff1c94fff9")
+	)
+	(wire
+		(pts
+			(xy 73.66 45.72) (xy 73.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd6c690-46c5-4379-8fa4-b9efb4786f7c")
+	)
+	(wire
+		(pts
+			(xy 227.33 72.39) (xy 227.33 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e0e0197-3bae-49ad-9d70-c77570d35287")
+	)
+	(wire
+		(pts
+			(xy 153.67 146.05) (xy 153.67 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7064f858-d8d1-4dc2-8712-9904947b7adc")
+	)
+	(wire
+		(pts
+			(xy 73.66 58.42) (xy 73.66 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7127c151-7a50-409f-939b-6af52d72fc72")
+	)
+	(wire
+		(pts
+			(xy 227.33 130.81) (xy 227.33 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72964b1a-07e0-4797-a530-276a316b6a62")
+	)
+	(wire
+		(pts
+			(xy 227.33 72.39) (xy 233.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74be56e0-9cfd-4bcc-b3b7-a1187ea551c8")
+	)
+	(wire
+		(pts
+			(xy 180.34 16.51) (xy 153.67 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ca78dc-da5d-4cfd-90cc-d415cc0ffe4f")
+	)
+	(wire
+		(pts
+			(xy 73.66 123.19) (xy 81.28 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bb9a881-5301-4c98-ade2-14af4825fc98")
+	)
+	(wire
+		(pts
+			(xy 207.01 16.51) (xy 180.34 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8bdb29-0879-4db7-a988-13a3cff33b85")
+	)
+	(wire
+		(pts
+			(xy 153.67 93.98) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1cb0d8-79a2-48e0-9643-099f022481d8")
+	)
+	(wire
+		(pts
+			(xy 153.67 16.51) (xy 153.67 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d88d7d6-79d6-4664-b471-7d5c7b82b7ed")
+	)
+	(wire
+		(pts
+			(xy 73.66 87.63) (xy 73.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f9681c0-702e-4d67-b76c-700c6e963142")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 73.66 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8297c0f4-8bce-4d20-be11-d1b1a44b7456")
+	)
+	(wire
+		(pts
+			(xy 198.12 35.56) (xy 200.66 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "835ae565-4107-46a6-8c2e-8108857e2d23")
+	)
+	(wire
+		(pts
+			(xy 180.34 104.14) (xy 153.67 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83818e98-8f71-4b77-8d8c-a11a5a3b75a8")
+	)
+	(wire
+		(pts
+			(xy 127 74.93) (xy 127 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a294a9-7216-4741-af75-5214568400f2")
+	)
+	(wire
+		(pts
+			(xy 200.66 101.6) (xy 227.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dd38b0-7f94-43cb-b822-c39247c515eb")
+	)
+	(wire
+		(pts
+			(xy 207.01 58.42) (xy 207.01 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8699a3ea-340a-44a3-9085-186759ccf132")
+	)
+	(wire
+		(pts
+			(xy 73.66 93.98) (xy 81.28 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c5f7e2-a2e7-4a68-b7a5-69a698b69f03")
+	)
+	(wire
+		(pts
+			(xy 66.04 45.72) (xy 66.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88378197-6d41-4d5a-a9f4-4a8a0f4e78bf")
+	)
+	(wire
+		(pts
+			(xy 233.68 160.02) (xy 236.22 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bb0f1e-b5c3-4e81-9708-aa6cba38bec9")
+	)
+	(wire
+		(pts
+			(xy 171.45 123.19) (xy 173.99 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd3ba0a-7f26-40c3-9961-cf5ad3ce309f")
+	)
+	(wire
+		(pts
+			(xy 144.78 93.98) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c08c1bb-d8f3-4b84-b25b-c1de2f0372e6")
+	)
+	(wire
+		(pts
+			(xy 73.66 152.4) (xy 81.28 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c73b046-9f47-4a15-b559-aaa5a66e3042")
+	)
+	(wire
+		(pts
+			(xy 198.12 93.98) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb68829-b17f-40cc-a1cf-6e50110477a2")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.19) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d482efb-1835-4996-94dd-422fedbe168e")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 134.62 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dec4b15-c45c-4226-bb61-3358de396092")
+	)
+	(wire
+		(pts
+			(xy 127 29.21) (xy 127 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ecff33f-081f-4bf3-a12b-1729fab24971")
+	)
+	(wire
+		(pts
+			(xy 180.34 64.77) (xy 187.96 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa9b7eb-302b-48d5-a33f-e1ee048702fa")
+	)
+	(wire
+		(pts
+			(xy 207.01 87.63) (xy 207.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913cc281-c3ae-4d5a-9534-18ec866b9a05")
+	)
+	(wire
+		(pts
+			(xy 180.34 93.98) (xy 187.96 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915f65ab-e6d0-4bec-8562-a159844c35f2")
+	)
+	(wire
+		(pts
+			(xy 227.33 43.18) (xy 227.33 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91efb2e1-8d07-48ae-9e8d-0a61fcef9db9")
+	)
+	(wire
+		(pts
+			(xy 127 64.77) (xy 134.62 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92477c00-e297-4582-99fa-61250b37af39")
+	)
+	(wire
+		(pts
+			(xy 180.34 74.93) (xy 180.34 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93158055-a99a-4c58-9281-3cde4eb3e4cd")
+	)
+	(wire
+		(pts
+			(xy 227.33 152.4) (xy 224.79 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934bd2a2-c693-4ab2-8172-5ab05f5d874a")
+	)
+	(wire
+		(pts
+			(xy 173.99 43.18) (xy 200.66 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e19b90-b9e5-460d-bf18-725ae6b1ed8e")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ee7597-6854-452b-a639-3b149663fe5c")
+	)
+	(wire
+		(pts
+			(xy 73.66 16.51) (xy 100.33 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f87150-d5a7-4fc2-af26-e31a8261e82f")
+	)
+	(wire
+		(pts
+			(xy 127 16.51) (xy 127 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fc2008-f2fd-4a13-920d-d06691978e54")
+	)
+	(wire
+		(pts
+			(xy 207.01 146.05) (xy 207.01 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9858ff63-5369-43d2-9e71-d944b8230187")
+	)
+	(wire
+		(pts
+			(xy 73.66 146.05) (xy 73.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9896ecb4-3bc7-487f-a402-9050a23ceaf3")
+	)
+	(wire
+		(pts
+			(xy 207.01 135.89) (xy 207.01 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9974a1d0-e315-46c9-96bb-f7db2585b3d4")
+	)
+	(wire
+		(pts
+			(xy 93.98 64.77) (xy 93.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a88622f-d0d4-4287-8001-5acb327efc14")
+	)
+	(wire
+		(pts
+			(xy 227.33 35.56) (xy 224.79 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c3f4172-c181-4c31-a34e-4e70a367678b")
+	)
+	(wire
+		(pts
+			(xy 153.67 152.4) (xy 161.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d773027-be42-447a-948d-0517e894a01b")
+	)
+	(wire
+		(pts
+			(xy 127 152.4) (xy 134.62 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc407bc-5a97-49b5-90c9-56ee295ba087")
+	)
+	(wire
+		(pts
+			(xy 207.01 64.77) (xy 214.63 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a068ee49-a321-42f6-a350-d9455ade9908")
+	)
+	(wire
+		(pts
+			(xy 180.34 87.63) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a338d8d4-5b2c-4f99-a158-60ed0f003cf1")
+	)
+	(wire
+		(pts
+			(xy 153.67 16.51) (xy 127 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36310e1-1366-4ad6-8e6d-8369dd6f257a")
+	)
+	(wire
+		(pts
+			(xy 100.33 104.14) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3aa1ab2-3dea-4d4f-b50e-449acee78f9a")
+	)
+	(wire
+		(pts
+			(xy 207.01 104.14) (xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a483a4e1-c9a5-4b0e-8251-01732a9bca53")
+	)
+	(wire
+		(pts
+			(xy 73.66 64.77) (xy 81.28 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6bcf861-bbf1-4bd1-b35f-4d3df6175658")
+	)
+	(wire
+		(pts
+			(xy 120.65 130.81) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6e149a6-92c0-4f87-914d-a0ed8cf35ccd")
+	)
+	(wire
+		(pts
+			(xy 73.66 74.93) (xy 73.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a737b927-594b-4b45-882b-f3e53ef153f2")
+	)
+	(wire
+		(pts
+			(xy 62.23 16.51) (xy 66.04 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a76e1faa-2fef-420e-9b2c-151160a9a10a")
+	)
+	(wire
+		(pts
+			(xy 153.67 58.42) (xy 153.67 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a792eb16-82ab-4b96-91aa-cecd29b340d3")
+	)
+	(wire
+		(pts
+			(xy 93.98 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90699c1-7eba-491b-886a-8fef3af2f0d2")
+	)
+	(wire
+		(pts
+			(xy 100.33 74.93) (xy 100.33 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a92b1cca-250b-4543-9e03-6f8a225f9111")
+	)
+	(wire
+		(pts
+			(xy 227.33 160.02) (xy 233.68 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe57878-ffa9-499f-b9dc-37776f2ec567")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca1be7b-6cd3-402c-8953-448f677b0162")
+	)
+	(wire
+		(pts
+			(xy 153.67 87.63) (xy 153.67 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad321d9f-ae00-4d5d-836a-b79ec85764da")
+	)
+	(wire
+		(pts
+			(xy 66.04 16.51) (xy 66.04 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff1a07a-1892-41cb-a707-806825a3f55e")
+	)
+	(wire
+		(pts
+			(xy 180.34 45.72) (xy 153.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e1101c-fd07-4f33-b12f-d48c68635c94")
+	)
+	(wire
+		(pts
+			(xy 153.67 74.93) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b144c694-228f-4ef1-b524-87a0e53a6472")
+	)
+	(wire
+		(pts
+			(xy 93.98 43.18) (xy 120.65 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b346c885-7e29-492d-a021-b6866e46690c")
+	)
+	(wire
+		(pts
+			(xy 100.33 74.93) (xy 73.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b384d882-1137-4f2d-8352-5c0a06bceb6e")
+	)
+	(wire
+		(pts
+			(xy 207.01 152.4) (xy 214.63 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3d1c916-d084-48e5-8e7f-1dea6542ee3d")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 180.34 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48117e3-2e30-4705-a2de-084bc77a1cf7")
+	)
+	(wire
+		(pts
+			(xy 100.33 123.19) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b494495d-aab8-4afc-85d1-d3b31d9b94f3")
+	)
+	(wire
+		(pts
+			(xy 118.11 152.4) (xy 120.65 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b505628f-a935-4a6c-b945-5243227c7161")
+	)
+	(wire
+		(pts
+			(xy 73.66 35.56) (xy 81.28 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7323a75-1b8e-4b56-9ac4-ed5e5a507d80")
+	)
+	(wire
+		(pts
+			(xy 66.04 16.51) (xy 73.66 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8102dcf-70e0-4c2f-bb13-834f7d6aca87")
+	)
+	(wire
+		(pts
+			(xy 73.66 104.14) (xy 73.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba086d7b-fc2f-4bc8-a9df-db11a533ca5e")
+	)
+	(wire
+		(pts
+			(xy 198.12 152.4) (xy 200.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba089cc9-92fc-474f-99f8-e0d4bf7f832c")
+	)
+	(wire
+		(pts
+			(xy 100.33 35.56) (xy 107.95 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba101f0b-84db-4f19-a2e3-648d37375aad")
+	)
+	(wire
+		(pts
+			(xy 144.78 35.56) (xy 147.32 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba11d567-65e8-4fe4-8e45-e5d0e1a76893")
+	)
+	(wire
+		(pts
+			(xy 73.66 177.8) (xy 73.66 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba57bb4e-897d-4017-a3d5-45673160b144")
+	)
+	(wire
+		(pts
+			(xy 100.33 146.05) (xy 100.33 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8f782e-9cfe-49e6-a246-c43b996b22d6")
+	)
+	(wire
+		(pts
+			(xy 153.67 45.72) (xy 127 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcd3c3bf-7674-46a6-9254-fe8d36587134")
+	)
+	(wire
+		(pts
+			(xy 207.01 45.72) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf86b37-1678-4b5f-8e27-1d2687a87786")
+	)
+	(wire
+		(pts
+			(xy 147.32 43.18) (xy 173.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfce28ff-e8ab-40a1-b8dd-0d545b539bc6")
+	)
+	(wire
+		(pts
+			(xy 153.67 104.14) (xy 153.67 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3641d16-ba4b-4c77-b92d-b2e90ec54ae1")
+	)
+	(wire
+		(pts
+			(xy 147.32 35.56) (xy 147.32 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4750dd0-28f6-469a-a27b-24502d72fe6a")
+	)
+	(wire
+		(pts
+			(xy 127 74.93) (xy 100.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c50b1fb2-f07d-4b02-b87e-42c9c0fbe168")
+	)
+	(wire
+		(pts
+			(xy 120.65 64.77) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6015594-85ec-4cd6-b100-a6f7a9cb22bf")
+	)
+	(wire
+		(pts
+			(xy 153.67 133.35) (xy 153.67 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61166fb-5963-432e-82a2-fb3cc9bb39ce")
+	)
+	(wire
+		(pts
+			(xy 147.32 64.77) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7a90c07-9cbe-4a1d-b070-fba2df3a836a")
+	)
+	(wire
+		(pts
+			(xy 153.67 45.72) (xy 153.67 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c82661ed-6e69-45ad-958d-841003737e01")
+	)
+	(wire
+		(pts
+			(xy 227.33 43.18) (xy 233.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8e4debf-b26f-46bc-9a39-5e4f49a81e6d")
+	)
+	(wire
+		(pts
+			(xy 144.78 64.77) (xy 147.32 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9c35db3-174b-4e45-9609-2b5fb5f8b58e")
+	)
+	(wire
+		(pts
+			(xy 127 116.84) (xy 127 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca53b25b-73fe-47dd-a049-cd1a1ad18666")
+	)
+	(wire
+		(pts
+			(xy 233.68 43.18) (xy 233.68 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3ed611-4059-442c-8dda-6616e33712b9")
+	)
+	(wire
+		(pts
+			(xy 91.44 64.77) (xy 93.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8cf41d-b4f3-4bc1-9cd7-1cdcd4e98b1c")
+	)
+	(wire
+		(pts
+			(xy 100.33 87.63) (xy 100.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc4e4807-3c57-4356-b20b-39cb13793c8c")
+	)
+	(wire
+		(pts
+			(xy 127 45.72) (xy 127 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccc0817f-3511-47c2-8d48-4376f631cfa8")
+	)
+	(wire
+		(pts
+			(xy 171.45 64.77) (xy 173.99 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce642598-60fa-4de0-a2a1-5292bef0c83c")
+	)
+	(wire
+		(pts
+			(xy 200.66 64.77) (xy 200.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0eb355e-af1d-4454-9585-59b3178149c4")
+	)
+	(wire
+		(pts
+			(xy 200.66 43.18) (xy 227.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2529893-5be4-4cd0-86cc-3e628d98a81d")
+	)
+	(wire
+		(pts
+			(xy 173.99 35.56) (xy 173.99 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2aab33d-9cf2-401a-b1e3-46f525431b6c")
+	)
+	(wire
+		(pts
+			(xy 100.33 133.35) (xy 100.33 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d355b3b4-be9b-4b60-9e4f-61f634416b57")
+	)
+	(wire
+		(pts
+			(xy 127 104.14) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3dc4415-202a-4a6c-9801-1f454d7fe48b")
+	)
+	(wire
+		(pts
+			(xy 171.45 93.98) (xy 173.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d41ae91f-ee89-4318-b354-fa1e2deda75f")
+	)
+	(wire
+		(pts
+			(xy 91.44 93.98) (xy 93.98 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d738d8fd-d086-4a53-a265-469adce0fc7f")
+	)
+	(wire
+		(pts
+			(xy 153.67 35.56) (xy 161.29 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8c889dc-4af0-4122-881b-3da02f55b4bb")
+	)
+	(wire
+		(pts
+			(xy 207.01 48.26) (xy 207.01 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9f0f480-d88b-4278-a741-68ac14688d51")
+	)
+	(wire
+		(pts
+			(xy 227.33 93.98) (xy 224.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da269093-dd3d-4c6c-8f95-c2ec9589a684")
+	)
+	(wire
+		(pts
+			(xy 200.66 160.02) (xy 227.33 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db25f0dd-77eb-4f43-bcaa-47fc0b06d8a3")
+	)
+	(wire
+		(pts
+			(xy 233.68 72.39) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc015320-2d9d-4626-a4c4-44d96947664f")
+	)
+	(wire
+		(pts
+			(xy 173.99 72.39) (xy 200.66 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de62061e-ca80-4977-9137-f1643b609585")
+	)
+	(wire
+		(pts
+			(xy 73.66 16.51) (xy 73.66 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de9b76eb-50f4-4aa4-ac20-1f6a2c349d28")
+	)
+	(wire
+		(pts
+			(xy 93.98 93.98) (xy 93.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df27fd08-b588-4824-9a1d-437e102035e5")
+	)
+	(wire
+		(pts
+			(xy 171.45 152.4) (xy 173.99 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfce8616-66a5-4124-a341-ec0071737a48")
+	)
+	(wire
+		(pts
+			(xy 153.67 104.14) (xy 127 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0296636-f03a-492e-9982-992b87a9b1a7")
+	)
+	(wire
+		(pts
+			(xy 127 58.42) (xy 127 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e8ade3-b5eb-4979-9188-d9dc351b1df6")
+	)
+	(wire
+		(pts
+			(xy 93.98 152.4) (xy 93.98 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d28e36-a5c2-4cc9-a6d7-d527815b2cdf")
+	)
+	(wire
+		(pts
+			(xy 233.68 130.81) (xy 233.68 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40a7be2-fde6-4cbb-8be1-65e20c205a5f")
+	)
+	(wire
+		(pts
+			(xy 207.01 106.68) (xy 207.01 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6405e9e-aadd-4307-8ae5-a349ee6c376b")
+	)
+	(wire
+		(pts
+			(xy 153.67 29.21) (xy 153.67 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8552786-ffb4-48ce-9d71-82792699edb2")
+	)
+	(wire
+		(pts
+			(xy 93.98 160.02) (xy 120.65 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91e03da-02d3-48d8-95e8-16f810ab31c3")
+	)
+	(wire
+		(pts
+			(xy 180.34 45.72) (xy 180.34 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97d6929-f950-43cb-ba4a-1bb49759554f")
+	)
+	(wire
+		(pts
+			(xy 173.99 123.19) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9ac984-1fd0-4fc1-82f9-954b32329e11")
+	)
+	(wire
+		(pts
+			(xy 66.04 104.14) (xy 66.04 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed3fd407-1c5b-49fe-bd4d-5b22d61eb3a0")
+	)
+	(wire
+		(pts
+			(xy 120.65 152.4) (xy 120.65 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efd5e078-aff7-4d16-836e-601912f06d44")
+	)
+	(wire
+		(pts
+			(xy 227.33 64.77) (xy 224.79 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f070f1b2-d6be-417e-89d8-7079431d416b")
+	)
+	(wire
+		(pts
+			(xy 227.33 123.19) (xy 224.79 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08eaf19-ca08-430e-a128-db4f7b51915e")
+	)
+	(wire
+		(pts
+			(xy 66.04 74.93) (xy 73.66 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22413aa-da47-4373-b674-154b8c1a256f")
+	)
+	(wire
+		(pts
+			(xy 73.66 165.1) (xy 73.66 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62dc686-be95-413a-9c33-894110df44a6")
+	)
+	(wire
+		(pts
+			(xy 91.44 123.19) (xy 93.98 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7eae236-3af1-45f8-a9af-9c4047b40f6c")
+	)
+	(wire
+		(pts
+			(xy 153.67 123.19) (xy 161.29 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f860c1c1-d275-4f8a-910c-1bd4476cd165")
+	)
+	(wire
+		(pts
+			(xy 173.99 101.6) (xy 200.66 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f885c57f-882e-4a67-9272-012ff8c07ed4")
+	)
+	(wire
+		(pts
+			(xy 153.67 133.35) (xy 127 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f891cd01-60df-4fc4-9330-ded5965293e8")
+	)
+	(wire
+		(pts
+			(xy 100.33 152.4) (xy 107.95 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f941e314-5615-4021-a601-9e8827e9d870")
+	)
+	(wire
+		(pts
+			(xy 66.04 74.93) (xy 66.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94da878-a14c-48ef-9378-537368abcaf0")
+	)
+	(wire
+		(pts
+			(xy 180.34 29.21) (xy 180.34 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fae4c6f2-34e1-42a1-a1be-ee7cd6291da7")
+	)
+	(wire
+		(pts
+			(xy 180.34 74.93) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb34cb5d-c0bc-4926-bf30-dc7141461c2c")
+	)
+	(wire
+		(pts
+			(xy 120.65 93.98) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5d5ff3-2924-4748-a214-1fe0dd99c07c")
+	)
+	(wire
+		(pts
+			(xy 127 87.63) (xy 127 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff1ce2c2-d6ab-4e0d-baad-13e8429aeff1")
+	)
+	(wire
+		(pts
+			(xy 180.34 116.84) (xy 180.34 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3a8eef-84d4-438f-b11b-1b08de0c376f")
+	)
+	(wire
+		(pts
+			(xy 200.66 72.39) (xy 227.33 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff835fe8-d08c-4aea-a56f-3f252c679730")
+	)
+	(rectangle
+		(start 69.85 162.56)
+		(end 97.79 191.77)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 09792f47-87d2-4c39-90a7-382314513a2d)
+	)
+	(text "CAD Note: Place LEDs under respective switches"
+		(exclude_from_sim no)
+		(at 135.636 177.292 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3936463-e08f-41d5-9496-90178cc8a9a0")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 62.23 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94434954-1e22-482f-a8e9-e146eb92a5d2")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 236.22 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "99e72193-6dc5-4cee-ab6f-a335d52269ad")
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 166.37 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00345824-0362-4ab8-8c96-20ef29d0a80d")
+		(property "Reference" "DS4"
+			(at 166.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 165.735 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 166.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 166.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 167.005 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 167.005 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 165.735 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "46727dbe-58d1-448a-b9d5-d2a15056a356")
+		)
+		(pin "2"
+			(uuid "15fecd70-d4f1-44fa-9ea7-0a3a3e0ed68f")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 86.36 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "01d5fefd-46e8-468b-9ed8-a8c4ba648447")
+		(property "Reference" "DS1"
+			(at 86.36 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 85.725 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 86.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 86.995 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 86.995 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 85.725 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "59a2ac1f-0088-4d66-b976-d4d5fe66b776")
+		)
+		(pin "2"
+			(uuid "2c372d10-2221-4586-bc7b-21e41498143d")
+		)
+		(instances
+			(project ""
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 73.66 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04dca8d5-d0ef-4a96-9c8f-777a6c23ffe8")
+		(property "Reference" "R25"
+			(at 76.2 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 76.2 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 76.2 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 76.2 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 76.2 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "fc0d7175-7a7c-4cfd-9863-964bae902757")
+		)
+		(pin "2"
+			(uuid "8ac45c89-50ca-43fb-9f37-c60e74bec878")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 127 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0783fc30-41b2-44d1-9072-f5f5c129b892")
+		(property "Reference" "R21"
+			(at 129.54 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 129.54 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 129.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 129.54 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 129.54 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2023b43c-2846-4bc5-85dd-06f8ef48947e")
+		)
+		(pin "2"
+			(uuid "8bec8c12-f1b2-44b6-a2cb-302a31b2a2dc")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 219.71 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d08fe50-54a7-44fa-a31a-ed722742e8ae")
+		(property "Reference" "DS12"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 219.075 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 219.71 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 220.345 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 220.345 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 219.075 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "f0ac0f80-cf09-4a2f-ad1b-6e331704fe2f")
+		)
+		(pin "2"
+			(uuid "74299bc9-0a27-44cb-9beb-8951a4e66c28")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 219.71 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d192526-d088-4ff9-b103-c50137808f3d")
+		(property "Reference" "DS24"
+			(at 219.71 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 219.075 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 219.71 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 220.345 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 220.345 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 219.075 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "9fc757e0-420c-41c2-aea4-1cae18a1e475")
+		)
+		(pin "2"
+			(uuid "81c90856-dc03-4f69-9bb1-09b2389f1e07")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 193.04 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d47acae-5c4c-4d0b-81af-016844bde331")
+		(property "Reference" "DS17"
+			(at 193.04 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 192.405 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 193.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 193.675 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 193.675 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 192.405 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "596f2aab-ec82-4d12-be7c-cd5a004a6680")
+		)
+		(pin "2"
+			(uuid "4bc9575d-c860-4777-a8d9-3fb2a0a40ca8")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 166.37 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0edf5294-3d75-4a0a-9ef7-dc57fc331aaf")
+		(property "Reference" "DS16"
+			(at 166.37 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 165.735 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 167.005 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 167.005 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 165.735 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "dc36b59e-31b7-40a2-aaa6-ee53132873f7")
+		)
+		(pin "2"
+			(uuid "516a7147-7c55-43da-9591-4090cc8b67c6")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 73.66 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13cb6209-82db-4e74-8392-3561e9ac0395")
+		(property "Reference" "R13"
+			(at 76.2 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 76.2 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 76.2 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 76.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "796043cc-a4f3-498c-9e01-da137218911a")
+		)
+		(pin "2"
+			(uuid "7b5b575e-372a-430d-afd5-b8ec232a8ae6")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 166.37 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "168ebe0a-9064-4c85-ad66-1e71a94168ec")
+		(property "Reference" "DS22"
+			(at 166.37 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 165.735 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 167.005 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 167.005 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 165.735 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "732695f9-7be5-459b-8aef-50c96ba21646")
+		)
+		(pin "2"
+			(uuid "b213b935-8d5d-4e47-9e5a-c13c34103be9")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 180.34 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1750ab87-c7da-4aef-b2e3-3c45309e2c9b")
+		(property "Reference" "R11"
+			(at 182.88 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 182.88 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 180.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 182.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 182.88 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 182.88 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 182.88 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2d18b29d-ae26-4be6-ba11-7c9aa33d1398")
+		)
+		(pin "2"
+			(uuid "b3fd669d-4e2a-4b99-99bd-79def956594d")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 86.36 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1bf9652b-418f-49ba-8ed5-aa4071bf8163")
+		(property "Reference" "DS25"
+			(at 86.36 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 85.725 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 86.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 86.36 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 86.995 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 86.995 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 85.725 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "f307977e-fce0-4713-b688-b52e880efc10")
+		)
+		(pin "2"
+			(uuid "8d8127bc-820c-4b2e-b5d7-3fff6e213b66")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 127 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2298b06b-79dd-4dee-bdd5-16cb4830a92c")
+		(property "Reference" "R15"
+			(at 129.54 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 129.54 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 129.54 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 129.54 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "119c6693-8907-4538-98c6-64383c319d70")
+		)
+		(pin "2"
+			(uuid "545bad5c-a811-41b5-a777-cad125f9ed98")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 86.36 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d40ed5e-2585-4740-9322-87dcb748e5c4")
+		(property "Reference" "DS7"
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 85.725 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 86.36 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 86.995 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 86.995 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 85.725 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "2539ee52-eaf2-40b8-a4bf-f27760c5037d")
+		)
+		(pin "2"
+			(uuid "38d63ee6-5f4c-4efb-90c1-75092d6ef13a")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 139.7 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3016d896-7330-4059-8caf-7738d693c5c5")
+		(property "Reference" "DS27"
+			(at 139.7 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 139.065 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 139.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 139.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 140.335 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 140.335 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 139.065 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "34bcf75b-bbe2-479b-ad85-0eaf4c5b90e1")
+		)
+		(pin "2"
+			(uuid "ac180e42-c93e-4898-9806-8651f4795185")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 180.34 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39fb7349-9492-4416-99d4-7553dce85614")
+		(property "Reference" "R23"
+			(at 182.88 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 182.88 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 182.88 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 182.88 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 182.88 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "76df6da5-f3ff-4e85-8eec-dcc7f5d3c140")
+		)
+		(pin "2"
+			(uuid "105c3e26-53a0-4e63-8cc2-75204c393101")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 180.34 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f85d1ab-fd20-458d-9f60-b6431ff09f98")
+		(property "Reference" "R17"
+			(at 182.88 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 182.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 182.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 182.88 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 182.88 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e8c94c6b-ffbe-4090-bcbe-85a94f307b13")
+		)
+		(pin "2"
+			(uuid "6fdaad00-ae65-43f4-bbe0-b2a21a4318bf")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 100.33 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "402075fc-7031-4ae2-822b-0d00ee6609d8")
+		(property "Reference" "R38"
+			(at 102.87 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 102.87 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 100.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 102.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 102.87 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 102.87 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 102.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "824ea720-1163-44b3-b79d-7d5d78dd6b28")
+		)
+		(pin "2"
+			(uuid "74241ab7-e072-4e56-a212-aee3841ad81b")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 139.7 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "439ff620-5abc-4a52-8a32-50c1ba61bc99")
+		(property "Reference" "DS21"
+			(at 139.7 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 139.065 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 140.335 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 140.335 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 139.065 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "8e70e568-fd6c-44b0-96f9-6506930fc6a3")
+		)
+		(pin "2"
+			(uuid "f37ea08a-5ef8-4efd-a9dd-e847e226c917")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 100.33 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "44e6bf23-4745-4657-9b76-1f62129947c2")
+		(property "Reference" "R26"
+			(at 102.87 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 100.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 102.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 102.87 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 102.87 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 102.87 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6b2b1194-b3a6-476b-a097-588be55d1ec7")
+		)
+		(pin "2"
+			(uuid "5609314c-5ff1-4377-b56d-6580f39132ac")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 113.03 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53893a1e-d274-40a0-b212-6020e10a4b86")
+		(property "Reference" "DS14"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 112.395 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 113.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 113.665 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 113.665 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 112.395 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "5afbb3be-5aa6-4093-b686-e0b3eab145c5")
+		)
+		(pin "2"
+			(uuid "4e6ef95c-9ee9-42d9-80d9-05c565ad0ba1")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 100.33 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "567fb7cc-2f1e-4856-8f33-b2d3fff36363")
+		(property "Reference" "R14"
+			(at 102.87 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 102.87 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 100.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 102.87 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 102.87 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9ca6d6b3-2f65-4b2c-bd42-c574f29552b0")
+		)
+		(pin "2"
+			(uuid "5fb0b5d4-cbec-4e3c-bce8-e7bb8ed492f5")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 127 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57cd786d-bbe5-4370-80aa-d2924d190cd9")
+		(property "Reference" "R9"
+			(at 129.54 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 129.54 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 127 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 129.54 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 129.54 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 129.54 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "ab88e784-2fdb-4cda-9c5e-17ce9af28703")
+		)
+		(pin "2"
+			(uuid "f12f19d3-d43a-4a65-a254-ef98f4850e4f")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 139.7 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b0d3566-25df-472c-8aea-e5ceb6881216")
+		(property "Reference" "DS9"
+			(at 139.7 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 139.065 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 140.335 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 140.335 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 139.065 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "7ab6dc0b-1b49-4c5b-8aa6-12459e504357")
+		)
+		(pin "2"
+			(uuid "30e8ef43-d85b-4027-b9a1-580ad65adb2a")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 113.03 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c041f17-75c2-4b52-a0fe-768bb9da971a")
+		(property "Reference" "DS20"
+			(at 113.03 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 112.395 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 113.03 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 113.665 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 113.665 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 112.395 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "fa5a9ca6-4802-4710-a7d9-3767dafca634")
+		)
+		(pin "2"
+			(uuid "fe7fac19-0056-4a5e-816d-f8cece7d8135")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 166.37 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5fb9f855-fa4c-45f3-81f5-450592e72662")
+		(property "Reference" "DS28"
+			(at 166.37 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 165.735 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 166.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 166.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 167.005 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 167.005 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 165.735 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "88e1f8e7-52da-470f-8f5f-6e42b7bf7b83")
+		)
+		(pin "2"
+			(uuid "0671775c-337b-4719-9835-0c81f4e99c84")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 86.36 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "646a703a-883d-491a-909f-34770003a4ee")
+		(property "Reference" "DS19"
+			(at 86.36 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 85.725 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 86.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 86.36 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 86.995 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 86.995 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 85.725 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "41755d5e-e0d2-4654-a4e7-1c364c4ae0ea")
+		)
+		(pin "2"
+			(uuid "60e880b7-ad37-4a0a-a3c2-483226947975")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 207.01 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "66d21751-5248-47b1-be4f-6877688c9be3")
+		(property "Reference" "R30"
+			(at 209.55 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 209.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 209.55 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 209.55 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 209.55 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2df0a74f-be0a-4d48-b1b5-95288a6c4ebe")
+		)
+		(pin "2"
+			(uuid "264bd00b-fc99-40a6-bd89-52dfda591bb6")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 73.66 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "67c14146-aba8-438e-8a12-d857d92d625b")
+		(property "Reference" "R43"
+			(at 76.2 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 76.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 73.66 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 76.2 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 76.2 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 76.2 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 76.2 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "60327ec7-bfde-4889-9464-e3eaa98d51cf")
+		)
+		(pin "2"
+			(uuid "bd57687a-59f7-46da-ab32-2ce60998e1ab")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 127 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e9ee085-c103-4cb1-bfe4-a8ba21b57b47")
+		(property "Reference" "R27"
+			(at 129.54 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 129.54 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 129.54 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 129.54 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "50693fbf-3c46-4098-a066-998dad3a69be")
+		)
+		(pin "2"
+			(uuid "c0e7b9fe-5a9e-4d17-8f06-557d27793c52")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 180.34 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f39e124-32a1-4896-a8c1-6286de9a3f30")
+		(property "Reference" "R41"
+			(at 182.88 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 182.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 182.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 182.88 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 182.88 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 182.88 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "de3e8631-3b68-4ce6-a446-56f253cacf55")
+		)
+		(pin "2"
+			(uuid "4b7fbe55-edea-4acc-a09b-944abe703137")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 113.03 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f3b4ea0-0827-46de-a8cd-94718f8d5841")
+		(property "Reference" "DS2"
+			(at 113.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 112.395 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 113.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 113.03 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 113.665 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 113.665 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 112.395 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "c759263d-e49f-4b83-b4ae-ab7e99152303")
+		)
+		(pin "2"
+			(uuid "f4b1082c-86ec-4b00-b433-c2fa3ea5d649")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 86.36 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79ad1b13-22ce-4139-be19-8cdc988ae4b1")
+		(property "Reference" "DS31"
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 85.725 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 86.36 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 86.995 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 86.995 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 85.725 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "25711a82-5d81-460c-a7e0-6773f6605e17")
+		)
+		(pin "2"
+			(uuid "3a2137b7-a950-4cbb-9c34-0a5ef1f03f2d")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 166.37 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b6c956d-2356-4d55-b46b-e2a120a62559")
+		(property "Reference" "DS10"
+			(at 166.37 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 165.735 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 167.005 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 167.005 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 165.735 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "dbb4b308-3233-4a0c-9991-7ff203173532")
+		)
+		(pin "2"
+			(uuid "e39162ad-5895-4ecb-a9a0-46870d99abad")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 153.67 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b97baf4-0e4d-4493-b717-368f6fe49f6b")
+		(property "Reference" "R16"
+			(at 156.21 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 156.21 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 156.21 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 156.21 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 156.21 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "21bcf48c-ba4a-43e9-a7ed-0bda147d8715")
+		)
+		(pin "2"
+			(uuid "17becc7e-d5f2-4ece-8eeb-baedd6e033fe")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 127 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c66345f-df1d-47af-9aca-7fd8e78ac6cb")
+		(property "Reference" "R39"
+			(at 129.54 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 129.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 129.54 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 129.54 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 129.54 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "371446cc-e84e-4392-adac-f24fd497c271")
+		)
+		(pin "2"
+			(uuid "59f6d891-e003-407b-95fb-f872849dafbd")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 100.33 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d24d67c-e6f7-459d-bf81-f820df29b55c")
+		(property "Reference" "R8"
+			(at 102.87 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 102.87 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 100.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 102.87 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 102.87 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 102.87 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d10d88af-1f1d-438d-a564-6f3c28211f4d")
+		)
+		(pin "2"
+			(uuid "e1799e43-38cc-42ff-a364-c1b8764f35e7")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 153.67 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "81205786-8db6-49e4-a2ea-aaa240e960a4")
+		(property "Reference" "R28"
+			(at 156.21 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 156.21 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 156.21 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 156.21 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 156.21 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2a919f53-fa1d-499e-8627-4caa1b240d1e")
+		)
+		(pin "2"
+			(uuid "54c26eaa-afc4-497d-894c-7ae7ed3e8f45")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 113.03 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8b0f44ec-398a-4ba3-aa94-8afed9db7a4f")
+		(property "Reference" "DS26"
+			(at 113.03 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 112.395 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 113.03 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 113.665 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 113.665 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 112.395 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "7471741f-9aba-4d2b-84d1-56300ff567ec")
+		)
+		(pin "2"
+			(uuid "718a920f-628f-47fb-b936-2883e99a4b90")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 153.67 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90129ea8-cfc1-4d58-8039-cb3231768971")
+		(property "Reference" "R10"
+			(at 156.21 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 156.21 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 156.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 156.21 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 156.21 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 156.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "513a250b-d987-4a60-8134-9c7f02717735")
+		)
+		(pin "2"
+			(uuid "752ff55a-2f95-4d02-afbb-28040e13ce96")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 113.03 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "968d34c4-2a3e-464d-9e53-c9f3ab89c59b")
+		(property "Reference" "DS8"
+			(at 113.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 112.395 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 113.03 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 113.665 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 113.665 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 112.395 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "2ec4bb6a-a7b6-4c0a-bb4a-a497a733a38f")
+		)
+		(pin "2"
+			(uuid "30156f6a-1cdf-4b03-8879-17851f60de10")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 207.01 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98cf8823-c647-4471-b2c2-6ba2a54fd155")
+		(property "Reference" "R42"
+			(at 209.55 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 209.55 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 207.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 209.55 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 209.55 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 209.55 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 209.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0816b1b5-33a2-4c9b-b22a-1e2969187001")
+		)
+		(pin "2"
+			(uuid "09b5a2c1-9583-4d46-92d9-111532798977")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 139.7 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9a46be1-5890-4df9-b624-d706b5c7d532")
+		(property "Reference" "DS15"
+			(at 139.7 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 139.065 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 140.335 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 140.335 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 139.065 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "15ff1dba-f6da-496e-afbb-a599ef4df6a4")
+		)
+		(pin "2"
+			(uuid "f12ab60f-76c5-425a-a135-41c807462125")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 193.04 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acd41f26-aa9e-4089-bd9e-72f93874ecb3")
+		(property "Reference" "DS29"
+			(at 193.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 192.405 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 193.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 193.04 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 193.675 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 193.675 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 192.405 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "63c50eba-1c92-46a9-8f8f-bbe08ef0c0f6")
+		)
+		(pin "2"
+			(uuid "3ddb193d-7ac9-4e84-9124-eb1f2c3b8029")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 73.66 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "add25792-21d5-4969-9385-2c747a9144f9")
+		(property "Reference" "R7"
+			(at 76.2 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 76.2 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 73.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 76.2 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 76.2 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 76.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1128f8ff-d3a9-43fa-b39a-0fcbe41eaa39")
+		)
+		(pin "2"
+			(uuid "5a43b31b-dbf3-4102-8294-e21515e4911e")
+		)
+		(instances
+			(project ""
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 219.71 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2d60dc2-de0b-4572-8e9d-b3afb77d6073")
+		(property "Reference" "DS30"
+			(at 219.71 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 219.075 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 219.71 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 220.345 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 220.345 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 219.075 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "06f53447-3b24-40f3-9f64-c8863b320f11")
+		)
+		(pin "2"
+			(uuid "b3fe8a3f-39ac-402b-9743-4ed28fa9b21f")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 193.04 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b90c8741-ca5b-45a9-a794-b42a422cace9")
+		(property "Reference" "DS5"
+			(at 193.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 192.405 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 193.675 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 193.675 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 192.405 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "faf7ef6b-6779-4281-ae72-ff91e997776c")
+		)
+		(pin "2"
+			(uuid "ab4b9f29-d90f-4d7e-a912-de08107e3deb")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 73.66 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb22b55a-35a0-4e97-a4e2-53e8e9669121")
+		(property "Reference" "R37"
+			(at 76.2 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 76.2 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 76.2 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 76.2 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 76.2 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 76.2 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b167d086-01da-42f0-b727-87a5c13eb25a")
+		)
+		(pin "2"
+			(uuid "201baece-bcdd-4fbb-bf15-6537ced026b7")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 207.01 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb75fdd4-0e70-41a1-b9c2-998dc9529e54")
+		(property "Reference" "R12"
+			(at 209.55 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 209.55 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 207.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 209.55 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 209.55 27.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 209.55 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 209.55 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0c2abe68-18e2-4bf7-b30a-4247fcbb0f22")
+		)
+		(pin "2"
+			(uuid "5b23fd58-bdb2-4987-980f-d40a807c7b31")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 153.67 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c9757c-4700-4754-9879-afe72b312b2d")
+		(property "Reference" "R40"
+			(at 156.21 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 156.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 146.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 156.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 156.21 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 156.21 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 156.21 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a38052c3-f1b9-4e09-b351-8c9e3890b0e0")
+		)
+		(pin "2"
+			(uuid "d1d4c8cb-5c69-41c5-ae5a-80ed7d8dc888")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 86.36 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c974d7a1-2212-4008-a9a3-f2a5e54af4cf")
+		(property "Reference" "DS13"
+			(at 86.36 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 85.725 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 86.36 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 86.995 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 86.995 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 85.725 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "c1b951a0-710a-4e1b-9ad8-cfb24d881071")
+		)
+		(pin "2"
+			(uuid "5b0258a1-1991-46a3-b304-1af2b63c5f83")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 100.33 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d10da28b-355f-43de-a4cf-aed544c96aa1")
+		(property "Reference" "R20"
+			(at 102.87 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 102.87 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 102.87 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 102.87 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5852ea74-2578-4ab6-9aa3-262296d11d76")
+		)
+		(pin "2"
+			(uuid "be62f965-6c4a-4825-a119-fa536508a409")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 180.34 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d15c641d-c6aa-4cb9-a1ac-8fdd97ec0e60")
+		(property "Reference" "R29"
+			(at 182.88 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 182.88 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 182.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 182.88 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 182.88 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 182.88 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5bd7b096-e680-4a04-a141-754d5c70c2ae")
+		)
+		(pin "2"
+			(uuid "e555705f-323a-46ac-8e55-38e48990a27d")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 219.71 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1cb5a0f-58c6-40b4-9d00-ee524adf0b44")
+		(property "Reference" "DS18"
+			(at 219.71 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 219.075 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 219.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 219.71 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 220.345 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 220.345 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 219.075 98.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "81419a40-a139-4ae2-9261-49960307cf3f")
+		)
+		(pin "2"
+			(uuid "724ae900-5480-4dfc-a78c-a8c28621b23e")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 139.7 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d496b3e5-f040-4a74-910f-076a06e90021")
+		(property "Reference" "DS3"
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 139.065 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 140.335 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 140.335 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 139.065 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "e1cee523-2dbf-4002-9941-048c37e59b20")
+		)
+		(pin "2"
+			(uuid "42e214e7-fd65-4a51-b0d7-89148531738a")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 73.66 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfc2b93e-6f9d-440b-8e88-f1b981e04d1c")
+		(property "Reference" "R19"
+			(at 76.2 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 76.2 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 76.2 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 76.2 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 76.2 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "05d5b7a6-104f-4ffe-ace9-f6d1808aff05")
+		)
+		(pin "2"
+			(uuid "e9e6d46c-c3b5-4de4-a16f-6ce48ec818b1")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 207.01 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e05bcb3d-5d11-4efd-8b8b-af30d8b9131c")
+		(property "Reference" "R18"
+			(at 209.55 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 209.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 207.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 209.55 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 209.55 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 209.55 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 209.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2ba82401-323a-4714-a3a0-9c32b55bab24")
+		)
+		(pin "2"
+			(uuid "f541ed3a-70ad-435f-bb33-7aa993fa6f4f")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 207.01 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea532277-047b-4ea6-877c-4085b6849d11")
+		(property "Reference" "R24"
+			(at 209.55 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 209.55 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 209.55 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 209.55 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 209.55 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 209.55 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 209.55 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6a25f475-2d74-4176-a215-5299cff0ec86")
+		)
+		(pin "2"
+			(uuid "9d2f8415-e195-49a4-8144-1ad5cf99331c")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 219.71 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebf1987e-7d03-4ca1-999c-4225d787bf92")
+		(property "Reference" "DS6"
+			(at 219.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 219.075 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 219.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 220.345 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 220.345 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 219.075 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "602cd878-86ee-40cb-bf9f-49e23c64c32f")
+		)
+		(pin "2"
+			(uuid "3bd86692-27cb-4445-aec9-60cae983e9a7")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 153.67 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1628189-dfe3-42a0-8cc5-5aeaaa6cf54d")
+		(property "Reference" "R22"
+			(at 156.21 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 156.21 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 156.21 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 156.21 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 156.21 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5e3f9db6-3a24-4b4d-8440-c480298f5338")
+		)
+		(pin "2"
+			(uuid "644242b0-40cd-4311-bbf8-031b97057527")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 193.04 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6baf001-21cb-47be-82dc-298e417aec0f")
+		(property "Reference" "DS23"
+			(at 193.04 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 192.405 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 193.04 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 193.675 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 193.675 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 192.405 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "fae03bbe-4e80-4bc1-9695-ade1b410dff0")
+		)
+		(pin "2"
+			(uuid "48360c4f-d334-4084-8b82-3023a51d5c47")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:WHITE-1608-H")
+		(at 193.04 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fddc0d20-e770-4239-8b99-49497420c18a")
+		(property "Reference" "DS11"
+			(at 193.04 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at 192.405 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 193.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 193.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 193.675 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 193.675 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 192.405 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "cf4cefe1-eea1-441f-b568-e06f18f02056")
+		)
+		(pin "2"
+			(uuid "466a70cb-735b-43c9-96f6-0c51c087226d")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/4b81ec5e-82d1-4c6d-99b3-d9f933aa5b1f"
+					(reference "DS11")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

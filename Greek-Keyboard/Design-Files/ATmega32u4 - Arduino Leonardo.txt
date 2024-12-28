@@ -1,0 +1,23 @@
+ATmega32u4 -> Arduino Leonardo
+
+PD2 -> D0/RX
+PD3 -> D1/TX
+PD1 -> D2/SDA
+PD0 -> D3/SCL
+PD4 -> D4
+PC6 -> D5
+PD7 -> D6
+PE6 -> D7
+PB4 -> IO8
+PB5 -> IO9
+PB6 -> IO10
+PB7 -> IO11
+PD6 -> IO12
+PC7 -> IO13
+
+PF7 -> A0
+PF6 -> A1
+PF5 -> A2
+PF4 -> A3
+PF1 -> A4
+PF0 -> A5

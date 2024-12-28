@@ -93,6 +93,16 @@ Creating a New Project
         - Once placed edit the symbol and find the correct footprint by searching for "testpoint" or "testpoint_pad"
     - (ground symbol) - Add Power button, P key, for adding power symbols
     - (X symbol) - Add No Connect Flag, Q key, for adding a built in no-connect symbol
+  - To add multiple sheets you need to use a hierarchical schematic
+    - Press Add Sheet (bottom right side bar)
+    - Draw a box which will let you click into the other sheets
+    - Edit the name respectively
+    - Right click on the box and press Enter Sheet to work on this "block"
+    - To save the new sheet or "block" go to File -> Save Current Sheet Copy As...
+    - To leave the sheet or "block" right click and select Leave Sheet
+    - With this you now need to use the hierarchical labels to connect between sheets
+      - Note this adds a "pin" connection to the "block"
+      - To add this, right click the "block" and select Import Sheet Pin
 4. Ensuring Schematic Readiness for layout:
   - Run Assign Footprints (link symbol, top right corner)
     - Verify every symbol has an assigned footprint
@@ -154,6 +164,17 @@ Creating a New Project
       - Millimeters
       - Decimal format (recommended)
     - Finally click Generate Drill File
+7. Exporting BOM
+  - From the Schematic select Generate Bill of Materials... (the up arrow on the top right)
+  - Under the Edit tab only show
+    - Reference
+    - Value
+    - Qty
+    - DNP
+  - Group by Value
+  - Under the Export tab set Reference delimiter to a space
+  - Enter the file name at the top, followed by .csv and press Export
+
 
 Helpful Preferences Options:
 - Preferences -> Mouse and Touchpad -> Center and warp cursor on zoom

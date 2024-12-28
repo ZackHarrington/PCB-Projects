@@ -1,0 +1,143 @@
+### Footprints
+- Use package/footprint name from documentation, may be different from component name
+- Pads:
+	- Try to center all the pads
+	- Name pins numerically.
+	- Name ground pads 'PAD'
+	- For identical names (when pads have multiple pieces of copper) add @# where the # increases numerically
+	- Make sure 'Thermals' is checked, makes it easier to solder
+	- For through hole pads make their diameter 1mm larger than the pin - or larger if the pin isn't round
+- Outline:
+	- Show mechanical size and actual metal contacts:
+		- Layer: Fab, Width: 0.1mm
+	- Silkscreen:
+		- Layer: Silkscreen, Width: 0.15mm
+		- Copy Fab layer but don't go over pads
+		- For passive components also draw placement rectangle on courtyard excess with the same specifications
+- Name:
+	- 'REF**' - usually added automatically
+	- Layer: Silkscreen, Size: 0.8mm, Thickness: 0.1mm, Align: Center
+	- Place on 0.25mm grid
+	- Above footprint
+- Courtyard excess:
+	- Only for non through-hole components
+	- Drawn as rectangles unless the component is very oddly shaped
+	- "the smallest rectangular area that can contain a component and its land pattern"
+	- Layer: Courtyard, Width: 0.15mm
+	- Place on 0.25mm grid around the component (can be between 0.1mm and 0.5mm from component)
+	- Can place on 0.125mm grid for small components
+- Pin 1 marking:
+	- Add a circle by the first pin:
+		- Layer: Silkscreen, Width: 0.1mm, Radius: 0.25mm
+		- Inline with the top of pad 1, set just outside of the courtyard excess
+	- Or fill in the cathode side:
+		- Layer: Silkscreen
+		- Try to stay out from under the physical component
+- If possible, compare a 1:1 printout with a sample of the part you created before you order prototypes.
+
+
+### Symbols
+- Use the component name from the documentation
+- Reference Designator Prefixes:
+	- B:	Board, Module
+	- BT: 	Battery
+	- C:  	Capacitor
+	- CN: 	Capacitor Network
+	- D:  	Bridge Rectifier, Diode, Zener
+	- DS: 	Signaling Diode (LED)
+	- F:  	Fuse, Resettable Fuse
+	- FB: 	Ferrite Bead
+	- FD: 	Fiducial
+	- FL: 	Filter
+	- H:  	Hardware
+	- J:  	Jack, Connector, Combination of Connectors, Row of Headers, Plug
+	- JP: 	Jumper
+	- K:  	Relay
+	- L:  	Inductor (not including ferrite bead), Coil
+	- LOGO: Artwork, Logo
+	- LS: 	Loudspeaker, Buzzer
+	- M:  	Motor
+	- MK: 	Microphone
+	- Q:  	Transistor (all types)
+	- R:  	Resistor
+	- RN: 	Resistor Network
+	- RT: 	Thermistor
+	- RV: 	Varistor
+	- SW: 	Switch, Push Button
+	- T:  	Transformers
+	- TC: 	Thermocouple
+	- TP: 	Test Point
+	- U:  	IC, Inseparable Assembly
+	- V:  	Vacuum Tube, Tube
+	- VR: 	Variable Resistor (potentiometer)
+	- Y:  	Resonator, Oscillator, Clock Generator
+- Symbol outline:
+	- Use fill with body background color
+	- Try to center the symbol
+- Pins:
+	- Group pins by function or how they appear on the physical package
+	- Pin length: 100mils
+	- Naming:
+		- Follow datasheet
+		- '!' indicates active low (!RESET)
+		- '!R!/W' will place a bar over the 'R' only.
+		- For identical names add @# where the # is the pin number
+- Reference:
+	- Centered
+	- 1mm Above symbol
+- Value: 
+	- Centered
+	- 1mm Below symbol
+- Other Parameters:
+	- Press e to open symbol properties
+	- Press '+' (Add Field)
+	- Add the parameter or use a general term in triangle brackets <> for a template
+
+
+### Block Diagram
+- Blocks: 
+	- Layer: Symbols
+	- LineWidth: 0.006
+	- Text Size: 0.15
+	- Page Number Text Size: 0.05
+	- Page Number Text Layer: Info
+- Arrows:
+	- Layer: Info
+	- Line Width: 0.006
+- Connector Blocks:
+	- "Connector:"
+	- "<CONNECTION>" + "In/Out"
+	- Don't use "In" or "Out" for bidirectional communication
+	- The arrows should match the direction or be bidirectional
+
+
+### Board Text
+- Board Name:
+	- Layer: Silkscreen, Size: 1.0mm, Thickness: 0.1mm
+- Connector Names:
+	- Layer: Silkscreen, Size: 1.2mm, Thickness: 0.1mm
+- Information:
+	- Layer: Silkscreen, Size: 1.2mm or 1.5mm, Thickness: 0.1mm
+- Component Grouping Outlines:
+	- Layer: Silkscreen, Width: 0.1524mm, Style: shortdash
+- Board Soldermask Color:
+	- Green: Standard, General purpose
+		- Used by default because it gives the greatest contrast and visibility for copper and silkscreen
+	- Red: WSU CIS, Bold, Professional
+	- Yellow: Visibility
+	- Blue: Industrial, Manufactured feel 
+		- Used in consumer electronics (arduino) a lot for aesthetics
+		- Ideal for mounting an LCD to
+	- White: Clean, Sleak
+		- Highlights specific features
+	- Black: Modern, Sleak
+		- Makes the metal parts standout more
+		- Harder to inspect the board for defects
+		- Sometimes used to signify where repairs were made
+	- Purple: Slightly more elegant
+		- Apparently used almost exclusively for submarine applications
+- Board Silkscreen Color:
+	- White: Standard, works for all but white
+	- Black: Works best on white, possibly yellow
+		- Probably wouldn't look great on anything else, there's not even really any google images of it on anything else 
+	- Yellow: For added emphasis could work on green, anything else would be purely for aesthetics 

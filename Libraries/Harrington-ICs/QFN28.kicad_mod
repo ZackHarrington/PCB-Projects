@@ -9,8 +9,8 @@
 		(uuid "4fbaaed7-cce0-4f38-b536-49ac0715885c")
 		(effects
 			(font
-				(size 0.629921 0.629921)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -145,12 +145,12 @@
 	)
 	(fp_circle
 		(center -3.5 -1.65)
-		(end -3.4 -1.65)
+		(end -3.25 -1.65)
 		(stroke
-			(width 0.5)
+			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
 		(uuid "fe7202b3-9ad6-4ea3-a76a-0c39efc78d7f")
 	)

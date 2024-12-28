@@ -9,8 +9,8 @@
 		(uuid "25916b00-119d-4e3f-b562-a8cc78bc8937")
 		(effects
 			(font
-				(size 0.629921 0.629921)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.1)
 			)
 		)
 	)
@@ -85,13 +85,13 @@
 	)
 	(fp_circle
 		(center -2 -0.8)
-		(end -1.9 -0.8)
+		(end -1.75 -0.8)
 		(stroke
-			(width 0.5)
+			(width 0.1)
 			(type solid)
 		)
-		(fill none)
-		(layer "Dwgs.User")
+		(fill solid)
+		(layer "F.SilkS")
 		(uuid "c3b0a194-5e07-496e-86f2-687d3b3b9977")
 	)
 	(fp_line

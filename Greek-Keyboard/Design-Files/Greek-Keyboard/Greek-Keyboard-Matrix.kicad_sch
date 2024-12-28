@@ -1,0 +1,9826 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fa267f9d-0fc5-4997-89c8-33d6e70bedec")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Harrington-Diodes:BAT54L-V"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BAT54L"
+				(at 2.54 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Harrington-Diodes:SOT-23-3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Frequency, Low Vf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "VR_MAX" "30V"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VF_MAX" "0.22~0.8V"
+				(at 2.54 -0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "I_MAX" "0.2A"
+				(at 2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "TEMPERATURE" "-55~150°C"
+				(at 2.54 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "BAT54L-V_0_0"
+				(polyline
+					(pts
+						(xy -1.524 1.524) (xy -1.524 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 2.032) (xy -1.27 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.016) (xy 1.27 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 1.524 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAT54L-V_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.524) (xy 1.524 -1.524) (xy 0 1.524) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Harrington-Resistors:470Ω±1%-1608-V"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "470Ω±1%"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Harrington-Resistors:1608-SEM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 2.54 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "TEMPERATURE" "-55~155°C"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "POWER" "1/10W"
+				(at 2.54 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "VOLTAGE" "6.86V"
+				(at 2.54 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "SIZE" "1608"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "470Ω±1%-1608-V_0_0"
+				(polyline
+					(pts
+						(xy -0.8468 -2.1171) (xy 0 -2.5405)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.8468 -0.4234) (xy 0.8468 -1.2703)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.8468 1.2703) (xy 0.8468 2.1171)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8468 -1.2703) (xy -0.8468 -2.1171)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8468 0.4234) (xy -0.8468 -0.4234)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8468 0.4234) (xy -0.8468 1.2703)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.8468 2.1171) (xy 0 2.5405)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Harrington-Switches:MX-ERGO-CLEAR-H"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MX-ERGO-CLEAR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Harrington-Switches:MX-1-Pole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "V_MAX" "12V"
+				(at -0.635 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "I_MAX" "0.01A"
+				(at 0.635 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(symbol "MX-ERGO-CLEAR-H_0_0"
+				(circle
+					(center -1.905 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 1.905) (xy 0 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 0 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.905) (xy 1.905 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "/"
+					(at 0 -4.445 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MX-ERGO-CLEAR-H_1_0"
+				(pin bidirectional line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 149.86 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0212f048-65e2-40c3-b416-892db9fdf900")
+	)
+	(junction
+		(at 91.44 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a26a4a2-6e36-40f6-b082-0c6d82854c87")
+	)
+	(junction
+		(at 54.61 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c2ee7ff-be2d-4573-9a3a-7e0b02f0b081")
+	)
+	(junction
+		(at 91.44 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "129d82b2-d030-41b3-8d03-193a8a439685")
+	)
+	(junction
+		(at 261.62 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f13385d-d6d4-49d9-857b-eb9e9d2a6269")
+	)
+	(junction
+		(at 165.1 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "212e00df-2aaa-4353-9b06-f30c187c384d")
+	)
+	(junction
+		(at 201.93 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "278f499d-b0e8-4ada-ac1e-e19f2de61fa7")
+	)
+	(junction
+		(at 54.61 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292fdde3-063a-4566-a94c-8de779140565")
+	)
+	(junction
+		(at 128.27 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2afdaf6f-b94e-400d-914a-e2f959716164")
+	)
+	(junction
+		(at 76.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "326aecaa-0088-4546-9c7d-fb0fb680203b")
+	)
+	(junction
+		(at 128.27 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d1197ab-deb9-42e7-bdef-b18f092342b9")
+	)
+	(junction
+		(at 165.1 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e360273-18ff-4031-8846-1f6f64424481")
+	)
+	(junction
+		(at 261.62 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ed5bc42-1cbe-4fe6-ae68-f29e80fdc4b5")
+	)
+	(junction
+		(at 76.2 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "447f303d-ead3-4a6b-bdb0-37cf5753ad94")
+	)
+	(junction
+		(at 54.61 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45ec90a0-3695-4e19-984b-105ec8aede74")
+	)
+	(junction
+		(at 128.27 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cfdd285-c32b-430d-a342-41371f5fb8bd")
+	)
+	(junction
+		(at 54.61 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e45be9a-4134-418d-ae0c-7a18979de625")
+	)
+	(junction
+		(at 261.62 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fc20fab-49e4-4bb7-b567-a740a4ca03bb")
+	)
+	(junction
+		(at 76.2 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ff2ae03-a893-42eb-934b-b14a6055bab7")
+	)
+	(junction
+		(at 201.93 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55fb5eac-d453-4846-aa2b-b5b7798a90d2")
+	)
+	(junction
+		(at 76.2 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5baa4894-85c4-4f85-960f-5bbcae980d89")
+	)
+	(junction
+		(at 224.79 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60b840a8-c811-4ad4-9d35-deb9ae60a282")
+	)
+	(junction
+		(at 224.79 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60c3509a-4039-4400-aeaa-f68117c44fb9")
+	)
+	(junction
+		(at 113.03 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60c7b512-b8a5-4ea6-a51f-6e5600a958ff")
+	)
+	(junction
+		(at 186.69 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c31af04-2a08-4845-8473-0283710f748a")
+	)
+	(junction
+		(at 76.2 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d78fc9c-d3c1-416f-9afa-39bbb8471b80")
+	)
+	(junction
+		(at 186.69 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75d5cb01-9508-4630-92ee-4f05b5b04c7c")
+	)
+	(junction
+		(at 128.27 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fed0e90-11c7-48e5-9c2a-92156b47bacd")
+	)
+	(junction
+		(at 201.93 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83ad114a-59ab-4db8-ab5d-00a0616b0b1e")
+	)
+	(junction
+		(at 186.69 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "840ecc93-2448-40d9-b22b-bfd6c3c10077")
+	)
+	(junction
+		(at 224.79 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84737f36-b541-4e1a-805b-091df4ea207c")
+	)
+	(junction
+		(at 149.86 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "848f66af-36bc-4704-bb14-0c2d093090f8")
+	)
+	(junction
+		(at 113.03 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b3a1270-11b6-4804-815a-2edbb40eda63")
+	)
+	(junction
+		(at 91.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ba14014-099e-42b3-88d8-81cc8391050b")
+	)
+	(junction
+		(at 54.61 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e536d56-9cfa-49fe-8dd9-c8f16bd6e10a")
+	)
+	(junction
+		(at 261.62 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "943f88ed-d0fc-4760-bfb4-bcf6fc6870bd")
+	)
+	(junction
+		(at 91.44 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bb6b698-3b5d-4384-b9b7-adc080a3e0d8")
+	)
+	(junction
+		(at 113.03 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a70e3d13-37f9-4690-8dee-ced4ff96e744")
+	)
+	(junction
+		(at 91.44 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a71c397a-751e-40d6-91fe-5ff0b22d7b99")
+	)
+	(junction
+		(at 128.27 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab65c0ab-ab33-44d2-a889-02f0c31e821a")
+	)
+	(junction
+		(at 186.69 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b50a27c1-7b2c-4d39-91e2-564bb5d43f6c")
+	)
+	(junction
+		(at 201.93 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b770b7a8-c4f4-4b47-b894-2b1f779c8b1e")
+	)
+	(junction
+		(at 186.69 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8cf1eb0-b3e9-4574-a551-edb6d577a9f0")
+	)
+	(junction
+		(at 165.1 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9387106-1031-4043-9b8c-20e2f546f231")
+	)
+	(junction
+		(at 76.2 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cabbefb0-0ae7-4987-97ca-50eaa46cd86d")
+	)
+	(junction
+		(at 186.69 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd165288-837d-4ad4-b037-3e774747b744")
+	)
+	(junction
+		(at 113.03 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf444aa0-6b13-4ce3-96bb-85cfa1c9bf66")
+	)
+	(junction
+		(at 201.93 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8cb181d-56b9-4eb8-a827-8aea38903007")
+	)
+	(junction
+		(at 149.86 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbe3865c-8fa9-4002-8c7f-f077dfb8c34b")
+	)
+	(junction
+		(at 113.03 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd0fe5ca-f0ef-4b9d-a3f1-87c932927038")
+	)
+	(junction
+		(at 113.03 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e14160cc-20bd-4a55-89c8-82181ebeb128")
+	)
+	(junction
+		(at 149.86 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e60b073a-512b-4aa0-baa0-6e35f31e59d8")
+	)
+	(junction
+		(at 149.86 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e64ba27b-ed6a-4aa9-91d9-a7055e7787e3")
+	)
+	(junction
+		(at 224.79 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7561aa4-766e-44ab-8829-176ec302e9bc")
+	)
+	(junction
+		(at 149.86 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eef55589-6cb4-443f-9f13-6c5c8d5f68f5")
+	)
+	(junction
+		(at 224.79 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efcca437-cdfd-4961-8852-3a27300259f8")
+	)
+	(junction
+		(at 261.62 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f34e33f8-5b71-4634-9977-f52de3952105")
+	)
+	(junction
+		(at 224.79 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3968362-7b39-430a-8e7e-d5f6e5a7bc98")
+	)
+	(junction
+		(at 165.1 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6a6a914-3389-425f-ae40-82d045e77c8c")
+	)
+	(junction
+		(at 165.1 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f85c114d-f1b6-404f-9372-7ce2bf51c48a")
+	)
+	(wire
+		(pts
+			(xy 149.86 82.55) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00385fd6-63fc-4812-875a-95cc2ff60451")
+	)
+	(wire
+		(pts
+			(xy 165.1 109.22) (xy 165.1 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04320730-e84a-4e38-b9a2-add7216d3cfd")
+	)
+	(wire
+		(pts
+			(xy 91.44 95.25) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f70dea-7d73-41c6-a090-3e792c3b9be2")
+	)
+	(wire
+		(pts
+			(xy 224.79 16.51) (xy 261.62 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07d7fad1-8339-4a77-88aa-59b3e72d1734")
+	)
+	(wire
+		(pts
+			(xy 186.69 34.29) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089ba127-885e-4e3e-86ba-04b8b7a08487")
+	)
+	(wire
+		(pts
+			(xy 128.27 143.51) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "092f77c5-77b7-4bc5-b6a2-f3e8ab4203e5")
+	)
+	(wire
+		(pts
+			(xy 261.62 106.68) (xy 261.62 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "093ea460-0cce-430d-9540-0fc15fae6e3f")
+	)
+	(wire
+		(pts
+			(xy 240.03 71.12) (xy 240.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad2b9b5-dd61-4919-9ed3-9a9b53f42ebb")
+	)
+	(wire
+		(pts
+			(xy 218.44 82.55) (xy 224.79 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0add9803-c438-4c2e-9376-360641243cae")
+	)
+	(wire
+		(pts
+			(xy 76.2 30.48) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b044697-a355-4daa-a942-8fae618d19d8")
+	)
+	(wire
+		(pts
+			(xy 224.79 106.68) (xy 224.79 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3a2331-5ce6-4fe3-befd-90d5a0fd0684")
+	)
+	(wire
+		(pts
+			(xy 128.27 36.83) (xy 128.27 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ddbd150-b99a-44e4-917c-164b55aa17ad")
+	)
+	(wire
+		(pts
+			(xy 255.27 82.55) (xy 261.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9f1259-b782-4b0f-8017-16d2480bd79f")
+	)
+	(wire
+		(pts
+			(xy 165.1 46.99) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f09b7c3-0f53-4ffd-b486-56db148c4869")
+	)
+	(wire
+		(pts
+			(xy 165.1 119.38) (xy 165.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2f220b-f9db-4346-bacb-43c1d7a6dfe9")
+	)
+	(wire
+		(pts
+			(xy 201.93 119.38) (xy 201.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1063e084-dffb-4074-bedf-f68740671230")
+	)
+	(wire
+		(pts
+			(xy 54.61 82.55) (xy 59.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "108464f5-d6b7-4ae9-8823-be168858619d")
+	)
+	(wire
+		(pts
+			(xy 201.93 133.35) (xy 201.93 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112e35cb-47c9-4b40-839b-fc8b5a67ea53")
+	)
+	(wire
+		(pts
+			(xy 113.03 16.51) (xy 149.86 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12fb2ec2-e751-42f1-a46a-264abb1a1b92")
+	)
+	(wire
+		(pts
+			(xy 54.61 130.81) (xy 59.69 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1392799f-0bd8-4db2-bdb1-be6a0bec7a45")
+	)
+	(wire
+		(pts
+			(xy 201.93 85.09) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "148fb1fc-00bf-4127-9acb-bb75e2b0ee26")
+	)
+	(wire
+		(pts
+			(xy 54.61 60.96) (xy 54.61 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1682cefc-9b66-4901-9cf0-ebe6ef3a8573")
+	)
+	(wire
+		(pts
+			(xy 165.1 133.35) (xy 165.1 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e188e77-3f06-495a-87ef-8dd05980dd97")
+	)
+	(wire
+		(pts
+			(xy 69.85 34.29) (xy 76.2 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea53399-19f7-490b-ae28-cb62eb1d4ec2")
+	)
+	(wire
+		(pts
+			(xy 91.44 106.68) (xy 96.52 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f22e357-1499-4d8b-b70e-b42f9532fb6e")
+	)
+	(wire
+		(pts
+			(xy 91.44 34.29) (xy 96.52 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9039f4-276c-4241-bed2-7173217c0055")
+	)
+	(wire
+		(pts
+			(xy 40.64 147.32) (xy 54.61 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205c81a9-4358-4297-ba7b-a7f9c800e55d")
+	)
+	(wire
+		(pts
+			(xy 43.18 182.88) (xy 43.18 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d75d11-5eb5-4bfd-8717-8d3736d2b67a")
+	)
+	(wire
+		(pts
+			(xy 76.2 16.51) (xy 113.03 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22f641d0-57d2-41e7-858b-aadc8ef2f2d4")
+	)
+	(wire
+		(pts
+			(xy 165.1 74.93) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235d2b35-432e-44d2-9e6c-68c37e78495b")
+	)
+	(wire
+		(pts
+			(xy 261.62 130.81) (xy 261.62 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "279ae490-7bc2-42a1-9ce3-addc0a4b84ed")
+	)
+	(wire
+		(pts
+			(xy 128.27 123.19) (xy 165.1 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28b3d8ee-99ff-427e-bd7d-364b4cf3b9d0")
+	)
+	(wire
+		(pts
+			(xy 165.1 99.06) (xy 201.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298f541c-f50e-4444-883b-91e8f68ee5f6")
+	)
+	(wire
+		(pts
+			(xy 224.79 16.51) (xy 224.79 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc572a8-cc88-4ce1-9d1b-17ebd14c9092")
+	)
+	(wire
+		(pts
+			(xy 91.44 109.22) (xy 91.44 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ddc8528-0357-419d-837a-76a8c65f1457")
+	)
+	(wire
+		(pts
+			(xy 143.51 106.68) (xy 149.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5a48df-0054-49cd-a4b4-14e74cd57170")
+	)
+	(wire
+		(pts
+			(xy 106.68 34.29) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f528ad9-0121-40be-85c7-8af23b5ec43c")
+	)
+	(wire
+		(pts
+			(xy 201.93 60.96) (xy 201.93 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35a6821c-a1c3-4c63-8339-7ef10f7d12ae")
+	)
+	(wire
+		(pts
+			(xy 165.1 106.68) (xy 170.18 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c2bb1e-a336-48a8-8586-9fbd03895f60")
+	)
+	(wire
+		(pts
+			(xy 180.34 82.55) (xy 186.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36225a4f-29ad-471e-919b-c25e22181b76")
+	)
+	(wire
+		(pts
+			(xy 43.18 170.18) (xy 48.26 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362d59dd-b4eb-4128-b712-d61fb07aada4")
+	)
+	(wire
+		(pts
+			(xy 76.2 16.51) (xy 76.2 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376f25c3-4e6d-4253-8a51-5e1a4f434123")
+	)
+	(wire
+		(pts
+			(xy 240.03 60.96) (xy 240.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ddc35a-071d-400e-9308-2af1022a2c91")
+	)
+	(wire
+		(pts
+			(xy 180.34 106.68) (xy 186.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c8c9a42-ef3e-4a3f-995e-896132e473c1")
+	)
+	(wire
+		(pts
+			(xy 240.03 46.99) (xy 240.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "409875bb-497e-41d3-920d-28d649b3c3a2")
+	)
+	(wire
+		(pts
+			(xy 149.86 130.81) (xy 149.86 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4299e7a1-2538-408b-9dda-e0be8af7b459")
+	)
+	(wire
+		(pts
+			(xy 69.85 58.42) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4308f1d8-f5fd-4c2c-9db2-bb8730ba3547")
+	)
+	(wire
+		(pts
+			(xy 54.61 58.42) (xy 59.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430cf429-5147-41cf-af19-5c3a73211824")
+	)
+	(wire
+		(pts
+			(xy 54.61 133.35) (xy 54.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452b2089-9225-4718-9333-abc9b3e100db")
+	)
+	(wire
+		(pts
+			(xy 69.85 130.81) (xy 76.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ad2704-e08d-40da-b55c-cbf3cfd233c9")
+	)
+	(wire
+		(pts
+			(xy 91.44 58.42) (xy 96.52 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47031de9-7008-4135-ac65-dca9566a7160")
+	)
+	(wire
+		(pts
+			(xy 91.44 50.8) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4741c213-2c44-42c4-b657-b6a7a3856f32")
+	)
+	(wire
+		(pts
+			(xy 113.03 34.29) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49178634-ed1a-42ff-9513-8121a964261a")
+	)
+	(wire
+		(pts
+			(xy 201.93 82.55) (xy 208.28 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a4a0d94-bfb4-476e-bd36-e07cfc8babbe")
+	)
+	(wire
+		(pts
+			(xy 165.1 36.83) (xy 165.1 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a69857b-02fe-418c-b1dd-caac8554234f")
+	)
+	(wire
+		(pts
+			(xy 113.03 30.48) (xy 113.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa83a8d-7ad1-4730-adb8-f22b96e1fed0")
+	)
+	(wire
+		(pts
+			(xy 165.1 58.42) (xy 170.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab5a254-e16d-40f7-9ad9-26f4fd32a982")
+	)
+	(wire
+		(pts
+			(xy 240.03 143.51) (xy 240.03 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c21ab5c-0170-4eb4-938d-628264fd7509")
+	)
+	(wire
+		(pts
+			(xy 40.64 16.51) (xy 76.2 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4faef0fe-a9bf-4b25-94e2-b175b33c5fd5")
+	)
+	(wire
+		(pts
+			(xy 69.85 106.68) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50044598-ce85-438d-951b-42519fc2d43b")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511c38e1-747a-46aa-8c88-6175591768ed")
+	)
+	(wire
+		(pts
+			(xy 128.27 46.99) (xy 128.27 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "515e20bd-e858-462b-aef9-618cacca2904")
+	)
+	(wire
+		(pts
+			(xy 261.62 16.51) (xy 261.62 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "528b8ae1-3647-47e3-9c9b-1c30271acdc4")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 165.1 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cec334-c68b-4180-8608-6f692133f233")
+	)
+	(wire
+		(pts
+			(xy 143.51 82.55) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5342f77a-74ad-40da-91e1-d22e13fd836c")
+	)
+	(wire
+		(pts
+			(xy 128.27 147.32) (xy 165.1 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5690f0a6-4a7d-468e-a3b6-cf17cf7b3b83")
+	)
+	(wire
+		(pts
+			(xy 224.79 30.48) (xy 224.79 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "573d8759-ee75-4f6a-b166-bc8a4774fab4")
+	)
+	(wire
+		(pts
+			(xy 91.44 36.83) (xy 91.44 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57f3010e-e1b9-4c90-8270-7c25294fd84a")
+	)
+	(wire
+		(pts
+			(xy 261.62 30.48) (xy 261.62 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592cf7aa-0a1b-478d-aa55-a83bf319783c")
+	)
+	(wire
+		(pts
+			(xy 54.61 46.99) (xy 54.61 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c51b28-57a6-4e43-ba2f-1f7fd8aa33f8")
+	)
+	(wire
+		(pts
+			(xy 201.93 130.81) (xy 208.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a6b00ff-322e-4d88-bed1-43247ddf80c2")
+	)
+	(wire
+		(pts
+			(xy 165.1 60.96) (xy 165.1 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b291726-b4e2-4564-ad26-1921d34e58d0")
+	)
+	(wire
+		(pts
+			(xy 201.93 74.93) (xy 240.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9dac43-a7ed-4f9e-9e0f-2d929b58bb1e")
+	)
+	(wire
+		(pts
+			(xy 91.44 71.12) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fdaf1af-cb74-41a3-bcaa-283753ffe690")
+	)
+	(wire
+		(pts
+			(xy 54.61 34.29) (xy 59.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61645609-d524-4c23-b6c8-82be90f15eff")
+	)
+	(wire
+		(pts
+			(xy 76.2 130.81) (xy 76.2 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6574f09b-53dd-454f-9aeb-ba9da1e5b0ad")
+	)
+	(wire
+		(pts
+			(xy 240.03 85.09) (xy 240.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65edebce-5520-4431-9a2a-e10693028710")
+	)
+	(wire
+		(pts
+			(xy 54.61 95.25) (xy 54.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "690abbce-b613-421f-af75-5bb988cc02b0")
+	)
+	(wire
+		(pts
+			(xy 91.44 46.99) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69deb1c4-6288-43cc-ad67-6349b104fe9d")
+	)
+	(wire
+		(pts
+			(xy 113.03 82.55) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af94540-352a-4458-b5bc-0fee9f6e82a1")
+	)
+	(wire
+		(pts
+			(xy 29.21 186.69) (xy 43.18 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bee7182-891c-47e3-b636-72e37674e76b")
+	)
+	(wire
+		(pts
+			(xy 149.86 16.51) (xy 149.86 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cbe51ad-0608-44f1-ab6e-d71dec2b2881")
+	)
+	(wire
+		(pts
+			(xy 40.64 123.19) (xy 54.61 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "707fd39a-5470-43e5-9421-74914609bda1")
+	)
+	(wire
+		(pts
+			(xy 91.44 147.32) (xy 128.27 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7223772f-d130-4c39-96ab-6a42dfb785b3")
+	)
+	(wire
+		(pts
+			(xy 186.69 130.81) (xy 186.69 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "739ae438-3b37-4cb7-a60d-b146f81b6684")
+	)
+	(wire
+		(pts
+			(xy 128.27 130.81) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73c9fed0-6890-4150-ab23-717c895e7385")
+	)
+	(wire
+		(pts
+			(xy 91.44 74.93) (xy 128.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bede82-62aa-49d0-9341-2519f55e145a")
+	)
+	(wire
+		(pts
+			(xy 201.93 71.12) (xy 201.93 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763413f8-92e9-4415-a223-bfa345db5ae0")
+	)
+	(wire
+		(pts
+			(xy 201.93 109.22) (xy 201.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a4baf60-b7d8-4ea7-9c7b-86b40a5609fe")
+	)
+	(wire
+		(pts
+			(xy 76.2 58.42) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db993cc-497c-43f5-9f32-5fe00b45eb1b")
+	)
+	(wire
+		(pts
+			(xy 54.61 147.32) (xy 91.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f66ba22-dcac-4790-81fe-6703d257ad26")
+	)
+	(wire
+		(pts
+			(xy 54.61 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81cafdda-7515-42e5-bfb5-8249c2e90ae4")
+	)
+	(wire
+		(pts
+			(xy 54.61 143.51) (xy 54.61 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828d7002-1644-4d89-b68c-8ef06680efbb")
+	)
+	(wire
+		(pts
+			(xy 180.34 130.81) (xy 186.69 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840d05a5-779c-4649-aeb0-d1e9879ae04c")
+	)
+	(wire
+		(pts
+			(xy 201.93 106.68) (xy 208.28 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86d47145-8205-49a2-9946-4d2c2ec9c808")
+	)
+	(wire
+		(pts
+			(xy 201.93 34.29) (xy 208.28 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87251690-e7f3-47c9-981f-816b1b648bc4")
+	)
+	(wire
+		(pts
+			(xy 54.61 85.09) (xy 54.61 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878a3f1a-dcc0-4c01-bc07-ae7774a7654c")
+	)
+	(wire
+		(pts
+			(xy 91.44 85.09) (xy 91.44 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8946250a-992a-4951-99bc-c9af098ae8be")
+	)
+	(wire
+		(pts
+			(xy 128.27 106.68) (xy 133.35 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898aef05-7d7d-423e-b29e-aee90ece39f1")
+	)
+	(wire
+		(pts
+			(xy 69.85 82.55) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a7f888-3613-45e0-8ae8-66c098517606")
+	)
+	(wire
+		(pts
+			(xy 149.86 58.42) (xy 149.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a24a225-6e09-41f4-86bd-074199402181")
+	)
+	(wire
+		(pts
+			(xy 201.93 58.42) (xy 208.28 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c35d7a1-bdfe-4ae9-9c74-921d27a80e61")
+	)
+	(wire
+		(pts
+			(xy 240.03 106.68) (xy 245.11 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8edba519-6a99-42ed-a3cb-4825aaaed535")
+	)
+	(wire
+		(pts
+			(xy 186.69 106.68) (xy 186.69 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f4fac0b-87e8-4b3d-98ff-0097b6a2e500")
+	)
+	(wire
+		(pts
+			(xy 128.27 71.12) (xy 128.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90185284-d1bc-4fa0-bd81-e3da8fa305a6")
+	)
+	(wire
+		(pts
+			(xy 91.44 119.38) (xy 91.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91c5bf7b-98f5-423c-95f3-c7883b5b3495")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 76.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "921aeae2-6830-4a0b-a38b-c2e1d43055c0")
+	)
+	(wire
+		(pts
+			(xy 128.27 82.55) (xy 133.35 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923a2fb0-2c70-4c6c-afc7-4b4a202daa28")
+	)
+	(wire
+		(pts
+			(xy 128.27 58.42) (xy 133.35 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "935111ae-48c0-4daa-989c-58342a58845b")
+	)
+	(wire
+		(pts
+			(xy 165.1 95.25) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d267fe-5421-4157-9a96-23e9cef312da")
+	)
+	(wire
+		(pts
+			(xy 201.93 123.19) (xy 240.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966cdeaf-8a45-4fef-b776-886d8ea93b25")
+	)
+	(wire
+		(pts
+			(xy 91.44 143.51) (xy 91.44 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96897035-e50e-477d-a4a2-fccc13a039f5")
+	)
+	(wire
+		(pts
+			(xy 40.64 74.93) (xy 54.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "987bc128-5f47-4d79-b884-552634c77aaa")
+	)
+	(wire
+		(pts
+			(xy 91.44 133.35) (xy 91.44 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98850571-fc1e-4b31-852d-c7e8ee49e0a7")
+	)
+	(wire
+		(pts
+			(xy 201.93 46.99) (xy 201.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99e44790-ed0a-4582-bc59-fb0f5bd95409")
+	)
+	(wire
+		(pts
+			(xy 186.69 30.48) (xy 186.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a856f4c-7f05-4bcd-9605-eefd2840efda")
+	)
+	(wire
+		(pts
+			(xy 91.44 82.55) (xy 96.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad5d95e-7f42-4d7e-998d-cbd848d108fa")
+	)
+	(wire
+		(pts
+			(xy 224.79 58.42) (xy 224.79 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be04479-a3bb-445a-84b8-1d244a452c0e")
+	)
+	(wire
+		(pts
+			(xy 54.61 123.19) (xy 91.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e42af9f-9404-4a86-ade7-79e7564dbe52")
+	)
+	(wire
+		(pts
+			(xy 106.68 130.81) (xy 113.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e64ed2c-853b-49ea-b181-f68d6707e2ab")
+	)
+	(wire
+		(pts
+			(xy 180.34 58.42) (xy 186.69 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fb73b63-ae09-4e5e-a9be-c47bfded2552")
+	)
+	(wire
+		(pts
+			(xy 54.61 106.68) (xy 59.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c10c04-27b3-43de-b8a9-68011f0034fb")
+	)
+	(wire
+		(pts
+			(xy 62.23 165.1) (xy 62.23 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a13b1e28-c1cf-475a-96ad-3025ed461200")
+	)
+	(wire
+		(pts
+			(xy 128.27 74.93) (xy 165.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b3376e-f03d-4755-a1f5-5f8f1a50dd5f")
+	)
+	(wire
+		(pts
+			(xy 261.62 82.55) (xy 261.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a386531c-5aa1-4a5b-b695-806af196c6d1")
+	)
+	(wire
+		(pts
+			(xy 261.62 34.29) (xy 261.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f90245-8a5c-4ad2-a0c2-a825e2072bde")
+	)
+	(wire
+		(pts
+			(xy 165.1 123.19) (xy 201.93 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4066989-284e-4737-8a99-10b421cb98ca")
+	)
+	(wire
+		(pts
+			(xy 240.03 58.42) (xy 245.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f347f6-d60f-4a5e-a6bf-164937b40c96")
+	)
+	(wire
+		(pts
+			(xy 240.03 133.35) (xy 240.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c2a89e-fd7d-4078-a0c4-760f44efb987")
+	)
+	(wire
+		(pts
+			(xy 201.93 50.8) (xy 240.03 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66f0ada-fe25-40d5-82b2-b89da8433c38")
+	)
+	(wire
+		(pts
+			(xy 40.64 50.8) (xy 54.61 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6beac75-ef1b-4002-850c-832904ba4175")
+	)
+	(wire
+		(pts
+			(xy 201.93 95.25) (xy 201.93 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7e79a7e-34d0-4db2-a405-9a2cb86dc94a")
+	)
+	(wire
+		(pts
+			(xy 143.51 58.42) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f54ff9-9a9e-4709-a11f-53ef7b3ba6da")
+	)
+	(wire
+		(pts
+			(xy 54.61 109.22) (xy 54.61 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d054f7-cc5d-485f-85cc-31d65dd3db7f")
+	)
+	(wire
+		(pts
+			(xy 165.1 34.29) (xy 170.18 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab565afe-d530-4195-aebf-08f16ca09b92")
+	)
+	(wire
+		(pts
+			(xy 149.86 106.68) (xy 149.86 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc55b53-fe72-4750-88b6-25cd1157027f")
+	)
+	(wire
+		(pts
+			(xy 180.34 34.29) (xy 186.69 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add6c7e2-831a-47a6-a03b-c7080733f6e2")
+	)
+	(wire
+		(pts
+			(xy 106.68 82.55) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed598cc-8be5-4757-90d9-1ff3c6905017")
+	)
+	(wire
+		(pts
+			(xy 224.79 130.81) (xy 224.79 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af57837e-5814-4920-a895-eea7d2187ded")
+	)
+	(wire
+		(pts
+			(xy 240.03 82.55) (xy 245.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06ba6ba-1ff3-4b80-9063-e52ad4d64d99")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b29c260b-2240-4dc8-8bd7-e800b93cba05")
+	)
+	(wire
+		(pts
+			(xy 128.27 109.22) (xy 128.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2dc43b6-3791-41b5-a0c7-af76a7fbe007")
+	)
+	(wire
+		(pts
+			(xy 165.1 143.51) (xy 165.1 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b366e357-8cf8-41b2-98e9-d06e211dc33d")
+	)
+	(wire
+		(pts
+			(xy 224.79 82.55) (xy 224.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4307f90-cedd-4523-9ba5-431abcc67004")
+	)
+	(wire
+		(pts
+			(xy 218.44 58.42) (xy 224.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6c40fb2-bfac-45ec-b495-6ec9345846dc")
+	)
+	(wire
+		(pts
+			(xy 240.03 95.25) (xy 240.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6caf2ec-1011-4392-8ab5-0d9adb38d26b")
+	)
+	(wire
+		(pts
+			(xy 255.27 130.81) (xy 261.62 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d987db-0583-4b87-ae3c-c90ae895d2fb")
+	)
+	(wire
+		(pts
+			(xy 255.27 106.68) (xy 261.62 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a63286-025d-46b8-8fd5-44fa0e749424")
+	)
+	(wire
+		(pts
+			(xy 43.18 172.72) (xy 43.18 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa930bc-f50b-4811-80b3-ac3c6cc8f1d2")
+	)
+	(wire
+		(pts
+			(xy 240.03 119.38) (xy 240.03 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac0c4cf-7fcb-4e26-b4eb-2819e60b09e0")
+	)
+	(wire
+		(pts
+			(xy 113.03 130.81) (xy 113.03 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad94923-d609-4918-9f21-1b70382f223e")
+	)
+	(wire
+		(pts
+			(xy 201.93 99.06) (xy 240.03 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdd36903-4742-4b66-b175-799c79bdd907")
+	)
+	(wire
+		(pts
+			(xy 218.44 130.81) (xy 224.79 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3a2179-bdd9-4d6f-ac73-780e9e740e85")
+	)
+	(wire
+		(pts
+			(xy 40.64 99.06) (xy 54.61 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0637ba1-d6b5-497b-82f6-054a56b65404")
+	)
+	(wire
+		(pts
+			(xy 54.61 74.93) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b7c576-2703-4909-a5e1-27bbb1df49ef")
+	)
+	(wire
+		(pts
+			(xy 165.1 71.12) (xy 165.1 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c31a3cfd-1e5a-4ac3-9d06-c1a757b1dc74")
+	)
+	(wire
+		(pts
+			(xy 106.68 58.42) (xy 113.03 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c535057b-0c10-41bc-87f5-351e773b93fa")
+	)
+	(wire
+		(pts
+			(xy 143.51 130.81) (xy 149.86 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d43010-dd3c-40d0-823f-5c68b5b6efeb")
+	)
+	(wire
+		(pts
+			(xy 113.03 16.51) (xy 113.03 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6fee832-7720-4fd0-9761-80c913df4db0")
+	)
+	(wire
+		(pts
+			(xy 201.93 147.32) (xy 240.03 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8241502-b588-47b7-8e28-7e12047b1f77")
+	)
+	(wire
+		(pts
+			(xy 261.62 58.42) (xy 261.62 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f5e0d1-dae1-4133-a47a-3781eb7812b9")
+	)
+	(wire
+		(pts
+			(xy 186.69 82.55) (xy 186.69 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c90f4712-8e2f-4d36-b717-1c962d8b4fbe")
+	)
+	(wire
+		(pts
+			(xy 91.44 99.06) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdbdea0a-1667-4dff-a26a-a5658bc6ae77")
+	)
+	(wire
+		(pts
+			(xy 128.27 99.06) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce962cba-454c-4540-b2cb-8a1b41b84685")
+	)
+	(wire
+		(pts
+			(xy 143.51 34.29) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceaf243f-3c29-4ac7-a674-3386bafb3f85")
+	)
+	(wire
+		(pts
+			(xy 165.1 50.8) (xy 201.93 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf1c4a60-5800-4a55-85a9-dd4d63f0e6e4")
+	)
+	(wire
+		(pts
+			(xy 91.44 60.96) (xy 91.44 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d09991be-c6b8-408a-831b-b287ed77ca09")
+	)
+	(wire
+		(pts
+			(xy 54.61 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e30727-2b43-4848-8e6b-de71742892a2")
+	)
+	(wire
+		(pts
+			(xy 128.27 119.38) (xy 128.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d424d9fb-be4f-4372-9043-e50185bbe01e")
+	)
+	(wire
+		(pts
+			(xy 54.61 119.38) (xy 54.61 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d495a255-e24e-467f-948d-520ce3d96ee7")
+	)
+	(wire
+		(pts
+			(xy 240.03 36.83) (xy 240.03 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b40d24-8c51-458e-825c-30d604fe4ba1")
+	)
+	(wire
+		(pts
+			(xy 165.1 130.81) (xy 170.18 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d50e4b38-2d59-4341-af32-59dd245d14c2")
+	)
+	(wire
+		(pts
+			(xy 128.27 60.96) (xy 128.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5c8a984-7c81-45cb-9877-0b0686308dff")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 113.03 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da47f39c-df84-4d24-be9a-949477285944")
+	)
+	(wire
+		(pts
+			(xy 62.23 170.18) (xy 58.42 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db0e0860-f037-4ce1-ba8b-3f4f952910ab")
+	)
+	(wire
+		(pts
+			(xy 240.03 130.81) (xy 245.11 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc6fa925-4128-4a3b-8d6b-85745c20ffa4")
+	)
+	(wire
+		(pts
+			(xy 54.61 71.12) (xy 54.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc88467f-a923-44bd-9305-dd7877058411")
+	)
+	(wire
+		(pts
+			(xy 54.61 36.83) (xy 54.61 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dca06d85-1a66-455c-b6e7-827370c077fb")
+	)
+	(wire
+		(pts
+			(xy 91.44 130.81) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcda4d04-bd45-4efd-a929-d2a3f6aed7e9")
+	)
+	(wire
+		(pts
+			(xy 255.27 34.29) (xy 261.62 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5c30f8-088d-4c53-98ba-aa9c56bc41a1")
+	)
+	(wire
+		(pts
+			(xy 128.27 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e011eade-5678-4b8b-a608-8db21f290ef6")
+	)
+	(wire
+		(pts
+			(xy 224.79 34.29) (xy 224.79 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36209e4-e550-4e5a-a7a8-5c1c641d0317")
+	)
+	(wire
+		(pts
+			(xy 76.2 106.68) (xy 76.2 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e46c968e-fd86-4579-b609-6bb08114cad8")
+	)
+	(wire
+		(pts
+			(xy 218.44 34.29) (xy 224.79 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8577a99-9172-4082-b8de-1b24ccc62766")
+	)
+	(wire
+		(pts
+			(xy 165.1 82.55) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9a34b12-eac2-4ab3-a154-943cf16722b2")
+	)
+	(wire
+		(pts
+			(xy 186.69 58.42) (xy 186.69 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec49d96e-4c43-47b4-9c10-ec2e0b0c30ce")
+	)
+	(wire
+		(pts
+			(xy 165.1 147.32) (xy 201.93 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edb7c0a8-c9f4-466b-a3a2-6cc963068c89")
+	)
+	(wire
+		(pts
+			(xy 91.44 123.19) (xy 128.27 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7e118f-4528-41c5-8b6c-8b8960caed99")
+	)
+	(wire
+		(pts
+			(xy 149.86 16.51) (xy 186.69 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2062a2-74cd-4c64-bf13-19d7db93f163")
+	)
+	(wire
+		(pts
+			(xy 76.2 34.29) (xy 76.2 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8e81c4-62a4-4cf7-b233-d4b5d0f667f4")
+	)
+	(wire
+		(pts
+			(xy 186.69 16.51) (xy 186.69 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08ab83d-d398-4e45-97f5-c968fa32a6d9")
+	)
+	(wire
+		(pts
+			(xy 240.03 109.22) (xy 240.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1441e92-cf9f-4ad6-8579-092290a1b925")
+	)
+	(wire
+		(pts
+			(xy 201.93 36.83) (xy 201.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1be6f8d-805d-4c80-a7fd-28b5a2ed23e5")
+	)
+	(wire
+		(pts
+			(xy 201.93 143.51) (xy 201.93 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f8de79-42b0-4253-9797-84835fdda0ee")
+	)
+	(wire
+		(pts
+			(xy 255.27 58.42) (xy 261.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f64d3eb5-c4b2-4abd-bdec-c765f98f6277")
+	)
+	(wire
+		(pts
+			(xy 218.44 106.68) (xy 224.79 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f66e7e23-462f-4087-9d56-b939ef1ac9ef")
+	)
+	(wire
+		(pts
+			(xy 113.03 58.42) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8b678d9-2f33-45ba-80dd-c628d6960d32")
+	)
+	(wire
+		(pts
+			(xy 186.69 16.51) (xy 224.79 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ea5822-af4e-40ab-b24a-c5c896c710a6")
+	)
+	(wire
+		(pts
+			(xy 149.86 34.29) (xy 149.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f900974d-36fc-41cf-86ef-11acfd56229e")
+	)
+	(wire
+		(pts
+			(xy 128.27 133.35) (xy 128.27 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa124f06-6811-4486-93c7-a93c48c1fb7e")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc847b00-a0b3-4ed0-b329-9ea0b6a0339d")
+	)
+	(wire
+		(pts
+			(xy 149.86 30.48) (xy 149.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe47ffe6-b5fa-4e37-9268-2d52f6aabb69")
+	)
+	(wire
+		(pts
+			(xy 128.27 34.29) (xy 133.35 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe83fd3f-b8c2-4956-ae76-a14d2769e76f")
+	)
+	(wire
+		(pts
+			(xy 240.03 34.29) (xy 245.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fff645f2-2649-452d-bc16-2d6ead95cb5d")
+	)
+	(rectangle
+		(start 20.32 156.21)
+		(end 66.04 190.5)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a4d02e82-435a-4f88-b020-854eea0c09af)
+	)
+	(text "CAD Note: Spacing is 1u (19.05mm) w/ Keycaps at 18x18mm"
+		(exclude_from_sim no)
+		(at 131.064 176.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b3e581b-bd83-43bd-91e2-65bc0ef7b710")
+	)
+	(text "CAD Note: Place switches \"upside down\" such that LEDS are on the top of the key"
+		(exclude_from_sim no)
+		(at 131.064 174.498 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b68fef07-c625-420d-82b2-75700870ebe2")
+	)
+	(text "CAD Note: Place SW31 between SW25 and SW26\nUse SW31 for single shift variant\nUse SW25 and SW26 for dual shift variant"
+		(exclude_from_sim no)
+		(at 130.048 184.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f066b1de-76f1-46ba-88fe-cd01c5f54ec9")
+	)
+	(hierarchical_label "ROW2"
+		(shape input)
+		(at 40.64 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06a80b4f-deb2-4e2f-bc7d-94c3fd15df4a")
+	)
+	(hierarchical_label "COL6"
+		(shape output)
+		(at 261.62 154.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23d3fb01-ee4d-40a6-bff2-af0acee2a9c9")
+	)
+	(hierarchical_label "COL3"
+		(shape output)
+		(at 149.86 154.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "376739e7-6254-4176-a003-0ce075cfa973")
+	)
+	(hierarchical_label "COL5"
+		(shape output)
+		(at 224.79 154.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b7d55a1-a96a-48c9-9d16-ea6e1608bc98")
+	)
+	(hierarchical_label "ROW1"
+		(shape input)
+		(at 40.64 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c52e33e-a9ca-46fb-ad86-0b5176c7f24b")
+	)
+	(hierarchical_label "COL4"
+		(shape output)
+		(at 186.69 154.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58100de8-bf0c-4fc5-b80c-73929f2af164")
+	)
+	(hierarchical_label "COL1"
+		(shape output)
+		(at 76.2 154.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5bd73709-4749-4bad-94aa-63ffd7babc88")
+	)
+	(hierarchical_label "ROW5"
+		(shape input)
+		(at 40.64 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d29a46b-1dd6-443a-a8e0-b68ed32e8ab7")
+	)
+	(hierarchical_label "ROW3"
+		(shape input)
+		(at 40.64 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f7edf08-27b5-4927-b3cd-731db2d31cb8")
+	)
+	(hierarchical_label "COL1"
+		(shape output)
+		(at 62.23 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78ad5ab4-c0aa-493e-b33c-e5afc9af9e7c")
+	)
+	(hierarchical_label "COL2"
+		(shape output)
+		(at 113.03 154.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7907ab72-392d-4f72-998d-b3ad717d7a7c")
+	)
+	(hierarchical_label "Vin"
+		(shape input)
+		(at 40.64 16.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b052075b-1f1f-4750-92fb-d0b995d861e7")
+	)
+	(hierarchical_label "ROW5"
+		(shape input)
+		(at 29.21 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8406c2f-9164-4329-a448-246628f39629")
+	)
+	(hierarchical_label "ROW4"
+		(shape input)
+		(at 40.64 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1e8a1d9-2f0f-4ea7-b115-520725e4ee34")
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 165.1 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0160fb93-ede6-4be0-bcd8-c3e05bb91550")
+		(property "Reference" "D4"
+			(at 162.56 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 162.56 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 165.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 162.56 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 162.56 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 162.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 162.56 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "df252dee-da67-47fe-ab13-91443d6d3463")
+		)
+		(pin "3"
+			(uuid "56f5513d-ffd5-46aa-834a-d585085628b2")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 138.43 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "03f7787f-d3cc-4833-a7d3-a73f349b4c7d")
+		(property "Reference" "SW3"
+			(at 138.43 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 137.795 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 139.065 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "27574319-b0e3-4cc4-8d2d-55e2fea83cee")
+		)
+		(pin "2"
+			(uuid "491a25fe-a269-4af3-8d74-3058a52b17aa")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 213.36 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06c068b6-fa74-4614-9281-7dfce13bc844")
+		(property "Reference" "SW29"
+			(at 213.36 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 213.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 213.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 212.725 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 213.995 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "526207e5-b1be-4a42-98d9-7f170a9517c3")
+		)
+		(pin "2"
+			(uuid "f35c384a-27fb-4697-b315-dbb2cd32d754")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 101.6 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09287984-bd73-43aa-a70a-bbe1e2a471bc")
+		(property "Reference" "SW26"
+			(at 101.6 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 101.6 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 101.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 100.965 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 102.235 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a1d62526-254e-43b6-8ffb-05c92c053f15")
+		)
+		(pin "2"
+			(uuid "7f026349-b84d-4e95-82e0-b25dc8e81462")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 54.61 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b75a263-b3ea-4fa4-8f01-cb5787268f1d")
+		(property "Reference" "D7"
+			(at 52.07 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 52.07 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 54.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 52.07 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 52.07 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 52.07 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "de1dbc95-2d4d-4484-8dd3-c19e552f93f6")
+		)
+		(pin "3"
+			(uuid "b4dbefb4-294c-498f-8125-9d3b1992c004")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 54.61 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0be8db87-02db-4d48-8eb7-759068469753")
+		(property "Reference" "D19"
+			(at 52.07 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 52.07 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 54.61 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 52.07 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 52.07 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 52.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 52.07 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e852bb72-7af2-4560-80fc-a69911e11bb4")
+		)
+		(pin "3"
+			(uuid "248abbf6-e4ef-48b0-868f-8b0ef0023b29")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 175.26 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1191ced6-889f-4b37-ab87-0192ef7e03e5")
+		(property "Reference" "SW10"
+			(at 175.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 175.26 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 174.625 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 175.895 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d20121b6-5595-4aab-b221-c64507dae0ac")
+		)
+		(pin "2"
+			(uuid "9dd4677e-d37c-4837-be06-c0a35f27fb69")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 101.6 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1332d998-560b-4b78-8581-152279ded33a")
+		(property "Reference" "SW8"
+			(at 101.6 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 101.6 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 100.965 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 102.235 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5fff40f0-d522-4fd9-bc91-6e644c891c49")
+		)
+		(pin "2"
+			(uuid "36d7d165-ca75-4f8d-b8bb-e4f0a45622a9")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 240.03 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "143bd3eb-9872-4c55-bb30-aae8351e0709")
+		(property "Reference" "D24"
+			(at 237.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 237.49 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 240.03 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 237.49 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 237.49 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 237.49 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 237.49 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6304f416-dd43-47ba-b9dc-b80b3feb5261")
+		)
+		(pin "3"
+			(uuid "7a1aec87-54cc-4055-901c-76976a2a99ac")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 201.93 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17727808-66ca-4983-bb3f-b41bc02d71fe")
+		(property "Reference" "D29"
+			(at 199.39 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 199.39 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 201.93 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 199.39 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 199.39 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 199.39 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 199.39 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "63cce04e-1602-47cb-a508-126171bca689")
+		)
+		(pin "3"
+			(uuid "3663f32f-1118-4716-9237-bc750bacc276")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 250.19 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c6f4541-6048-4775-ab0b-e521ab8ad79d")
+		(property "Reference" "SW6"
+			(at 250.19 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 250.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 249.555 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 250.825 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3bd4eaa9-675d-4e4e-a74c-d0e56e864edc")
+		)
+		(pin "2"
+			(uuid "5840769e-a3f9-484b-b87a-8c2de0fc96d4")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 201.93 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d941b23-cd0c-4f93-8981-fe4a22336733")
+		(property "Reference" "D23"
+			(at 199.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 199.39 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 199.39 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 199.39 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5fbdf90f-7ce1-4a34-a603-a6c987456436")
+		)
+		(pin "3"
+			(uuid "504be91b-75ba-4341-ae29-8c247269de49")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 250.19 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21e8bb72-0cbe-48b5-8b00-2ee9e5801007")
+		(property "Reference" "SW12"
+			(at 250.19 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 250.19 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 250.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 249.555 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 250.825 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "2ef0c8af-43f1-4072-b5da-df0ca4f432e6")
+		)
+		(pin "2"
+			(uuid "f1feaf60-55d0-4897-bc9d-8adfa60797f2")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 165.1 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "221c48cd-6d65-4810-b6fe-30faf82daf9e")
+		(property "Reference" "D16"
+			(at 162.56 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 162.56 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 165.1 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 162.56 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 162.56 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 162.56 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "c8d40520-4985-4453-a482-b391a71ac7fd")
+		)
+		(pin "3"
+			(uuid "62b1db88-e355-44fc-bc04-b54bd56ac9ae")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 64.77 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23781956-a5a2-499a-970c-225c28302651")
+		(property "Reference" "SW19"
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 64.135 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 65.405 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "80fe99a8-bdfc-4183-a08b-be12a0e4eb46")
+		)
+		(pin "2"
+			(uuid "bd7df10e-ac30-4cdd-bbe3-3b7e2773f1f7")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 201.93 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ddce498-c09e-4a43-a5a6-7900089dcd80")
+		(property "Reference" "D5"
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 199.39 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 199.39 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 199.39 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 199.39 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "88ac8dc2-d40b-43cf-b054-4e19a91fb7ae")
+		)
+		(pin "3"
+			(uuid "f074a5f9-5369-4267-8ce9-31f99debb613")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 54.61 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f296323-e7b6-41d1-9594-c0b1f1f97997")
+		(property "Reference" "D25"
+			(at 52.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 52.07 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 54.61 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 52.07 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 52.07 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 52.07 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 52.07 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5d7ca16f-50fb-4ca7-b5d6-dca03b7a97da")
+		)
+		(pin "3"
+			(uuid "8449e0bb-5f07-46b9-8b39-9608de726705")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 91.44 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "345a8a9f-042e-4c51-921b-cbea3ce2ef7e")
+		(property "Reference" "D14"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 88.9 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 91.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 88.9 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 88.9 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 88.9 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9a8fd84a-e703-4564-b54a-28b417f6b32a")
+		)
+		(pin "3"
+			(uuid "8e37eed5-c594-42ef-bb2c-be082fa81fdc")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 138.43 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fb8ee82-a532-4e13-8b5a-10e09469c134")
+		(property "Reference" "SW27"
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 138.43 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 137.795 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 139.065 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "18993adc-5290-4998-82c4-59d76f2b1582")
+		)
+		(pin "2"
+			(uuid "9c0df585-e58a-4901-bf8c-756a3e443bb3")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 128.27 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "400d6805-a80a-4f41-8ef4-6da6ffdb07df")
+		(property "Reference" "D21"
+			(at 125.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 125.73 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 128.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 128.27 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 125.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 125.73 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 125.73 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 125.73 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d518695a-908e-470d-81b2-8d1f5f1ad9e9")
+		)
+		(pin "3"
+			(uuid "d2fbb507-4ded-4b75-96b9-0d72f3fe1bac")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 149.86 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45c6643d-b008-458c-a378-13c7f8e7a311")
+		(property "Reference" "R3"
+			(at 152.4 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 152.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 152.4 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 152.4 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 152.4 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 152.4 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 152.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5e3764c0-7979-499e-8884-a60c00ae245c")
+		)
+		(pin "2"
+			(uuid "2cb25f57-b79a-48fd-b21e-71cef11fb827")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 101.6 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e2cbc45-bc17-45ff-a573-b454f73ff1fd")
+		(property "Reference" "SW14"
+			(at 101.6 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 100.965 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 102.235 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9dc59f32-ed6c-4dcc-a35a-bd32c96e06f4")
+		)
+		(pin "2"
+			(uuid "f62f1e7a-7bf9-4d60-9c68-38a2709b60ab")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 165.1 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ffee7ae-7641-468b-b25c-4bdda58e836c")
+		(property "Reference" "D28"
+			(at 162.56 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 162.56 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 165.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 165.1 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 162.56 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 162.56 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 162.56 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "aca37a11-e4bb-42ce-b015-cc8a950344e7")
+		)
+		(pin "3"
+			(uuid "90b8f01e-151b-47f2-bbf0-c56f979fd53a")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 43.18 177.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "508c6289-448e-465a-8ebb-fa4da172da80")
+		(property "Reference" "D31"
+			(at 40.64 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 40.64 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 43.18 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 40.64 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 40.64 177.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 40.64 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 40.64 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "fc511c3f-7d60-4fcc-b9fc-5fc803e9f61f")
+		)
+		(pin "3"
+			(uuid "9e579a19-4987-4756-a75a-a76318377048")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 186.69 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50a7c666-29c2-49a9-af11-4b0188cdb746")
+		(property "Reference" "R4"
+			(at 189.23 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 189.23 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 186.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 189.23 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 189.23 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 189.23 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 189.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8f1e2397-c1a8-4805-8427-8ed2f4c30e8d")
+		)
+		(pin "2"
+			(uuid "4d391a69-e99c-4828-929d-2e7ae613255b")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 201.93 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51637bff-1969-40a3-8c0a-995083c54500")
+		(property "Reference" "D11"
+			(at 199.39 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 199.39 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 201.93 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 199.39 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 199.39 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 199.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 199.39 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0a96d239-d97d-4bab-a929-19e397960bb5")
+		)
+		(pin "3"
+			(uuid "3d14223c-e677-4779-81d6-48737f401f07")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 240.03 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "581c6182-e9e0-467c-bf9b-06e9024bfc46")
+		(property "Reference" "D12"
+			(at 237.49 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 237.49 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 240.03 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 237.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 237.49 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 237.49 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 237.49 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d24b22cb-880b-4962-a001-745074bea4a9")
+		)
+		(pin "3"
+			(uuid "ef58b2eb-ba66-42b3-af41-bacd4b6df430")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 240.03 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58612499-24d5-45b4-9f25-433dd6264f0e")
+		(property "Reference" "D18"
+			(at 237.49 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 237.49 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 237.49 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 237.49 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 237.49 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4dc80af9-6cf1-43c8-8abf-ba57c33b6457")
+		)
+		(pin "3"
+			(uuid "1805aa83-1e1c-47f1-b5d4-831a674cdf36")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 128.27 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5de19ce7-190a-45cb-80ed-0f9e34aeb3cd")
+		(property "Reference" "D15"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 125.73 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 128.27 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 125.73 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 125.73 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 125.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 125.73 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9c2be4b2-b941-4910-b7e4-c59c04076947")
+		)
+		(pin "3"
+			(uuid "fe466665-d19d-49fc-a6c5-5062d7ec4408")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 201.93 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61d5a49b-57ea-4f6e-b8e4-e5e7fb6c349a")
+		(property "Reference" "D17"
+			(at 199.39 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 199.39 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 201.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 201.93 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 199.39 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 199.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 199.39 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8f15de61-99e3-4bfc-b0e5-a7f32d9badb8")
+		)
+		(pin "3"
+			(uuid "2a3f820c-9ecc-42cb-938f-3f335c76d556")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 213.36 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "670aac29-f7ef-46cf-9232-361a4fb193af")
+		(property "Reference" "SW5"
+			(at 213.36 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 213.36 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 212.725 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 213.995 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9a1b1add-f055-4a7b-9108-bc42870d90e2")
+		)
+		(pin "2"
+			(uuid "0f7172b3-e018-4a0a-a593-e8f1c1fd31fb")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 213.36 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a4089ce-cdfb-48e9-8e01-14eb8f7bee07")
+		(property "Reference" "SW11"
+			(at 213.36 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 213.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 213.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 212.725 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 213.995 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e0363492-82a2-448f-8c01-eba265b4a908")
+		)
+		(pin "2"
+			(uuid "59dc7f5a-e9ba-4179-98a6-b01ed0f3265d")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 240.03 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b08a588-57f7-4910-80d9-9b9d35b50f10")
+		(property "Reference" "D30"
+			(at 237.49 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 237.49 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 240.03 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 237.49 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 237.49 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 237.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 237.49 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9f1009e8-02ee-4a18-b0b3-99c347760a1d")
+		)
+		(pin "3"
+			(uuid "b23edae8-d7bd-44c2-84ee-7cb2959e5ee8")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 91.44 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bb1882e-5b8c-406c-88b2-666c21811103")
+		(property "Reference" "D2"
+			(at 88.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 88.9 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 91.44 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 88.9 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 88.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 88.9 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "db8d79ca-5eec-4fe3-8469-eb2650af105b")
+		)
+		(pin "3"
+			(uuid "48e6c8af-e70e-45be-8e9c-dbe9d5f1b6a0")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 175.26 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "718289b1-b985-4e44-96f0-5dc346559ffd")
+		(property "Reference" "SW28"
+			(at 175.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 175.26 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 174.625 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 175.895 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f82a38b1-4ee3-4017-9124-8e9498ceec85")
+		)
+		(pin "2"
+			(uuid "1eea0f67-53e5-421d-b223-315b9e9ede3a")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 101.6 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71f627cf-87d6-4a3b-882e-93bedfe1a114")
+		(property "Reference" "SW2"
+			(at 101.6 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 100.965 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 102.235 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "11d808b9-77b6-4eba-af6e-f1fff6866467")
+		)
+		(pin "2"
+			(uuid "e6781ec4-0b5c-4796-8377-35602aa678c2")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 54.61 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71fa6978-7749-4bc8-b412-ce225d408731")
+		(property "Reference" "D1"
+			(at 52.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 52.07 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 54.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 52.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 52.07 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 52.07 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 52.07 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5723435b-ddeb-4ea5-9eaa-532aba1751b2")
+		)
+		(pin "3"
+			(uuid "c057e9d7-4475-48ce-8e74-31ab929d379a")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 128.27 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "727e3fb3-397c-4edc-8083-b8f8200a786c")
+		(property "Reference" "D3"
+			(at 125.73 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 125.73 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 128.27 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 125.73 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 125.73 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 125.73 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 125.73 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e0e54c4e-08f2-4c3c-a015-50711cef87ad")
+		)
+		(pin "3"
+			(uuid "6ad6bc6f-f2b0-4575-8bbc-d01a0ca3fd22")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 91.44 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7646356c-b324-425a-b534-cf16aff69ca7")
+		(property "Reference" "D8"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 88.9 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 91.44 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 88.9 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 88.9 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 88.9 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f78cbc8b-f001-4309-a90e-52fe01a1c96b")
+		)
+		(pin "3"
+			(uuid "89bdac13-e0ea-4d8e-8e60-a302aec5ef34")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 213.36 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ae2c01c-779e-403a-a014-c7057d84536d")
+		(property "Reference" "SW23"
+			(at 213.36 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 213.36 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 213.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 212.725 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 213.995 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "44584c71-83f4-4a77-b8fe-8208b5acbf6d")
+		)
+		(pin "2"
+			(uuid "d0a3ce60-4d68-4ad4-90e4-6f673914214c")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 224.79 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b1b28ad-7022-4d22-97f7-ee8910ee86e6")
+		(property "Reference" "R5"
+			(at 227.33 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 227.33 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 224.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 227.33 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 227.33 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 227.33 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 227.33 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 227.33 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d754fa8d-7cba-4e51-bd6c-57efce80163f")
+		)
+		(pin "2"
+			(uuid "01331eed-4c9b-4e44-a6a4-f8aa2a375a66")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 250.19 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e9916a7-b91c-466c-9f74-2e127117181e")
+		(property "Reference" "SW24"
+			(at 250.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 250.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 249.555 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 250.825 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8974818b-8358-41d4-b85f-e784a8f2c1c0")
+		)
+		(pin "2"
+			(uuid "aa39dda7-ff30-431c-ba93-1b715b03eebe")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 64.77 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "833a4f0e-5c79-42db-8221-9c1f50c82058")
+		(property "Reference" "SW1"
+			(at 64.77 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 64.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 64.135 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 65.405 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "80a93896-a569-44c3-9d05-2918cabc1c7e")
+		)
+		(pin "2"
+			(uuid "587b24ba-0d8a-4e07-bd86-f473fd8ccd51")
+		)
+		(instances
+			(project ""
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 54.61 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b41d48d-f80f-43ad-82c1-4cdf33764789")
+		(property "Reference" "D13"
+			(at 52.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 52.07 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 54.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 52.07 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 52.07 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 52.07 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 52.07 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "b233eca0-564d-4df9-bd11-c66a4b7900d9")
+		)
+		(pin "3"
+			(uuid "23b76ad0-7f1b-425a-b87e-fb4aa6563d86")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 91.44 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0f503f0-611b-4f9b-a113-6f2d35260fed")
+		(property "Reference" "D26"
+			(at 88.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 88.9 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 88.9 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 88.9 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "50ac13f9-3973-47e4-a27a-9c732bb6872f")
+		)
+		(pin "3"
+			(uuid "2105526a-c70d-468c-9459-46872d3c5770")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 165.1 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2183f2f-3bc9-4754-8934-dc4d65889de2")
+		(property "Reference" "D22"
+			(at 162.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 162.56 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 165.1 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 162.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 162.56 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 162.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 162.56 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "6aa69662-e032-4595-a467-9d33212aea67")
+		)
+		(pin "3"
+			(uuid "2b9b3629-cc62-4fd0-810b-ed2128651b8d")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 213.36 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a22f631c-3538-4fb2-82e4-c36f39b86aae")
+		(property "Reference" "SW17"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 212.725 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 213.995 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0b07e686-6f9d-4d87-97a7-b466430b4393")
+		)
+		(pin "2"
+			(uuid "1f10e27b-814b-41a5-bbfc-e1e2141e46ee")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 250.19 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a37767f4-5ae8-4002-b9c0-47b2c6b85477")
+		(property "Reference" "SW18"
+			(at 250.19 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 250.19 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 249.555 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 250.825 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "28c08a1d-dc49-464e-83d4-ef5ba2279a8d")
+		)
+		(pin "2"
+			(uuid "c7610c7e-e9a4-4c64-844b-22801ba9a09a")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 101.6 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3d3f6f3-f386-45be-bbe7-426c67f6ffee")
+		(property "Reference" "SW20"
+			(at 101.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 100.965 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 102.235 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "561d2716-e710-48da-98cb-48a401d0f533")
+		)
+		(pin "2"
+			(uuid "6c54121b-2498-4345-806e-0d081013d8cb")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 175.26 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a607cd96-9fd3-4df9-ac0f-2840a0231ca3")
+		(property "Reference" "SW4"
+			(at 175.26 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 175.26 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 175.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 174.625 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 175.895 38.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "20af3fa4-10a3-4f9f-9b00-44c416efd534")
+		)
+		(pin "2"
+			(uuid "79327694-ff7f-4bf2-9166-43193718ae0f")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 53.34 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a7ee9931-4255-4939-9f29-b06cfa36bb6d")
+		(property "Reference" "SW31"
+			(at 53.34 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 53.34 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 53.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 52.705 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 53.975 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "bb5e304c-3601-45a8-893d-c06b3c0d3399")
+		)
+		(pin "2"
+			(uuid "f9f1b821-b539-4fc2-af4e-a56c20013102")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 64.77 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a8d7bb01-344d-4199-ae9a-f0f4fc94dd88")
+		(property "Reference" "SW7"
+			(at 64.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 64.77 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 64.135 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 65.405 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "499eca89-9ffb-469e-b27e-5624202b04c3")
+		)
+		(pin "2"
+			(uuid "73e22cf5-5efb-45c8-9250-0dffe5e778a3")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 138.43 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac74e5c6-110f-4cd5-b5e3-4825e31c08c2")
+		(property "Reference" "SW21"
+			(at 138.43 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 138.43 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 137.795 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 139.065 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "3b8df1fe-2953-4ef5-87b1-df527d3242d5")
+		)
+		(pin "2"
+			(uuid "2e80c3c4-715e-4358-985f-92ca513cadd4")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 128.27 138.43 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad3e020c-3385-4b17-a1d3-21bc9f31a6e6")
+		(property "Reference" "D27"
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 125.73 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 128.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 128.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 125.73 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 125.73 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 125.73 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 125.73 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "8c03b9a3-13c1-438b-b6c7-a49fd23532c9")
+		)
+		(pin "3"
+			(uuid "bc2dcf17-0f96-4b9f-a6b6-632949f438fb")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 261.62 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b098b34c-7232-4780-b0b1-233293ca5fbf")
+		(property "Reference" "R6"
+			(at 264.16 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 264.16 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 261.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 264.16 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 264.16 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 264.16 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 264.16 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "f73c1725-8512-4f43-962b-ad0ea1409d9b")
+		)
+		(pin "2"
+			(uuid "490e08f3-6c9c-4c7c-a409-cc14712ec6cb")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 64.77 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9621089-910a-427b-8dd9-baebb9dacc69")
+		(property "Reference" "SW13"
+			(at 64.77 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 64.77 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 64.135 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 65.405 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "a56e1f8e-195f-435c-92c8-322c2ed64f83")
+		)
+		(pin "2"
+			(uuid "16356d93-7bcb-4c38-bb64-63d33f76c260")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 250.19 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c396a375-5167-4451-b12d-c48bf16f116f")
+		(property "Reference" "SW30"
+			(at 250.19 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 250.19 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 250.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 250.19 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 249.555 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 250.825 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "4fc0b1b6-2a5f-447f-82e6-7de43e72b50f")
+		)
+		(pin "2"
+			(uuid "63fab348-4dfb-45a2-8de8-d56527d779ad")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 240.03 41.91 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0651e26-e6ee-4b5d-b9d3-3ec3ec6f2f15")
+		(property "Reference" "D6"
+			(at 237.49 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 237.49 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 240.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 240.03 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 237.49 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 237.49 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 237.49 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 237.49 37.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "d5aed0d5-b2c0-404c-88ce-a915172994d6")
+		)
+		(pin "3"
+			(uuid "1d8fd7ea-af6a-4c62-a4e5-db07964f9c26")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 138.43 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e36eb28a-4f51-4e67-8e47-c423d63d810e")
+		(property "Reference" "SW15"
+			(at 138.43 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 138.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 137.795 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 139.065 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "426aeb49-f24e-4443-a2b5-f27ab65826ae")
+		)
+		(pin "2"
+			(uuid "a00576a4-c3d9-4f1c-ac44-0e105d5d87d2")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 175.26 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e54c1611-af64-4f5d-84bb-6190a000a7ce")
+		(property "Reference" "SW22"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 175.26 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 174.625 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 175.895 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0522487f-24d4-4077-9e5e-2c1811766cdb")
+		)
+		(pin "2"
+			(uuid "67ba4bdf-d761-406c-857e-4babf3eb6480")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 138.43 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6e8036c-6e92-4fe4-9ce1-609d513f6f77")
+		(property "Reference" "SW9"
+			(at 138.43 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 138.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 137.795 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 139.065 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "bde59d41-e7d4-4532-b934-f3505f84d0fb")
+		)
+		(pin "2"
+			(uuid "9e249965-7a68-408c-a5f5-198e58ad04f1")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 64.77 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea33957d-bd48-4888-8985-dbf2a2e6e879")
+		(property "Reference" "SW25"
+			(at 64.77 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 64.77 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 64.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 64.135 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 65.405 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "5a92bd70-2be7-4592-9c94-15f17d452315")
+		)
+		(pin "2"
+			(uuid "cc8d0be5-f629-43db-9ddf-024054a3cc89")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 128.27 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef390c0a-4edd-4f91-bbac-e55364223be5")
+		(property "Reference" "D9"
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 125.73 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 125.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 125.73 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 125.73 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 125.73 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0a9d063f-790e-4897-9273-2f940c223649")
+		)
+		(pin "3"
+			(uuid "a437f3e7-29fd-4e17-b128-d251f4ba826e")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 113.03 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efe833f0-f200-41d0-81e9-98c52873c128")
+		(property "Reference" "R2"
+			(at 115.57 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 115.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 115.57 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 115.57 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 115.57 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 115.57 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "90d67a47-1b31-414c-bb29-26ef6488ba6e")
+		)
+		(pin "2"
+			(uuid "39b69fa5-5e5e-4dfe-9309-157241c0b851")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 91.44 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2fd7509-c758-415c-b9b4-d1b73e6040b9")
+		(property "Reference" "D20"
+			(at 88.9 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 88.9 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 91.44 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 88.9 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 88.9 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "1e00ded8-e283-4c34-947b-673aa7b2cca0")
+		)
+		(pin "3"
+			(uuid "68f2aa32-6939-4f79-9fcf-5e553448ffb4")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Switches:MX-ERGO-CLEAR-H")
+		(at 175.26 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f50d7ee8-2fdb-4573-9eea-ea5a0c0bea13")
+		(property "Reference" "SW16"
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX-ERGO-CLEAR"
+			(at 175.26 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Harrington-Switches:MX-1-Pole"
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "V_MAX" "12V"
+			(at 174.625 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "I_MAX" "0.01A"
+			(at 175.895 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "cc35def8-e5a9-4426-83df-7ad89b344d18")
+		)
+		(pin "2"
+			(uuid "e53934cd-ab7b-4792-b6c0-a4325a1de610")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "SW16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Diodes:BAT54L-V")
+		(at 165.1 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f949858d-955e-406a-896b-a90e39af9b40")
+		(property "Reference" "D10"
+			(at 162.56 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54L"
+			(at 162.56 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:SOT-23-3"
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Frequency, Low Vf"
+			(at 165.1 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VR_MAX" "30V"
+			(at 162.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VF_MAX" "0.22~0.8V"
+			(at 162.56 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "I_MAX" "0.2A"
+			(at 162.56 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-55~150°C"
+			(at 162.56 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "32fa6e81-aff1-44c0-909e-e3af3fb402e3")
+		)
+		(pin "3"
+			(uuid "49218bd9-c8cf-4468-a978-6f1d8a0fe12b")
+		)
+		(instances
+			(project "Greek-Keyboard"
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Harrington-Resistors:470Ω±1%-1608-V")
+		(at 76.2 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ffc35532-2922-4fa5-a1fb-90ed90367eb4")
+		(property "Reference" "R1"
+			(at 78.74 20.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470Ω±1%"
+			(at 78.74 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Resistors:1608-SEM"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TEMPERATURE" "-55~155°C"
+			(at 78.74 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "POWER" "1/10W"
+			(at 78.74 28.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "VOLTAGE" "6.86V"
+			(at 78.74 24.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 78.74 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "e9f925ce-6103-47c3-b776-64c8fcaeef67")
+		)
+		(pin "2"
+			(uuid "e6a8a816-d69c-459c-9263-6e4592613633")
+		)
+		(instances
+			(project ""
+				(path "/49b3fd5f-d276-4fbf-b40f-184eafe7a50c/837a8252-5006-41a1-b141-c46a07187b2e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

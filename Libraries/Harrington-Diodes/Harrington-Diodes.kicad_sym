@@ -635,8 +635,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -5.08 0 0)
+			(pin output line
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -653,8 +653,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 5.08 0 180)
+			(pin input line
+				(at -5.08 0 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -887,8 +887,8 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at 0 5.08 270)
+			(pin output line
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -905,8 +905,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 -5.08 90)
+			(pin input line
+				(at 0 5.08 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -925,6 +925,525 @@
 			)
 		)
 		(symbol "RED-1608-V_1_0"
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -1.524)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.524)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 -1.524) (xy 2.032 -1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 -1.524) (xy 2.54 -0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -0.508) (xy 2.54 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -0.508) (xy 3.048 0.254)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 1.524) (xy 1.524 1.524) (xy 0 -1.524) (xy -1.524 1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "WHITE-1608-H"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "White"
+			(at -0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 0.635 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 0.635 -4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at -0.635 -4.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(symbol "WHITE-1608-H_0_0"
+			(polyline
+				(pts
+					(xy -0.254 2.286) (xy 0.508 3.302)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 1.524 2.794)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 0) (xy 1.524 -1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 0) (xy 1.524 1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "/"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "/"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(pin output line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "WHITE-1608-H_1_0"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.524 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 3.302) (xy -0.254 3.048)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 3.302) (xy 0.508 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 2.794) (xy 0.762 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 2.794) (xy 1.524 2.032)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 1.524 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 1.524) (xy -1.524 -1.524) (xy 1.524 0) (xy -1.524 1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+	)
+	(symbol "WHITE-1608-V"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DS"
+			(at 5.08 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "White"
+			(at 5.08 1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Harrington-Diodes:1608"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "White"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VOLTAGE" "2.8V"
+			(at 5.08 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "TEMPERATURE" "-40~85°C"
+			(at 5.08 -1.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "SIZE" "1608"
+			(at 5.08 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(symbol "WHITE-1608-V_0_0"
+			(polyline
+				(pts
+					(xy 0 -1.524) (xy -1.524 -1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -1.524) (xy 1.524 -1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.778 -0.762) (xy 2.794 -1.524)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 0.254) (xy 3.302 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin output line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "WHITE-1608-V_1_0"
 			(polyline
 				(pts
 					(xy 0 -2.54) (xy 0 -1.524)
@@ -1139,8 +1658,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -5.08 0 0)
+			(pin output line
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1157,8 +1676,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 5.08 0 180)
+			(pin input line
+				(at -5.08 0 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1330,7 +1849,7 @@
 				)
 			)
 			(pin input line
-				(at 0 5.08 270)
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1347,8 +1866,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 -5.08 90)
+			(pin input line
+				(at 0 5.08 270)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1572,8 +2091,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -5.08 0 0)
+			(pin output line
+				(at 5.08 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1590,8 +2109,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 5.08 0 180)
+			(pin input line
+				(at -5.08 0 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1824,8 +2343,8 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at 0 5.08 270)
+			(pin output line
+				(at 0 -5.08 90)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -1842,8 +2361,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 0 -5.08 90)
+			(pin input line
+				(at 0 5.08 270)
 				(length 2.54)
 				(name "~"
 					(effects
